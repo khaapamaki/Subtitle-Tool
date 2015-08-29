@@ -1,14 +1,14 @@
 //
-//  TimeCode.m
+//  Timecode.m
 //  SubtitleTool
 //
 //  Created by Kati Haapamäki on 27.8.2015.
 //  Copyright (c) 2015 Kati Haapamäki. All rights reserved.
 //
 
-#import "TimeCode.h"
+#import "Timecode.h"
 
-@implementation TimeCode
+@implementation Timecode
 
 
 #pragma mark - Setters and getters
@@ -68,30 +68,30 @@
 
 #pragma mark - String methods
 
-- (NSString *)getTimeCodeStringWithFrames {
+- (NSString *)getTimecodeStringWithFrames {
     NSString *tcString = [NSString stringWithFormat:@"%02d:%02d:%02d:%02d",
                           self.hours, self.minutes, self.seconds, self.frames];
     return tcString;
 }
 
-- (NSString *)getTimeCodeStringWithMilliseconds {
+- (NSString *)getTimecodeStringWithMilliseconds {
     NSString *tcString = [NSString stringWithFormat:@"%02d:%02d:%02d,%03d",
                           self.hours, self.minutes, self.seconds, self.milliseconds];
     return tcString;
 }
 
-- (void)setTimeCodeByString:(NSString *)tcString {
-    NSNumber *time = [[self class] parseTimeCodeString:tcString timecodeBase:__timecodeBase];
+- (void)setTimecodeByString:(NSString *)tcString {
+    NSNumber *time = [[self class] parseTimecodeString:tcString timecodeBase:__timecodeBase];
     if (time != nil) {
         __timeInSeconds = time;
     }
 }
 
-+ (NSNumber *)parseTimeCodeString:(NSString *)tcString {
-    return [self parseTimeCodeString:tcString timecodeBase:@25.0];
++ (NSNumber *)parseTimecodeString:(NSString *)tcString {
+    return [self parseTimecodeString:tcString timecodeBase:@25.0];
 }
 
-+ (NSNumber *)parseTimeCodeString:(NSString *)tcString timecodeBase:(NSNumber *)tcBase {
++ (NSNumber *)parseTimecodeString:(NSString *)tcString timecodeBase:(NSNumber *)tcBase {
 
     NSString *regexPattern = @"^([0-9]{2}):([0-9]{2}):([0-9]{2})([:|;|.|,])([0-9]{2,3})$";
     NSRegularExpressionOptions regexOptions = NSRegularExpressionCaseInsensitive;
@@ -106,7 +106,7 @@
         NSRange hourRange = [match rangeAtIndex:1];
         NSRange minRange = [match rangeAtIndex:2];
         NSRange secRange = [match rangeAtIndex:3];
-        // NSRange dotRange = [match rangeAtIndex:4];
+        // NSRange dotRange = [match rangeAtIndex:4]; // for future use
         NSRange fractRange = [match rangeAtIndex:5];
         
         if (hourRange.location != NSNotFound) {
@@ -126,35 +126,35 @@
 
 #pragma mark - Class Makers
 
-+ (TimeCode *)timeCodeValue:(NSNumber *)timeValue  {
-    return [[TimeCode alloc] initWithValue:timeValue];
++ (Timecode *)timecodeValue:(NSNumber *)timeValue  {
+    return [[Timecode alloc] initWithValue:timeValue];
 }
-+ (TimeCode *)timeCodetWithValue:(NSNumber *)timeValue timecodeBase:(NSNumber *) tcBase {
-    return [[TimeCode alloc] initWithValue:timeValue timecodeBase:tcBase];
++ (Timecode *)timecodetWithValue:(NSNumber *)timeValue timecodeBase:(NSNumber *) tcBase {
+    return [[Timecode alloc] initWithValue:timeValue timecodeBase:tcBase];
 }
-+ (TimeCode *)timeCodeWithFrames:(long)frames {
-    return [[TimeCode alloc] initWithFrames:frames];
++ (Timecode *)timecodeWithFrames:(long)frames {
+    return [[Timecode alloc] initWithFrames:frames];
 }
-+ (TimeCode *)timeCodeWithFrames:(long)frames timecodeBase:(NSNumber *) tcBase {
-    return [[TimeCode alloc] initWithFrames:frames timecodeBase:tcBase];
++ (Timecode *)timecodeWithFrames:(long)frames timecodeBase:(NSNumber *) tcBase {
+    return [[Timecode alloc] initWithFrames:frames timecodeBase:tcBase];
 }
-+ (TimeCode *)timeCodeWithString:(NSString *)tcString {
-    return [[TimeCode alloc] initWithTimecodeString:tcString];
++ (Timecode *)timecodeWithString:(NSString *)tcString {
+    return [[Timecode alloc] initWithTimecodeString:tcString];
 }
-+ (TimeCode *)timeCodeWithString:(NSString *)tcString timecodeBase:(NSNumber *) tcBase {
-    return [[TimeCode alloc] initWithTimecodeString:tcString timecodeBase:tcBase];
++ (Timecode *)timecodeWithString:(NSString *)tcString timecodeBase:(NSNumber *) tcBase {
+    return [[Timecode alloc] initWithTimecodeString:tcString timecodeBase:tcBase];
 }
-+ (TimeCode *)timeCodeWithHours:(int) h minutes:(int) m seconds:(int) s frames:(int) fr {
-    return [[TimeCode alloc] initWithHours:h minutes:m seconds:s frames:fr];
++ (Timecode *)timecodeWithHours:(int) h minutes:(int) m seconds:(int) s frames:(int) fr {
+    return [[Timecode alloc] initWithHours:h minutes:m seconds:s frames:fr];
 }
-+ (TimeCode *)timeCodeWithHours:(int) h minutes:(int) m seconds:(int) s frames:(int) fr timecodeBase:(NSNumber *) tcBase {
-    return [[TimeCode alloc] initWithHours:h minutes:m seconds:s frames:fr timecodeBase:tcBase];
++ (Timecode *)timecodeWithHours:(int) h minutes:(int) m seconds:(int) s frames:(int) fr timecodeBase:(NSNumber *) tcBase {
+    return [[Timecode alloc] initWithHours:h minutes:m seconds:s frames:fr timecodeBase:tcBase];
 }
-+ (TimeCode *)timeCodeWithHours:(int) h minutes:(int) m seconds:(int) s milliseconds:(int) ms {
-    return [[TimeCode alloc] initWithHours:h minutes:m seconds:s milliseconds:ms];
++ (Timecode *)timecodeWithHours:(int) h minutes:(int) m seconds:(int) s milliseconds:(int) ms {
+    return [[Timecode alloc] initWithHours:h minutes:m seconds:s milliseconds:ms];
 }
-+ (TimeCode *)timeCodeWithHours:(int) h minutes:(int) m seconds:(int) s milliseconds:(int) ms timecodeBase:(NSNumber *) tcBase {
-    return [[TimeCode alloc] initWithHours:h minutes:ms seconds:s milliseconds:ms timecodeBase:tcBase];
++ (Timecode *)timecodeWithHours:(int) h minutes:(int) m seconds:(int) s milliseconds:(int) ms timecodeBase:(NSNumber *) tcBase {
+    return [[Timecode alloc] initWithHours:h minutes:ms seconds:s milliseconds:ms timecodeBase:tcBase];
 }
 
 
@@ -200,7 +200,7 @@
     if (self = [super init]) {
         __defaultTimecodeBase = @25.0;
         __timecodeBase = [__defaultTimecodeBase copy];
-        NSNumber *time = [[self class] parseTimeCodeString:tcString timecodeBase:__timecodeBase];
+        NSNumber *time = [[self class] parseTimecodeString:tcString timecodeBase:__timecodeBase];
         __timeInSeconds = time != nil ? time : @0.0;
     }
     
@@ -211,7 +211,7 @@
     if (self = [super init]) {
         __defaultTimecodeBase = @25.0;
         __timecodeBase = tcBase;
-        NSNumber *time = [[self class] parseTimeCodeString:tcString timecodeBase:__timecodeBase];
+        NSNumber *time = [[self class] parseTimecodeString:tcString timecodeBase:__timecodeBase];
         __timeInSeconds = time != nil ? time : @0.0;
     }
     

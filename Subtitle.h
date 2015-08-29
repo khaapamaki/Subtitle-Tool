@@ -7,16 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "TimeCode.h"
+#import "Timecode.h"
 
 @interface Subtitle : NSObject
 
 @property NSMutableArray *lines;
 @property NSString *text;
-@property BOOL italics;
-@property TimeCode *timecodeIn;
-@property TimeCode *timecodeOut;
-@property long subtitleNumber;
-
+@property Timecode *timecodeIn;
+@property Timecode *timecodeOut;
 
 @end

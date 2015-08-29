@@ -85,31 +85,27 @@
     NSString *line1 = [self bytesToStringFromPosition:start+20 length:51];
     NSString *line2 = [self bytesToStringFromPosition:start+77 length:51];
     
-//    frFrameIn = data(nPos + 6) * 256 * 256 + data(nPos + 7) * 256 + data(nPos + 8)
-//    frFrameOut = data(nPos + 9) * 256 * 256 + data(nPos + 10) * 256 + data(nPos + 11)
-    
     long inPoint = [self byteAtPosition:start + 6] * 256 * 256
                     + [self byteAtPosition:start + 7] * 256
                     + [self byteAtPosition:start + 8];
     long outPoint = [self byteAtPosition:start + 9] * 256 * 256
                     + [self byteAtPosition:start + 10] * 256
                     + [self byteAtPosition:start + 11];
-    TimeCode * inTC = [TimeCode timeCodeWithFrames:inPoint timecodeBase:@(25.0)];
-    TimeCode * outTC = [TimeCode timeCodeWithFrames:outPoint timecodeBase:@(25.0)];
-    NSLog(@"%@ --> %@", [inTC getTimeCodeStringWithFrames], [outTC getTimeCodeStringWithFrames]);
+    Timecode * inTC = [Timecode timecodeWithFrames:inPoint timecodeBase:@(25.0)];
+    Timecode * outTC = [Timecode timecodeWithFrames:outPoint timecodeBase:@(25.0)];
+    // NSLog(@"%@ --> %@", [inTC getTimecodeStringWithFrames], [outTC getTimecodeStringWithFrames]);
     NSMutableArray *lines = [[NSMutableArray alloc] init];
     if (line1 != nil && ![line1 isEqualTo:@""]) {
-        NSLog(@"%@", line1);
+        // NSLog(@"%@", line1);
         [lines addObject:line1];
     }
     if (line2 != nil && ![line2 isEqualTo:@""]) {
-        NSLog(@"%@", line2);
+        // NSLog(@"%@", line2);
         [lines addObject:line2];
     }
     newSub.lines = lines;
     newSub.timecodeIn = inTC;
     newSub.timecodeOut = outTC;
-    newSub.text = @"<not implemented>";
     
     return newSub;
 }
@@ -155,11 +151,12 @@
         _byteCount = 0;
         _subtitleCount = 0;
         _subtitles = [[NSMutableArray alloc] initWithCapacity:3000];
-        _firstTimecode = nil;
-        _lastTimecode = nil;
+//        _firstTimecode = nil;
+//        _lastTimecode = nil;
         _data = nil;
         _title = nil;
         _sid = nil;
+        _errorMessage = nil;
     }
     
     return self;

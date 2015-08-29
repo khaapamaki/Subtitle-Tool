@@ -1,5 +1,5 @@
 //
-//  TimeCode.h
+//  Timecode.h
 //  SubtitleTool
 //
 //  Created by Kati Haapamäki on 27.8.2015.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface TimeCode : NSObject
+@interface Timecode : NSObject
 
 // stored values
 @property (nonatomic) NSNumber * _timeInSeconds;
@@ -26,33 +26,33 @@
 
 #pragma mark - String Methods
 
-- (NSString *)getTimeCodeStringWithFrames;
-- (NSString *)getTimeCodeStringWithMilliseconds;
-- (void)setTimeCodeByString:(NSString *)tcString;
-+ (NSNumber *)parseTimeCodeString:(NSString *) tcString timecodeBase:(NSNumber *) tcBase;
+- (NSString *)getTimecodeStringWithFrames;
+- (NSString *)getTimecodeStringWithMilliseconds;
+- (void)setTimecodeByString:(NSString *)tcString;
++ (NSNumber *)parseTimecodeString:(NSString *) tcString timecodeBase:(NSNumber *) tcBase;
 
 #pragma mark - Calculus
 
 /* IMPLEMENT
  
-- (TimeCode *)timeCodeByAddingTimeCode:(TimeCode *)tc;
-- (TimeCode *)timeCodeBySubtractingTimeCode:(TimeCode *)tc;
-- (TimeCode *)timeCodeByAddingSeconds:(NSNumber *)timeValue;
-- (TimeCode *)timeCodeBySubtractingSeconds:(NSNumber *)timeValue;
-- (TimeCode *)timeCodeByAddingFrames:(NSNumber *)frames;
-- (TimeCode *)timeCodeBySubtractingFrames:(NSNumber *)frames;
+- (Timecode *)timecodeByAddingTimecode:(Timecode *)tc;
+- (Timecode *)timecodeBySubtractingTimecode:(Timecode *)tc;
+- (Timecode *)timecodeByAddingSeconds:(NSNumber *)timeValue;
+- (Timecode *)timecodeBySubtractingSeconds:(NSNumber *)timeValue;
+- (Timecode *)timecodeByAddingFrames:(NSNumber *)frames;
+- (Timecode *)timecodeBySubtractingFrames:(NSNumber *)frames;
 */
 
 #pragma mark - Class Makers
 
-+ (TimeCode *)timeCodeWithFrames:(long)frames;
-+ (TimeCode *)timeCodeWithFrames:(long)frames timecodeBase:(NSNumber *) tcBase;
-+ (TimeCode *)timeCodeWithString:(NSString *)tcString;
-+ (TimeCode *)timeCodeWithString:(NSString *)tcString timecodeBase:(NSNumber *) tcBase;
-+ (TimeCode *)timeCodeWithHours:(int) h minutes:(int) m seconds:(int) s frames:(int) fr;
-+ (TimeCode *)timeCodeWithHours:(int) h minutes:(int) m seconds:(int) s frames:(int) fr timecodeBase:(NSNumber *) tcBase;
-+ (TimeCode *)timeCodeWithHours:(int) h minutes:(int) m seconds:(int) s milliseconds:(int) ms;
-+ (TimeCode *)timeCodeWithHours:(int) h minutes:(int) m seconds:(int) s milliseconds:(int) ms timecodeBase:(NSNumber *) tcBase;
++ (Timecode *)timecodeWithFrames:(long)frames;
++ (Timecode *)timecodeWithFrames:(long)frames timecodeBase:(NSNumber *) tcBase;
++ (Timecode *)timecodeWithString:(NSString *)tcString;
++ (Timecode *)timecodeWithString:(NSString *)tcString timecodeBase:(NSNumber *) tcBase;
++ (Timecode *)timecodeWithHours:(int) h minutes:(int) m seconds:(int) s frames:(int) fr;
++ (Timecode *)timecodeWithHours:(int) h minutes:(int) m seconds:(int) s frames:(int) fr timecodeBase:(NSNumber *) tcBase;
++ (Timecode *)timecodeWithHours:(int) h minutes:(int) m seconds:(int) s milliseconds:(int) ms;
++ (Timecode *)timecodeWithHours:(int) h minutes:(int) m seconds:(int) s milliseconds:(int) ms timecodeBase:(NSNumber *) tcBase;
 
 #pragma mark - Initializers
 

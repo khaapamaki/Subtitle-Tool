@@ -8,10 +8,19 @@
 
 #import <Cocoa/Cocoa.h>
 #import "CavenaImporter.h"
-#import "TimeCode.h"
-#import "Subtitle.h"
+#import "SubtitleData.h"
+#import "TTMLExporter.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
+
+@property SubtitleData * subtitleData;
+
+
+@property (weak) IBOutlet NSTextField *statusLabel;
+@property (weak) IBOutlet NSButton *exportButton;
+
+- (IBAction)clickedOpenButton:(id)sender;
+- (IBAction)clickedExportButton:(id)sender;
 
 
 @end
