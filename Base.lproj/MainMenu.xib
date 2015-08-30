@@ -33,7 +33,7 @@
                                 </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="VOq-y0-SEH"/>
-                            <menuItem title="Preferences…" keyEquivalent="," id="BOF-NM-1cW"/>
+                            <menuItem title="Preferences…" hidden="YES" enabled="NO" keyEquivalent="," id="BOF-NM-1cW"/>
                             <menuItem isSeparatorItem="YES" id="wFC-TO-SCJ"/>
                             <menuItem title="Services" id="NMo-om-nkz">
                                 <modifierMask key="keyEquivalentModifierMask"/>
@@ -70,7 +70,7 @@
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <menu key="submenu" title="File" id="bib-Uj-vzu">
                         <items>
-                            <menuItem title="New" keyEquivalent="n" id="Was-JA-tGl">
+                            <menuItem title="New" hidden="YES" keyEquivalent="n" id="Was-JA-tGl">
                                 <connections>
                                     <action selector="newDocument:" target="-1" id="4Si-XN-c54"/>
                                 </connections>
@@ -94,35 +94,35 @@
                                 </menu>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="m54-Is-iLE"/>
-                            <menuItem title="Close" keyEquivalent="w" id="DVo-aG-piG">
+                            <menuItem title="Close" hidden="YES" keyEquivalent="w" id="DVo-aG-piG">
                                 <connections>
                                     <action selector="performClose:" target="-1" id="HmO-Ls-i7Q"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Save…" keyEquivalent="s" id="pxx-59-PXV">
+                            <menuItem title="Save…" hidden="YES" keyEquivalent="s" id="pxx-59-PXV">
                                 <connections>
                                     <action selector="saveDocument:" target="-1" id="teZ-XB-qJY"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Save As…" keyEquivalent="S" id="Bw7-FT-i3A">
+                            <menuItem title="Save As…" hidden="YES" keyEquivalent="S" id="Bw7-FT-i3A">
                                 <connections>
                                     <action selector="saveDocumentAs:" target="-1" id="mDf-zr-I0C"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Revert to Saved" id="KaW-ft-85H">
+                            <menuItem title="Revert to Saved" hidden="YES" id="KaW-ft-85H">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="revertDocumentToSaved:" target="-1" id="iJ3-Pv-kwq"/>
                                 </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="aJh-i4-bef"/>
-                            <menuItem title="Page Setup…" keyEquivalent="P" id="qIS-W8-SiK">
+                            <menuItem title="Page Setup…" hidden="YES" keyEquivalent="P" id="qIS-W8-SiK">
                                 <modifierMask key="keyEquivalentModifierMask" shift="YES" command="YES"/>
                                 <connections>
                                     <action selector="runPageLayout:" target="-1" id="Din-rz-gC5"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Print…" keyEquivalent="p" id="aTl-1u-JFS">
+                            <menuItem title="Print…" hidden="YES" keyEquivalent="p" id="aTl-1u-JFS">
                                 <connections>
                                     <action selector="print:" target="-1" id="qaZ-4w-aoO"/>
                                 </connections>
@@ -671,15 +671,19 @@
         </menu>
         <window title="SubtitleTool" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
-            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="335" y="390" width="502" height="274"/>
+            <rect key="contentRect" x="335" y="390" width="460" height="120"/>
             <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1417"/>
+            <value key="minSize" type="size" width="420" height="120"/>
+            <value key="maxSize" type="size" width="800" height="120"/>
             <view key="contentView" id="EiT-Mj-1SZ">
-                <rect key="frame" x="0.0" y="0.0" width="502" height="274"/>
+                <rect key="frame" x="0.0" y="0.0" width="460" height="120"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WST-N4-ryY">
-                        <rect key="frame" x="147" y="226" width="134" height="32"/>
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="WST-N4-ryY">
+                        <rect key="frame" x="147" y="72" width="134" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="122" id="T1v-WW-rAJ"/>
+                        </constraints>
                         <buttonCell key="cell" type="push" title="Export TTML" bezelStyle="rounded" alignment="center" enabled="NO" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="CXw-Dh-wOA">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -688,16 +692,19 @@
                             <action selector="clickedExportButton:" target="Voe-Tx-rLC" id="6sk-lZ-PFu"/>
                         </connections>
                     </button>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R4m-iL-sDU" userLabel="Status Label">
-                        <rect key="frame" x="18" y="198" width="259" height="17"/>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="R4m-iL-sDU" userLabel="Status Label">
+                        <rect key="frame" x="18" y="44" width="259" height="17"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Status" id="a25-tW-UP6">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RKf-kN-q2l">
-                        <rect key="frame" x="14" y="226" width="133" height="32"/>
+                    <button verticalHuggingPriority="750" horizontalCompressionResistancePriority="800" translatesAutoresizingMaskIntoConstraints="NO" id="RKf-kN-q2l">
+                        <rect key="frame" x="14" y="72" width="133" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="121" id="pDj-q2-VrH"/>
+                        </constraints>
                         <buttonCell key="cell" type="push" title="Open .890" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="7dX-Gg-3vU">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -706,9 +713,43 @@
                             <action selector="clickedOpenButton:" target="Voe-Tx-rLC" id="mVR-es-8LS"/>
                         </connections>
                     </button>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sVh-pE-UJS">
+                        <rect key="frame" x="15" y="10" width="430" height="17"/>
+                        <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Early alpha 0.2 (use with your own risk)" id="F2A-u7-Ui2">
+                            <font key="font" metaFont="smallSystem"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Pec-vs-csw">
+                        <rect key="frame" x="281" y="72" width="132" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="120" id="Ci2-EB-lrj"/>
+                        </constraints>
+                        <buttonCell key="cell" type="push" title="Export .srt" bezelStyle="rounded" alignment="center" enabled="NO" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="K6e-Ss-zgg">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
                 </subviews>
+                <constraints>
+                    <constraint firstItem="RKf-kN-q2l" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" constant="20" id="7mX-ew-1ys"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="sVh-pE-UJS" secondAttribute="trailing" constant="17" id="9ZW-vc-vlL"/>
+                    <constraint firstItem="R4m-iL-sDU" firstAttribute="trailing" secondItem="WST-N4-ryY" secondAttribute="trailing" id="Bss-nH-BTf"/>
+                    <constraint firstItem="WST-N4-ryY" firstAttribute="baseline" secondItem="RKf-kN-q2l" secondAttribute="baseline" id="DHR-Ns-jUh"/>
+                    <constraint firstItem="Pec-vs-csw" firstAttribute="leading" secondItem="WST-N4-ryY" secondAttribute="trailing" constant="12" symbolic="YES" id="FTx-Dn-o2Z"/>
+                    <constraint firstItem="R4m-iL-sDU" firstAttribute="leading" secondItem="RKf-kN-q2l" secondAttribute="leading" id="J23-35-pBx"/>
+                    <constraint firstItem="WST-N4-ryY" firstAttribute="leading" secondItem="RKf-kN-q2l" secondAttribute="trailing" constant="12" id="NOi-jO-2xW"/>
+                    <constraint firstItem="sVh-pE-UJS" firstAttribute="centerX" secondItem="EiT-Mj-1SZ" secondAttribute="centerX" id="TUn-O3-H7g"/>
+                    <constraint firstItem="sVh-pE-UJS" firstAttribute="top" secondItem="R4m-iL-sDU" secondAttribute="bottom" constant="17" id="XZb-tA-UhC"/>
+                    <constraint firstAttribute="trailing" secondItem="sVh-pE-UJS" secondAttribute="trailing" constant="17" id="Zic-3D-H5j"/>
+                    <constraint firstItem="WST-N4-ryY" firstAttribute="top" secondItem="EiT-Mj-1SZ" secondAttribute="top" constant="20" symbolic="YES" id="ndI-I1-mYs"/>
+                    <constraint firstAttribute="bottom" secondItem="R4m-iL-sDU" secondAttribute="bottom" constant="44" id="uVy-Vr-4kK"/>
+                    <constraint firstItem="Pec-vs-csw" firstAttribute="baseline" secondItem="WST-N4-ryY" secondAttribute="baseline" id="yOd-t5-v79"/>
+                    <constraint firstItem="sVh-pE-UJS" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" constant="17" id="zh1-Fc-9Nd"/>
+                </constraints>
             </view>
-            <point key="canvasLocation" x="1010" y="512"/>
+            <point key="canvasLocation" x="1198" y="325"/>
         </window>
     </objects>
 </document>

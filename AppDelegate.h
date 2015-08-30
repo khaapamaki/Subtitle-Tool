@@ -21,7 +21,8 @@
 
 - (IBAction)clickedOpenButton:(id)sender;
 - (IBAction)clickedExportButton:(id)sender;
-
+- (NSString*)selectFilePathForReading:(NSString*)initialPath;
+- (NSString*)selectFilePathForWriting:(NSString*)initialPath fileName:(NSString*)fileName;
 
 @end
 

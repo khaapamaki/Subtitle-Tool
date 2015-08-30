@@ -14,8 +14,8 @@
 - (BOOL)export:(SubtitleData *)subtitleData toPath:(NSString *)path {
     NSMutableString *newFile = [_headerTemplate mutableCopy];
     float originX = 15.0f;
-    float originY = 83.0f;
-    float originYIncrement = 8.0f;
+    float originY = 79.0f;
+    float originYIncrement = 5.0f;
     
     for (Subtitle * thisSub in subtitleData.subtitles) {
         int lineCount = 0;
