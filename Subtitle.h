@@ -12,7 +12,6 @@
 @interface Subtitle : NSObject
 
 @property NSMutableArray *lines;
-@property NSString *text;
 @property Timecode *timecodeIn;
 @property Timecode *timecodeOut;
 

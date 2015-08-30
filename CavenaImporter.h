@@ -12,19 +12,16 @@
 
 @interface CavenaImporter : NSObject
 
-@property NSData * data;
-@property BOOL isLoaded;
-@property NSArray * subtitles;
-@property NSString * path;
-@property long long byteCount;
-@property long subtitleCount;
+@property NSData *_data;
+@property NSArray *subtitles;
 @property NSString *title;
 @property NSString *sid;
 @property NSString *errorMessage;
 
+- (BOOL)readFileWithPath:(NSString *)path;
+
 - (NSString *)bytesToStringFromPosition:(long long)start length:(long)length;
 - (unsigned char)byteAtPosition:(long long)position;
-- (BOOL)readFileWithPath:(NSString *)path;
 
 
 @end

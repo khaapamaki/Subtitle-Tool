@@ -14,73 +14,125 @@
 -(NSString *)bytesToStringFromPosition:(long long)start length:(long)length {
     NSMutableString *newString = [[NSMutableString alloc] initWithCapacity:128];
     
-    if (start + length > _byteCount || _data == nil || _isLoaded == NO) return nil;
+    if (__data == nil) return nil;
+    if (start + length > __data.length) return nil;
     
-    const char * fileBytes = (const char *)[_data bytes];
+    const char * fileBytes = (const char *)[__data bytes];
     
     long long index = start;
     long counter = 0;
-    BOOL dotsnext = NO;
+    BOOL specialCharMode = NO; // takes in two bytes
+    unsigned char specialCode = 0;
     
-    while (counter < length && index < _byteCount) {
+    while (counter < length && index < __data.length) {
         char aByte = fileBytes[index];
         unsigned char numByte = (unsigned char) aByte;
-        if (aByte == ']') {
-           // NSLog(@"%i", numByte);
-        }
-        if (numByte >= 32 && numByte < 127) {
-            if (dotsnext) {
-                if (aByte == 'a') [newString appendString:@"ä"];
-                if (aByte == 'o') [newString appendString:@"ö"];
-                if (aByte == 'A') [newString appendString:@"Ä"];
-                if (aByte == 'O') [newString appendString:@"Ö"];
-                if (aByte == 'u') [newString appendString:@"ü"];
-                if (aByte == 'U') [newString appendString:@"Ü"];
-                dotsnext = NO;
-            } else {
-                switch (aByte) {
-                    case ']':
-                        [newString appendString:@"Å"];
-                        break;
-                        
-                    default:
-                        [newString appendFormat:@"%c", aByte];
-                        break;
-                }
-                
-            }
         
+        NSString * newChar = nil;
+        if ((numByte >= 0x81 && numByte <= 0x87) || numByte == 0x89  || numByte == 0x8C) {
+            specialCharMode = YES;
+            specialCode = numByte;
         } else {
-            dotsnext = NO;
-            switch (numByte) {
-                case 190:
-                     [newString appendString:@"-"];
-                    break;
-                case 134:
-                    dotsnext = YES;
-                    break;
-                case 28:
-                    [newString appendString:@"ø"];
-                    break;
-                case 29:
-                    [newString appendString:@"å"];
-                    break;
-                case 0:
-                    break;
-                case 127:
-                    break;
-                case 136:
-                   [newString appendString:@"<i>"];
-                    break;
-                case 152:
-                    [newString appendString:@"</i>"];
-                    break;
-                default:
-                    [newString appendFormat:@"#%03d", numByte];
-                    break;
+            if (numByte==190) newChar = @"-";
+            else if (numByte == 0x1B) newChar = @"æ";
+            else if (numByte == 0x1C) newChar = @"ø";
+            else if (numByte == 0x1D) newChar = @"å";
+            else if (numByte == 0x5B) newChar = @"Æ";
+            else if (numByte == 0x5C) newChar = @"Ø";
+            else if (numByte == 0x5D) newChar = @"Å";
+            else if (numByte == 127 || numByte == 0) newChar = @"";
+            else if (numByte == 0x88) newChar = @"<i>";
+            else if (numByte == 0x98) newChar = @"</i>";
+            else {
+                if (specialCharMode) {
+                    if (specialCode == 0x86) {
+                        if (aByte == 'a') newChar = @"ä";
+                        if (aByte == 'A') newChar = @"Ä";
+                        if (aByte == 'e') newChar = @"ë";
+                        if (aByte == 'E') newChar = @"Ë";
+                        if (aByte == 'i') newChar = @"ï";
+                        if (aByte == 'I') newChar = @"Ï";
+                        if (aByte == 'o') newChar = @"ö";
+                        if (aByte == 'O') newChar = @"Ö";
+                        if (aByte == 'u') newChar = @"ü";
+                        if (aByte == 'U') newChar = @"Ü";
+                        if (aByte == 'y') newChar = @"ÿ";
+                        if (aByte == 'Y') newChar = @"Ÿ";
+                    }
+                    if (specialCode == 0x8C) {
+                        if (aByte == 'a') newChar = @"å";
+                        if (aByte == 'A') newChar = @"Å";
+                    }
+                    if (specialCode == 0x81) {
+                        if (aByte == 'a') newChar = @"à";
+                        if (aByte == 'A') newChar = @"À";
+                        if (aByte == 'e') newChar = @"è";
+                        if (aByte == 'E') newChar = @"È";
+                        if (aByte == 'i') newChar = @"ì";
+                        if (aByte == 'I') newChar = @"Ì";
+                        if (aByte == 'o') newChar = @"ò";
+                        if (aByte == 'O') newChar = @"Ò";
+                        if (aByte == 'u') newChar = @"ù";
+                        if (aByte == 'U') newChar = @"Ù";
+                    }
+                    if (specialCode == 0x82) {
+                        if (aByte == 'a') newChar = @"á";
+                        if (aByte == 'A') newChar = @"Á";
+                        if (aByte == 'e') newChar = @"é";
+                        if (aByte == 'E') newChar = @"É";
+                        if (aByte == 'i') newChar = @"í";
+                        if (aByte == 'I') newChar = @"Í";
+                        if (aByte == 'o') newChar = @"ó";
+                        if (aByte == 'O') newChar = @"Í";
+                        if (aByte == 'u') newChar = @"ú";
+                        if (aByte == 'U') newChar = @"Ú";
+                    }
+                    if (specialCode == 0x83) {
+                        if (aByte == 'a') newChar = @"â";
+                        if (aByte == 'A') newChar = @"Â";
+                        if (aByte == 'e') newChar = @"ê";
+                        if (aByte == 'E') newChar = @"Ê";
+                        if (aByte == 'i') newChar = @"î";
+                        if (aByte == 'I') newChar = @"Î";
+                        if (aByte == 'o') newChar = @"ô";
+                        if (aByte == 'O') newChar = @"Ô";
+                        if (aByte == 'u') newChar = @"û";
+                        if (aByte == 'U') newChar = @"Û";
+                    }
+                    if (specialCode == 0x89) {
+                        if (aByte == 'a') newChar = @"ă";
+                        if (aByte == 'A') newChar = @"Ă";
+                        if (aByte == 's') newChar = @"š";
+                        if (aByte == 'S') newChar = @"Š";
+                        if (aByte == 'z') newChar = @"ž";
+                        if (aByte == 'Z') newChar = @"Ž";
+                        if (aByte == 'k') newChar = @"ǩ";
+                        if (aByte == 'K') newChar = @"Ǩ";
+                        if (aByte == 'c') newChar = @"č";
+                        if (aByte == 'C') newChar = @"Č";
+                        if (aByte == 'g') newChar = @"ǧ";
+                        if (aByte == 'G') newChar = @"ǧ";
+                    }
+                    if (specialCode == 0x87) {
+                        if (aByte == 's') newChar = @"ş";
+                        if (aByte == 'S') newChar = @"Ş";
+                        if (aByte == 'c') newChar = @"ç";
+                        if (aByte == 'C') newChar = @"Ç";
+                        if (aByte == 't') newChar = @"ţ";
+                        if (aByte == 'T') newChar = @"ţ";
+                    }
+                }
             }
+            if (newChar == nil) {
+                if (numByte >= 0x20 && numByte < 0x7F) {
+                    newChar = [NSString stringWithFormat:@"%c", aByte];
+                } else {
+                    newChar = [NSString stringWithFormat:@"#%03d", numByte];
+                }
+            }
+            [newString appendFormat:@"%@", newChar];
+            specialCharMode = NO;
         }
-      
         counter++;
         index++;
     }
@@ -88,9 +140,9 @@
 }
 
 - (unsigned char)byteAtPosition:(long long)position {
-    const char * fileBytes = (const char *)[_data bytes];
+    const char * fileBytes = (const char *)[__data bytes];
     unsigned char byteValue = (unsigned char) fileBytes[position];
-    if (position < _byteCount) {
+    if (position < __data.length) {
         return byteValue;
     }
     return 0;
@@ -102,21 +154,19 @@
     NSString *line2 = [self bytesToStringFromPosition:start+77 length:51];
     
     long inPoint = [self byteAtPosition:start + 6] * 256 * 256
-                    + [self byteAtPosition:start + 7] * 256
-                    + [self byteAtPosition:start + 8];
+    + [self byteAtPosition:start + 7] * 256
+    + [self byteAtPosition:start + 8];
     long outPoint = [self byteAtPosition:start + 9] * 256 * 256
-                    + [self byteAtPosition:start + 10] * 256
-                    + [self byteAtPosition:start + 11];
-    Timecode * inTC = [Timecode timecodeWithFrames:inPoint timecodeBase:@(25.0)];
-    Timecode * outTC = [Timecode timecodeWithFrames:outPoint timecodeBase:@(25.0)];
-    // NSLog(@"%@ --> %@", [inTC getTimecodeStringWithFrames], [outTC getTimecodeStringWithFrames]);
+    + [self byteAtPosition:start + 10] * 256
+    + [self byteAtPosition:start + 11];
+    Timecode * inTC = [Timecode timecodeWithFrames:inPoint timecodeBase:@25.0];
+    Timecode * outTC = [Timecode timecodeWithFrames:outPoint timecodeBase:@25.0];
+
     NSMutableArray *lines = [[NSMutableArray alloc] init];
     if (line1 != nil && ![line1 isEqualTo:@""]) {
-        // NSLog(@"%@", line1);
         [lines addObject:line1];
     }
     if (line2 != nil && ![line2 isEqualTo:@""]) {
-        // NSLog(@"%@", line2);
         [lines addObject:line2];
     }
     newSub.lines = lines;
@@ -127,21 +177,17 @@
 }
 
 -(BOOL)readFileWithPath:(NSString *)path {
-    NSData *loadedFile = [NSData dataWithContentsOfFile:path];
+    __data  = [NSData dataWithContentsOfFile:path];
     NSMutableArray *newSubtitles = [[NSMutableArray alloc] initWithCapacity:3000];
-    if (loadedFile != nil) {
-        _path = path;
-        _isLoaded = YES;
-        _data = loadedFile;
-        _byteCount = _data.length;
-
+    if (__data  != nil) {
+        
         _title = [self bytesToStringFromPosition:40 length:28];
         _sid = [self bytesToStringFromPosition:2 length:20];
         
         long long position = 384;
         long subCount = 0;
         
-        while (_byteCount >= position + 127) {
+        while (__data.length >= position + 127) {
             Subtitle *newSub = [self readFromPosition:position];
             
             if (newSub != nil) {
@@ -151,10 +197,9 @@
             
             position += 128;
         }
-        if (subCount>0) {
+        if (subCount > 0) {
             _subtitles = [NSArray arrayWithArray:newSubtitles];
         }
-        
         return YES;
     }
     return NO;
@@ -162,12 +207,8 @@
 
 -(id) init {
     if (self = [super init]) {
-        _path = nil;
-        _isLoaded = NO;
-        _byteCount = 0;
-        _subtitleCount = 0;
-        _subtitles = [[NSMutableArray alloc] initWithCapacity:3000];
-        _data = nil;
+        _subtitles = nil;
+        __data = nil;
         _title = nil;
         _sid = nil;
         _errorMessage = nil;

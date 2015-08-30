@@ -31,27 +31,50 @@
     _subtitleData = nil;
 }
 
+
+#pragma mark - Open and Export Buttons
+
 - (void)clickedOpenButton:(id)sender {
-    CavenaImporter *reader = [[CavenaImporter alloc] init];
-    _subtitleData = nil;
+    
     NSString *path = [self selectFilePathForReading:nil];
     if (path == nil) {
         return;
     }
-    BOOL didLoad = [reader readFileWithPath:path];
-    //BOOL didLoad = [reader readFileWithPath:@"/Users/kati/Dropbox/Työ/tekstitys/test.890"];
-    if (didLoad) {
+    
+    NSString *extension = [[path pathExtension] lowercaseString];
+    BOOL didLoad = NO;
+    
+    // Import Cavena
+    if ([extension isEqualToString:@"890"]) {
+        CavenaImporter *reader = [[CavenaImporter alloc] init];
+        didLoad = [reader readFileWithPath:path];
         _subtitleData = [[SubtitleData alloc] init];
-        
         _subtitleData.title = reader.title;
         if (reader.sid != nil) {
             if ([reader.sid isNotEqualTo:@""]) {
                 _subtitleData.title = [NSString stringWithFormat:@"%@ %@", reader.sid, reader.title];
             }
         }
-        
         _subtitleData.subtitles = reader.subtitles;
-        _subtitleData.pathToSource = reader.path;
+        reader = nil;
+    }
+
+    // Import SubRip
+    if ([extension isEqualToString:@"srt"]) {
+        SubRipImporter *reader = [[SubRipImporter alloc] init];
+        didLoad = [reader readFileWithPath:path];
+        
+        _subtitleData = [[SubtitleData alloc] init];
+        _subtitleData.subtitles = reader.subtitles;
+        _subtitleData.title = [[path lastPathComponent] stringByDeletingPathExtension];
+        
+        reader = nil;
+    }
+    
+    
+    // COMMON
+    if (didLoad) {
+        _subtitleData.pathToSource = path;
         _subtitleData.timecodeBase = @(25.0);
         NSString *statusStr = [NSString stringWithFormat:@"Read %lu subtitles", (unsigned long)[_subtitleData.subtitles count]];
         [_statusLabel setStringValue:statusStr];
@@ -59,22 +82,20 @@
         [_exportSRTButton setEnabled:YES];
         [_sequenceTitle setStringValue:_subtitleData.title];
     } else {
-        _subtitleData = nil;
         [_statusLabel setStringValue:@"Could not open file"];
+        _subtitleData = nil;
         [_exportTTMLButton setEnabled:NO];
         [_exportSRTButton setEnabled:NO];
         [_sequenceTitle setStringValue:@""];
-        
     }
-    reader = nil;
-    
 }
+
 
 -(void)clickedExportTTMLButton:(id)sender {
     if (_subtitleData == nil) return;
 
     NSString *initialPath = [_subtitleData.pathToSource stringByDeletingLastPathComponent];
-    NSString *fileName = [NSString stringWithFormat:@"%@.xml", _subtitleData.title];
+    NSString *fileName = [NSString stringWithFormat:@"%@.xml", [self getExportFileNameWithoutExtension]];
 
     NSString *pathToWrite = [self selectFilePathForWriting:initialPath fileName:fileName];
     NSNumber *options = @(0);
@@ -94,7 +115,7 @@
     if (_subtitleData == nil) return;
     
     NSString *initialPath = [_subtitleData.pathToSource stringByDeletingLastPathComponent];
-    NSString *fileName = [NSString stringWithFormat:@"%@.srt", _subtitleData.title];
+    NSString *fileName = [NSString stringWithFormat:@"%@.srt", [self getExportFileNameWithoutExtension]];
     
     NSString *pathToWrite = [self selectFilePathForWriting:initialPath fileName:fileName];
     NSNumber *options = @(0);
@@ -110,10 +131,22 @@
     }
 }
 
+- (NSString *)getExportFileNameWithoutExtension {
+    if ([[self.sequenceTitle stringValue] isNotEqualTo:@""]) {
+        return [self.sequenceTitle stringValue];
+    }
+    if ([self.subtitleData.title isNotEqualTo:@""]) {
+        return self.subtitleData.title;
+    }
+    return @"untitled";
+}
+
+#pragma mark - File selection
+
 -(NSString*)selectFilePathForReading:(NSString*)initialPath {
     NSOpenPanel *openDlg = [NSOpenPanel openPanel];
     NSString *pathToOpen = nil;
-    [openDlg setAllowedFileTypes:[NSArray arrayWithObjects:@"890", nil]];
+    [openDlg setAllowedFileTypes:[NSArray arrayWithObjects:@"890", @"srt", nil]];
     [openDlg setCanChooseFiles:YES];
     [openDlg setAllowsMultipleSelection:NO];
     [openDlg setCanChooseDirectories:NO];

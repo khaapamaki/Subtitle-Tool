@@ -10,5 +10,11 @@
 
 @implementation Subtitle
 
-
+- (id)init {
+    if (self = [super init]) {
+        _lines = [NSMutableArray new];
+        
+    }
+    return self;
+}
 @end
