@@ -15,8 +15,6 @@
 @property NSData * data;
 @property BOOL isLoaded;
 @property NSArray * subtitles;
-//@property Timecode * firstTimecode;
-//@property Timecode * lastTimecode;
 @property NSString * path;
 @property long long byteCount;
 @property long subtitleCount;

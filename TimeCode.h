@@ -21,7 +21,7 @@
 @property (nonatomic) int seconds;
 @property (nonatomic) int frames;
 @property (nonatomic) int milliseconds;
-@property (nonatomic) double timeValue;
+@property (nonatomic) double timeValue; // time in seconds
 
 
 #pragma mark - String Methods
@@ -34,17 +34,19 @@
 #pragma mark - Calculus
 
 /* IMPLEMENT
- 
+ */
 - (Timecode *)timecodeByAddingTimecode:(Timecode *)tc;
 - (Timecode *)timecodeBySubtractingTimecode:(Timecode *)tc;
 - (Timecode *)timecodeByAddingSeconds:(NSNumber *)timeValue;
 - (Timecode *)timecodeBySubtractingSeconds:(NSNumber *)timeValue;
-- (Timecode *)timecodeByAddingFrames:(NSNumber *)frames;
-- (Timecode *)timecodeBySubtractingFrames:(NSNumber *)frames;
-*/
+- (Timecode *)timecodeByAddingFrames:(NSInteger)frames;
+- (Timecode *)timecodeBySubtractingFrames:(NSInteger)frames;
+
 
 #pragma mark - Class Makers
 
++ (Timecode *)timecodeWithValue:(NSNumber *)timeValue;
++ (Timecode *)timecodeWithValue:(NSNumber *)timeValue timecodeBase:(NSNumber *) tcBase;
 + (Timecode *)timecodeWithFrames:(long)frames;
 + (Timecode *)timecodeWithFrames:(long)frames timecodeBase:(NSNumber *) tcBase;
 + (Timecode *)timecodeWithString:(NSString *)tcString;

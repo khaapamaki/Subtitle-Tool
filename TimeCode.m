@@ -124,12 +124,39 @@
     return nil;
 }
 
+#pragma mark - Calculus
+
+
+- (Timecode *)timecodeByAddingTimecode:(Timecode *)tc {
+    return [Timecode timecodeWithValue:@(self.timeValue + tc.timeValue) timecodeBase:self._timecodeBase];
+}
+
+- (Timecode *)timecodeBySubtractingTimecode:(Timecode *)tc {
+    return [Timecode timecodeWithValue:@(self.timeValue - tc.timeValue) timecodeBase:self._timecodeBase];
+}
+- (Timecode *)timecodeByAddingSeconds:(NSNumber *)timeInSeconds {
+    return [Timecode timecodeWithValue:@(self.timeValue + [timeInSeconds doubleValue]) timecodeBase:self._timecodeBase];
+}
+
+- (Timecode *)timecodeBySubtractingSeconds:(NSNumber *)timeInSeconds {
+    return [Timecode timecodeWithValue:@(self.timeValue - [timeInSeconds doubleValue]) timecodeBase:self._timecodeBase];
+}
+
+- (Timecode *)timecodeByAddingFrames:(NSInteger)frames {
+    return [Timecode timecodeWithValue:@(self.timeValue + frames / [self._timecodeBase doubleValue]) timecodeBase:self._timecodeBase];
+}
+
+- (Timecode *)timecodeBySubtractingFrames:(NSInteger)frames {
+    return [Timecode timecodeWithValue:@(self.timeValue - frames / [self._timecodeBase doubleValue]) timecodeBase:self._timecodeBase];
+}
+
+
 #pragma mark - Class Makers
 
-+ (Timecode *)timecodeValue:(NSNumber *)timeValue  {
++ (Timecode *)timecodeWithValue:(NSNumber *)timeValue  {
     return [[Timecode alloc] initWithValue:timeValue];
 }
-+ (Timecode *)timecodetWithValue:(NSNumber *)timeValue timecodeBase:(NSNumber *) tcBase {
++ (Timecode *)timecodeWithValue:(NSNumber *)timeValue timecodeBase:(NSNumber *) tcBase {
     return [[Timecode alloc] initWithValue:timeValue timecodeBase:tcBase];
 }
 + (Timecode *)timecodeWithFrames:(long)frames {

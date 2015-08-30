@@ -25,7 +25,9 @@
     while (counter < length && index < _byteCount) {
         char aByte = fileBytes[index];
         unsigned char numByte = (unsigned char) aByte;
-        
+        if (aByte == ']') {
+           // NSLog(@"%i", numByte);
+        }
         if (numByte >= 32 && numByte < 127) {
             if (dotsnext) {
                 if (aByte == 'a') [newString appendString:@"ä"];
@@ -36,7 +38,16 @@
                 if (aByte == 'U') [newString appendString:@"Ü"];
                 dotsnext = NO;
             } else {
-                [newString appendFormat:@"%c", aByte];
+                switch (aByte) {
+                    case ']':
+                        [newString appendString:@"Å"];
+                        break;
+                        
+                    default:
+                        [newString appendFormat:@"%c", aByte];
+                        break;
+                }
+                
             }
         
         } else {
@@ -48,21 +59,26 @@
                 case 134:
                     dotsnext = YES;
                     break;
+                case 28:
+                    [newString appendString:@"ø"];
+                    break;
+                case 29:
+                    [newString appendString:@"å"];
+                    break;
                 case 0:
                     break;
                 case 127:
                     break;
                 case 136:
-                   // [newString appendString:@"<i>"];
+                   [newString appendString:@"<i>"];
                     break;
                 case 152:
-                   // [newString appendString:@"</i>"];
+                    [newString appendString:@"</i>"];
                     break;
                 default:
-                    [newString appendFormat:@"(%03d)", numByte];
+                    [newString appendFormat:@"#%03d", numByte];
                     break;
             }
-
         }
       
         counter++;
@@ -151,8 +167,6 @@
         _byteCount = 0;
         _subtitleCount = 0;
         _subtitles = [[NSMutableArray alloc] initWithCapacity:3000];
-//        _firstTimecode = nil;
-//        _lastTimecode = nil;
         _data = nil;
         _title = nil;
         _sid = nil;

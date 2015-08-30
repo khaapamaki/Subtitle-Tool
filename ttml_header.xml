@@ -21,9 +21,3 @@
     
 <tt:body>
     <tt:div>
-        <tt:p tt:begin="00:00:00:00" tt:end="00:00:01:00" tt:region="pop1" tt:style="basic" tts:origin="36.0% 48.0%">
-            <tt:style tts:textAlign="center"/>
-            <tt:span>TC 00:00:00:00
-                <tt:style tts:backgroundColor="#000000FF" tts:fontSize="18px"/>
-            </tt:span>
-        </tt:p>

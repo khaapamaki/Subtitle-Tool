@@ -10,6 +10,7 @@
 #import "CavenaImporter.h"
 #import "SubtitleData.h"
 #import "TTMLExporter.h"
+#import "SubRipExporter.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
@@ -17,12 +18,18 @@
 
 
 @property (weak) IBOutlet NSTextField *statusLabel;
-@property (weak) IBOutlet NSButton *exportButton;
+@property (weak) IBOutlet NSTextField *sequenceTitle;
+@property (weak) IBOutlet NSButton *exportTTMLButton;
+@property (weak) IBOutlet NSButton *exportSRTButton;
+@property (weak) IBOutlet NSButton *addPlaceholderOption;
+
 
 - (IBAction)clickedOpenButton:(id)sender;
-- (IBAction)clickedExportButton:(id)sender;
-- (NSString*)selectFilePathForReading:(NSString*)initialPath;
-- (NSString*)selectFilePathForWriting:(NSString*)initialPath fileName:(NSString*)fileName;
+- (IBAction)clickedExportTTMLButton:(id)sender;
+- (IBAction)clickedExportSRTButton:(id)sender;
+
+- (NSString *)selectFilePathForReading:(NSString*)initialPath;
+- (NSString *)selectFilePathForWriting:(NSString*)initialPath fileName:(NSString*)fileName;
 
 @end
 

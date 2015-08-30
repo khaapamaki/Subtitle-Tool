@@ -10,33 +10,51 @@
 
 @implementation TTMLExporter
 
-
-- (BOOL)export:(SubtitleData *)subtitleData toPath:(NSString *)path {
+- (BOOL)export:(SubtitleData *)subtitleData toPath:(NSString *)path options:(NSNumber *)options {
     NSMutableString *newFile = [_headerTemplate mutableCopy];
-    float originX = 15.0f;
-    float originY = 79.0f;
-    float originYIncrement = 5.0f;
+    const float originX = 15.0f;
+    const float originY = 84.0f;
+    const float originYDecrement = 5.0f;
+    
+    if (options != nil) {
+        // add placeholder to the beginning of full hour
+        if ([options integerValue] != 0) {
+            int firstHour = subtitleData.firstTimecode.hours;
+            Timecode *inTC = [Timecode timecodeWithHours:firstHour minutes:0 seconds:0 frames:0 timecodeBase:subtitleData.timecodeBase];
+            Timecode *outTC = [inTC timecodeByAddingSeconds:@(1)];
+            NSMutableString * subtitleString = [_subtitleTemplate mutableCopy];
+            [subtitleString replaceString:@"#TCIN#"
+                     withString:[inTC getTimecodeStringWithFrames]];
+            [subtitleString replaceString:@"#TCOUT#"
+                     withString:[outTC getTimecodeStringWithFrames]];
+            [subtitleString replaceString:@"#LINE#"
+                     withString:[NSString stringWithFormat:@"TC %@", [inTC getTimecodeStringWithFrames]]];
+            [subtitleString replaceString:@"#ORIGIN-X#"
+                     withString:[NSString stringWithFormat:@"%f%%", originX]];
+            [subtitleString replaceString:@"#ORIGIN-Y#"
+                     withString:[NSString stringWithFormat:@"%f%%", originY]];
+            [newFile appendString:subtitleString];
+        }
+    }
     
     for (Subtitle * thisSub in subtitleData.subtitles) {
-        int lineCount = 0;
-        for (NSString *aLine in thisSub.lines) {
+        int lineCount = (int) [thisSub.lines count] - 1; // going down to zero
+        for (NSString *thisLine in thisSub.lines) {
             NSMutableString * subtitleString = [_subtitleTemplate mutableCopy];
-            [self replaceString:@"#TCIN#"
-                     withString:[thisSub.timecodeIn getTimecodeStringWithFrames]
-                             in:&subtitleString];
-            [self replaceString:@"#TCOUT#"
-                     withString:[thisSub.timecodeOut getTimecodeStringWithFrames]
-                             in:&subtitleString];
-            [self replaceString:@"#LINE#"
-                     withString:aLine
-                             in:&subtitleString];
-            [self replaceString:@"#ORIGIN-X#"
-                     withString:[NSString stringWithFormat:@"%f%%", originX]
-                             in:&subtitleString];
-            [self replaceString:@"#ORIGIN-Y#"
-                     withString:[NSString stringWithFormat:@"%f%%", originY + originYIncrement * lineCount]
-                             in:&subtitleString];
-            lineCount++;
+            NSMutableString * fixedLine = [thisLine mutableCopy];
+            [fixedLine replaceString:@"<i>" withString:@"_"];
+            [fixedLine replaceString:@"</i>" withString:@"_"];
+            [subtitleString replaceString:@"#TCIN#"
+                     withString:[thisSub.timecodeIn getTimecodeStringWithFrames]];
+            [subtitleString replaceString:@"#TCOUT#"
+                     withString:[thisSub.timecodeOut getTimecodeStringWithFrames]];
+            [subtitleString replaceString:@"#LINE#"
+                     withString:fixedLine];
+            [subtitleString replaceString:@"#ORIGIN-X#"
+                     withString:[NSString stringWithFormat:@"%f%%", originX]];
+            [subtitleString replaceString:@"#ORIGIN-Y#"
+                     withString:[NSString stringWithFormat:@"%f%%", originY - originYDecrement * lineCount]];
+            lineCount--;
             
             [newFile appendString:subtitleString];
         }
@@ -52,20 +70,6 @@
     return NO;
 }
 
-- (long)replaceString:(NSString*)lookup withString:(NSString*)replacement in:(NSMutableString**)aString {
-    long counter = 0;
-    NSRange aRange = NSMakeRange(NSNotFound, 0);
-    do {
-        aRange = [*aString rangeOfString:lookup];
-        if (aRange.location != NSNotFound) {
-            [*aString replaceCharactersInRange:aRange withString:replacement];
-            counter++;
-        }
-    } while (aRange.location != NSNotFound);
-    return counter;
-}
-
-
 - (id)init {
     if (self = [super init]) {
         NSBundle *mainBundle = [NSBundle mainBundle];
@@ -77,7 +81,6 @@
         _subtitleTemplate = [[NSString alloc] initWithContentsOfFile:subtitleTemplate encoding:NSUTF8StringEncoding error:nil];
         _footerTemplate = [[NSString alloc] initWithContentsOfFile:footerTemplate encoding:NSUTF8StringEncoding error:nil];
 
-        
     }
     return self;
 }
