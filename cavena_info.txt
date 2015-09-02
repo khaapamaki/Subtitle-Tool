@@ -94,7 +94,7 @@ buffer[index] = 0x87;
 index++;
 buffer[index] = 0x74;
 }
-else if (current == 'Ţ')
+else if (current == '')
 {
 buffer[index] = 0x87;
 index++;

@@ -14,5 +14,6 @@
 @property NSMutableArray *lines;
 @property Timecode *timecodeIn;
 @property Timecode *timecodeOut;
-
+@property (readonly) NSString *timecodeInString;
+@property NSString* test;
 @end

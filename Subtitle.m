@@ -10,10 +10,17 @@
 
 @implementation Subtitle
 
+-(NSString *)timecodeInString {
+    if (_timecodeIn != nil) {
+        return [_timecodeIn getTimecodeStringWithFrames];
+    }
+    return @"";
+}
+
 - (id)init {
     if (self = [super init]) {
         _lines = [NSMutableArray new];
-        
+        _test = @"00:00:00:00";
     }
     return self;
 }
