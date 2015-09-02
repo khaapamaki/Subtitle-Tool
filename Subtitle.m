@@ -16,11 +16,21 @@
     }
     return @"";
 }
-
+-(NSString *)timecodeOutString {
+    if (_timecodeIn != nil) {
+        return [_timecodeOut getTimecodeStringWithFrames];
+    }
+    return @"";
+}
+-(NSString*)text {
+    if (_lines != nil) {
+        return [self.lines componentsJoinedByString:@"<br>"];
+    }
+    return @"";
+}
 - (id)init {
     if (self = [super init]) {
         _lines = [NSMutableArray new];
-        _test = @"00:00:00:00";
     }
     return self;
 }

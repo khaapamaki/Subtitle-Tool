@@ -1,5 +1,5 @@
 //
-//  SubtitleFile.m
+//  SubtitleData.m
 //  SubtitleTool
 //
 //  Created by Kati Haapamäki on 29.8.2015.
@@ -37,6 +37,7 @@
     }
     return highest;
 }
+
 
 -(id)init {
     if (self = [super init]) {

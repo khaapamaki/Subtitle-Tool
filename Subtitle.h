@@ -15,5 +15,6 @@
 @property Timecode *timecodeIn;
 @property Timecode *timecodeOut;
 @property (readonly) NSString *timecodeInString;
-@property NSString* test;
+@property (readonly) NSString* text;
 @end
+

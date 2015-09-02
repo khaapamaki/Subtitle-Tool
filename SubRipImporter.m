@@ -24,7 +24,6 @@
     NSString *regexPattern = @"^([0-9]{2}:[0-9]{2}:[0-9]{2},[0-9]{3}) --> ([0-9]{2}:[0-9]{2}:[0-9]{2},[0-9]{3})$";
     
     for (long index=0; index < [linesInFile count]; index++) {
-        NSLog(@"%04lu:%@", index, linesInFile[index]);
         
         NSRegularExpressionOptions regexOptions = NSRegularExpressionCaseInsensitive;
         NSRegularExpression *regex = [[NSRegularExpression alloc] initWithPattern:regexPattern options:regexOptions error:nil];

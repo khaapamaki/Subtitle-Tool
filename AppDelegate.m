@@ -21,6 +21,8 @@
     _subtitleData = nil;
     [_statusLabel setStringValue:@"File not loaded"];
     [_exportTTMLButton setEnabled:NO];
+
+
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
@@ -81,6 +83,8 @@
         [_exportTTMLButton setEnabled:YES];
         [_exportSRTButton setEnabled:YES];
         [_sequenceTitle setStringValue:_subtitleData.title];
+        _testi.sData = _subtitleData;
+
     } else {
         [_statusLabel setStringValue:@"Could not open file"];
         _subtitleData = nil;
@@ -88,6 +92,7 @@
         [_exportSRTButton setEnabled:NO];
         [_sequenceTitle setStringValue:@""];
     }
+    [_testi redraw];
 }
 
 

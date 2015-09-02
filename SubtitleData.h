@@ -1,5 +1,5 @@
 //
-//  SubtitleFile.h
+//  SubtitleData.h
 //  SubtitleTool
 //
 //  Created by Kati Haapamäki on 29.8.2015.

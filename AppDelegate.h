@@ -13,6 +13,7 @@
 #import "TTMLExporter.h"
 #import "SubRipExporter.h"
 #import "SubRipImporter.h"
+#import "SubtitlePreviewControl.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
@@ -31,6 +32,8 @@
 - (NSString *)selectFilePathForReading:(NSString*)initialPath;
 - (NSString *)selectFilePathForWriting:(NSString*)initialPath fileName:(NSString*)fileName;
 - (NSString *)getExportFileNameWithoutExtension;
+
+@property (weak) IBOutlet SubtitlePreviewControl *testi;
 
 @end
 
