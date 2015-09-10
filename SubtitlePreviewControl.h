@@ -15,9 +15,7 @@
 @property (weak) IBOutlet NSTableView *aTableView;
 
 -(NSInteger)numberOfRowsInTableView:(NSTableView *)tableView; // NSTableViewDataSource
--(id)tableView:(NSTableView *)tableView viewForTableColumn:(NSTableColumn *)tableColumn row:(NSInteger)row; // NSTableViewDataSource
-@property (weak) IBOutlet NSTableCellView *testCellView;
-@property (weak) IBOutlet NSTextField *textTextField;
+-(id)tableView:(NSTableView *)tableView viewForTableColumn:(NSTableColumn *)tableColumn row:(NSInteger)row; // NSTableViewDelegate
 
 -(void)redraw;
 

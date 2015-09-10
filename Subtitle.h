@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "Timecode.h"
+#import "NSMutableString+NSMutableStringAdditions.h"
 
 @interface Subtitle : NSObject
 
@@ -15,6 +16,6 @@
 @property Timecode *timecodeIn;
 @property Timecode *timecodeOut;
 @property (readonly) NSString *timecodeInString;
-@property (readonly) NSString* text;
+@property (readonly) NSString *text; // computed property with joined lines, italics removed
 @end
 

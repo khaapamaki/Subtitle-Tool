@@ -21,22 +21,23 @@
     _subtitleData = nil;
     [_statusLabel setStringValue:@"File not loaded"];
     [_exportTTMLButton setEnabled:NO];
-
-
+    [_exportTTMLMenuItem setEnabled:NO];
+    
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
     // Insert code here to tear down your application
-    [_statusLabel setStringValue:@"Loading file"];
-    [_exportTTMLButton setEnabled:NO];
-    [_statusLabel setStringValue:@""];
+    [_statusLabel setStringValue:@"Quiting application..."];
     _subtitleData = nil;
 }
 
-
+- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)theApplication {
+    return YES;
+}
+    
 #pragma mark - Open and Export Buttons
 
-- (void)clickedOpenButton:(id)sender {
+- (void)openFile:(id)sender {
     
     NSString *path = [self selectFilePathForReading:nil];
     if (path == nil) {
@@ -74,38 +75,42 @@
     }
     
     
-    // COMMON
+    // Common for all formats
     if (didLoad) {
         _subtitleData.pathToSource = path;
-        _subtitleData.timecodeBase = @(25.0);
-        NSString *statusStr = [NSString stringWithFormat:@"Read %lu subtitles", (unsigned long)[_subtitleData.subtitles count]];
+        _subtitleData.timecodeBase = @25.0;
+        NSString *statusStr = [NSString stringWithFormat:@"Read %lu subtitle%@",
+                               (unsigned long) [_subtitleData.subtitles count],
+                               [_subtitleData.subtitles count] == 1 ? @"" : @"s"];
         [_statusLabel setStringValue:statusStr];
         [_exportTTMLButton setEnabled:YES];
-        [_exportSRTButton setEnabled:YES];
+        [_exportSubRipButton setEnabled:YES];
+        [_exportSubRipMenuItem setEnabled:YES];
+        [_exportTTMLMenuItem setEnabled:YES];
         [_sequenceTitle setStringValue:_subtitleData.title];
-        _testi.sData = _subtitleData;
+        _tableViewController.sData = _subtitleData;
 
     } else {
         [_statusLabel setStringValue:@"Could not open file"];
         _subtitleData = nil;
         [_exportTTMLButton setEnabled:NO];
-        [_exportSRTButton setEnabled:NO];
+        [_exportSubRipButton setEnabled:NO];
         [_sequenceTitle setStringValue:@""];
     }
-    [_testi redraw];
+    [_tableViewController redraw];
 }
 
 
--(void)clickedExportTTMLButton:(id)sender {
+-(void)exportTTML:(id)sender {
     if (_subtitleData == nil) return;
 
     NSString *initialPath = [_subtitleData.pathToSource stringByDeletingLastPathComponent];
     NSString *fileName = [NSString stringWithFormat:@"%@.xml", [self getExportFileNameWithoutExtension]];
 
     NSString *pathToWrite = [self selectFilePathForWriting:initialPath fileName:fileName];
-    NSNumber *options = @(0);
+    NSNumber *options = @0;
     if (self.addPlaceholderOption.state == YES) {
-        options = @(1);
+        options = @1;
     }
     if (pathToWrite != nil) {
         TTMLExporter *exporter = [[TTMLExporter alloc] init];
@@ -116,16 +121,16 @@
     }
 }
 
--(void)clickedExportSRTButton:(id)sender {
+-(void)exportSubRip:(id)sender {
     if (_subtitleData == nil) return;
     
     NSString *initialPath = [_subtitleData.pathToSource stringByDeletingLastPathComponent];
     NSString *fileName = [NSString stringWithFormat:@"%@.srt", [self getExportFileNameWithoutExtension]];
     
     NSString *pathToWrite = [self selectFilePathForWriting:initialPath fileName:fileName];
-    NSNumber *options = @(0);
+    NSNumber *options = @0;
     if (self.addPlaceholderOption.state == YES) {
-        options = @(1);
+        options = @1;
     }
     if (pathToWrite != nil) {
         SubRipExporter *exporter = [[SubRipExporter alloc] init];

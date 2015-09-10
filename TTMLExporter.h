@@ -10,11 +10,14 @@
 #import "SubtitleData.h"
 #import "NSMutableString+NSMutableStringAdditions.h"
 
-@interface TTMLExporter : NSObject
+@interface TTMLExporter : NSObject {
+    NSString *_headerTemplate;
+    NSString *_subtitleTemplate;
+    NSString *_footerTemplate;
+}
 
-@property NSString * headerTemplate;
-@property NSString * subtitleTemplate;
-@property NSString * footerTemplate;
+@property NSError *lastError;
+@property NSString *errorMessage;
 
 - (BOOL)export:(SubtitleData *)subtitleData toPath:(NSString *)path options:(NSNumber *)options;
 

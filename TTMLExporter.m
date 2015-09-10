@@ -12,12 +12,16 @@
 
 - (BOOL)export:(SubtitleData *)subtitleData toPath:(NSString *)path options:(NSNumber *)options {
     NSMutableString *newFile = [_headerTemplate mutableCopy];
+    NSError *err = nil;
+    self.errorMessage = nil;
+    self.lastError = nil;
+    
     const float originX = 15.0f;
     const float originY = 84.0f;
     const float originYDecrement = 5.0f;
     
     if (options != nil) {
-        // add placeholder to the beginning of full hour
+        // add placeholder to the beginning of first hour
         if ([options integerValue] != 0) {
             int firstHour = subtitleData.firstTimecode.hours;
             Timecode *inTC = [Timecode timecodeWithHours:firstHour minutes:0 seconds:0 frames:0 timecodeBase:subtitleData.timecodeBase];
@@ -63,10 +67,18 @@
     [newFile appendString:_footerTemplate];
     
     if (path != nil) {
-        [newFile writeToFile:path atomically:YES encoding:NSUTF8StringEncoding error:nil];
+        [newFile writeToFile:path atomically:YES encoding:NSUTF8StringEncoding error:&err];
+        newFile = nil;
+        if (err != nil) {
+            self.lastError = err;
+            self.errorMessage = [err localizedDescription];
+            return NO;
+        }
+        
+        return YES;
     }
-    newFile = nil;
     
+    self.errorMessage = @"No path";
     return NO;
 }
 
@@ -80,7 +92,8 @@
         _headerTemplate = [[NSString alloc] initWithContentsOfFile:headerTemplate encoding:NSUTF8StringEncoding error:nil];
         _subtitleTemplate = [[NSString alloc] initWithContentsOfFile:subtitleTemplate encoding:NSUTF8StringEncoding error:nil];
         _footerTemplate = [[NSString alloc] initWithContentsOfFile:footerTemplate encoding:NSUTF8StringEncoding error:nil];
-
+        _errorMessage = nil;
+        _lastError = nil;
     }
     return self;
 }

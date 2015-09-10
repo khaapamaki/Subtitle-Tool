@@ -12,6 +12,9 @@
 
 @interface SubRipExporter : NSObject
 
+@property NSError *lastError;
+@property NSString *errorMessage;
+
 - (BOOL)export:(SubtitleData *)subtitleData toPath:(NSString *)path options:(NSNumber *)options;
 
 @end

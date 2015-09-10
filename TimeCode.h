@@ -6,14 +6,17 @@
 //  Copyright (c) 2015 Kati Haapamäki. All rights reserved.
 //
 
+
+// known issue: doesn't handle negative timecodes as strings
+
 #import <Foundation/Foundation.h>
 
-@interface Timecode : NSObject
+@interface Timecode : NSObject {
+    NSNumber * _timeInSeconds;
+    NSNumber * _timecodeBase;
+    NSNumber * _defaultTimecodeBase;
+}
 
-// stored values
-@property (nonatomic) NSNumber * _timeInSeconds;
-@property (nonatomic) NSNumber * _timecodeBase;
-@property (nonatomic) NSNumber * _defaultTimecodeBase;
 
 // computed properties
 @property (nonatomic) int hours;

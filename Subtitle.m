@@ -24,7 +24,10 @@
 }
 -(NSString*)text {
     if (_lines != nil) {
-        return [self.lines componentsJoinedByString:@"<br>"];
+        NSMutableString *displayStr = [[self.lines componentsJoinedByString:@" "] mutableCopy];
+        [displayStr replaceString:@"<i>" withString:@""];
+        [displayStr replaceString:@"</i>" withString:@""];
+        return displayStr;
     }
     return @"";
 }

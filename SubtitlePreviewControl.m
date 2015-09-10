@@ -39,6 +39,7 @@
 -(void)redraw {
     [self.aTableView reloadData];
 }
+
 -(id)init {
     if (self = [super init]) {
         _sData = nil;

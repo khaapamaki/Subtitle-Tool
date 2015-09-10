@@ -14,11 +14,11 @@
 #pragma mark - Setters and getters
 
 -(double)timeValue {
-    return __timeInSeconds.doubleValue;
+    return _timeInSeconds.doubleValue;
 }
 
 -(void)setTimeValue:(double) aValue {
-    __timeInSeconds = [NSNumber numberWithDouble:aValue];
+    _timeInSeconds = [NSNumber numberWithDouble:aValue];
 }
 
 -(int)hours {
@@ -26,7 +26,7 @@
 }
 
 -(void)setHours:(int)hours {
-    __timeInSeconds = [NSNumber numberWithDouble:
+    _timeInSeconds = [NSNumber numberWithDouble:
                         (hours * 3600.0 + self.minutes * 60.0 + self.seconds + self.milliseconds / 1000.0)];
 }
 
@@ -35,7 +35,7 @@
 }
 
 -(void)setMinutes:(int)minutes {
-    __timeInSeconds = [NSNumber numberWithDouble:
+    _timeInSeconds = [NSNumber numberWithDouble:
                           (self.hours * 3600.0 + minutes * 60.0 + self.seconds + self.milliseconds / 1000.0)];
 }
 
@@ -44,17 +44,17 @@
 }
 
 -(void)setSeconds:(int)seconds {
-    __timeInSeconds = [NSNumber numberWithDouble:
+    _timeInSeconds = [NSNumber numberWithDouble:
                           (self.hours * 3600.0 + self.minutes * 60.0 + seconds + self.milliseconds / 1000.0)];
 }
 
 -(int)frames {
-    return (int) floor((self.timeValue - floor(self.timeValue) + 0.0005) * __timecodeBase.doubleValue);
+    return (int) floor((self.timeValue - floor(self.timeValue) + 0.0005) * _timecodeBase.doubleValue);
 }
 
 -(void)setFrames:(int)frames {
-    __timeInSeconds = [NSNumber numberWithDouble:
-                          (self.hours * 3600.0 + self.minutes * 60.0 + self.seconds + frames / __timecodeBase.doubleValue)];
+    _timeInSeconds = [NSNumber numberWithDouble:
+                          (self.hours * 3600.0 + self.minutes * 60.0 + self.seconds + frames / _timecodeBase.doubleValue)];
 }
 
 -(int)milliseconds {
@@ -62,7 +62,7 @@
 }
 
 -(void)setMilliseconds:(int)milliseconds {
-    __timeInSeconds = [NSNumber numberWithDouble:
+    _timeInSeconds = [NSNumber numberWithDouble:
                           (self.hours * 3600.0 + self.minutes * 60.0 + self.seconds + milliseconds / 1000.0)];
 }
 
@@ -81,9 +81,9 @@
 }
 
 - (void)setTimecodeByString:(NSString *)tcString {
-    NSNumber *time = [[self class] parseTimecodeString:tcString timecodeBase:__timecodeBase];
+    NSNumber *time = [[self class] parseTimecodeString:tcString timecodeBase:_timecodeBase];
     if (time != nil) {
-        __timeInSeconds = time;
+        _timeInSeconds = time;
     }
 }
 
@@ -128,26 +128,26 @@
 
 
 - (Timecode *)timecodeByAddingTimecode:(Timecode *)tc {
-    return [Timecode timecodeWithValue:@(self.timeValue + tc.timeValue) timecodeBase:self._timecodeBase];
+    return [Timecode timecodeWithValue:@(self.timeValue + tc.timeValue) timecodeBase:_timecodeBase];
 }
 
 - (Timecode *)timecodeBySubtractingTimecode:(Timecode *)tc {
-    return [Timecode timecodeWithValue:@(self.timeValue - tc.timeValue) timecodeBase:self._timecodeBase];
+    return [Timecode timecodeWithValue:@(self.timeValue - tc.timeValue) timecodeBase:_timecodeBase];
 }
 - (Timecode *)timecodeByAddingSeconds:(NSNumber *)timeInSeconds {
-    return [Timecode timecodeWithValue:@(self.timeValue + [timeInSeconds doubleValue]) timecodeBase:self._timecodeBase];
+    return [Timecode timecodeWithValue:@(self.timeValue + [timeInSeconds doubleValue]) timecodeBase:_timecodeBase];
 }
 
 - (Timecode *)timecodeBySubtractingSeconds:(NSNumber *)timeInSeconds {
-    return [Timecode timecodeWithValue:@(self.timeValue - [timeInSeconds doubleValue]) timecodeBase:self._timecodeBase];
+    return [Timecode timecodeWithValue:@(self.timeValue - [timeInSeconds doubleValue]) timecodeBase:_timecodeBase];
 }
 
 - (Timecode *)timecodeByAddingFrames:(NSInteger)frames {
-    return [Timecode timecodeWithValue:@(self.timeValue + frames / [self._timecodeBase doubleValue]) timecodeBase:self._timecodeBase];
+    return [Timecode timecodeWithValue:@(self.timeValue + frames / [_timecodeBase doubleValue]) timecodeBase:_timecodeBase];
 }
 
 - (Timecode *)timecodeBySubtractingFrames:(NSInteger)frames {
-    return [Timecode timecodeWithValue:@(self.timeValue - frames / [self._timecodeBase doubleValue]) timecodeBase:self._timecodeBase];
+    return [Timecode timecodeWithValue:@(self.timeValue - frames / [_timecodeBase doubleValue]) timecodeBase:_timecodeBase];
 }
 
 
@@ -189,46 +189,46 @@
 
 - (id)initWithValue:(NSNumber *)timeValue {
     if (self = [super init]) {
-        __defaultTimecodeBase = @25.0;
-        __timecodeBase = [__defaultTimecodeBase copy];
-        __timeInSeconds = [NSNumber numberWithDouble:[timeValue doubleValue]];
+        _defaultTimecodeBase = @25.0;
+        _timecodeBase = [_defaultTimecodeBase copy];
+        _timeInSeconds = [NSNumber numberWithDouble:[timeValue doubleValue]];
     }
     return self;
 }
 
 - (id)initWithValue:(NSNumber *)timeValue timecodeBase:(NSNumber *) tcBase {
     if (self = [super init]) {
-        __defaultTimecodeBase = @25.0;
-        __timecodeBase = tcBase;
-        __timeInSeconds = [NSNumber numberWithDouble:[timeValue doubleValue]];
+        _defaultTimecodeBase = @25.0;
+        _timecodeBase = tcBase;
+        _timeInSeconds = [NSNumber numberWithDouble:[timeValue doubleValue]];
     }
     return self;
 }
 
 - (id)initWithFrames:(long)frames {
     if (self = [super init]) {
-        __defaultTimecodeBase = @25.0;
-        __timecodeBase = [__defaultTimecodeBase copy];
-        __timeInSeconds = [NSNumber numberWithDouble:((double)frames / [__timecodeBase doubleValue])];
+        _defaultTimecodeBase = @25.0;
+        _timecodeBase = [_defaultTimecodeBase copy];
+        _timeInSeconds = [NSNumber numberWithDouble:((double)frames / [_timecodeBase doubleValue])];
     }
     return self;
 }
 
 - (id)initWithFrames:(long)frames timecodeBase:(NSNumber *) tcBase {
     if (self = [super init]) {
-        __defaultTimecodeBase = @25.0;
-        __timecodeBase = tcBase;
-        __timeInSeconds = [NSNumber numberWithDouble:((double)frames / [__timecodeBase doubleValue])];
+        _defaultTimecodeBase = @25.0;
+        _timecodeBase = tcBase;
+        _timeInSeconds = [NSNumber numberWithDouble:((double)frames / [_timecodeBase doubleValue])];
     }
     return self;
 }
 
 - (id)initWithTimecodeString:(NSString *)tcString {
     if (self = [super init]) {
-        __defaultTimecodeBase = @25.0;
-        __timecodeBase = [__defaultTimecodeBase copy];
-        NSNumber *time = [[self class] parseTimecodeString:tcString timecodeBase:__timecodeBase];
-        __timeInSeconds = time != nil ? time : @0.0;
+        _defaultTimecodeBase = @25.0;
+        _timecodeBase = [_defaultTimecodeBase copy];
+        NSNumber *time = [[self class] parseTimecodeString:tcString timecodeBase:_timecodeBase];
+        _timeInSeconds = time != nil ? time : @0.0;
     }
     
     return self;
@@ -236,10 +236,10 @@
 
 - (id)initWithTimecodeString:(NSString *)tcString timecodeBase:(NSNumber *) tcBase {
     if (self = [super init]) {
-        __defaultTimecodeBase = @25.0;
-        __timecodeBase = tcBase;
-        NSNumber *time = [[self class] parseTimecodeString:tcString timecodeBase:__timecodeBase];
-        __timeInSeconds = time != nil ? time : @0.0;
+        _defaultTimecodeBase = @25.0;
+        _timecodeBase = tcBase;
+        NSNumber *time = [[self class] parseTimecodeString:tcString timecodeBase:_timecodeBase];
+        _timeInSeconds = time != nil ? time : @0.0;
     }
     
     return self;
@@ -247,45 +247,45 @@
 
 - (id)initWithHours:(int) h minutes:(int) m seconds:(int) s frames:(int) fr {
     if (self = [super init]) {
-        __defaultTimecodeBase = @25.0;
-        __timecodeBase = [__defaultTimecodeBase copy];
-        __timeInSeconds = [NSNumber numberWithDouble: h * 3600.0 + m * 60.0 + s + fr / __timecodeBase.doubleValue];
+        _defaultTimecodeBase = @25.0;
+        _timecodeBase = [_defaultTimecodeBase copy];
+        _timeInSeconds = [NSNumber numberWithDouble: h * 3600.0 + m * 60.0 + s + fr / _timecodeBase.doubleValue];
     }
     return self;
 }
 
 - (id)initWithHours:(int) h minutes:(int) m seconds:(int) s frames:(int) fr timecodeBase:(NSNumber *) tcBase {
     if (self = [super init]) {
-        __defaultTimecodeBase = @25.0;
-        __timecodeBase = tcBase;
-        __timeInSeconds = [NSNumber numberWithDouble: h * 3600.0 + m * 60.0 + s + fr / __timecodeBase.doubleValue];
+        _defaultTimecodeBase = @25.0;
+        _timecodeBase = tcBase;
+        _timeInSeconds = [NSNumber numberWithDouble: h * 3600.0 + m * 60.0 + s + fr / _timecodeBase.doubleValue];
     }
     return self;
 }
 
 - (id)initWithHours:(int) h minutes:(int) m seconds:(int) s milliseconds:(int) ms {
     if (self = [super init]) {
-        __defaultTimecodeBase = @25.0;
-        __timecodeBase = [__defaultTimecodeBase copy];
-        __timeInSeconds = [NSNumber numberWithDouble: h * 3600.0 + m * 60.0 + s + ms / 1000.0];
+        _defaultTimecodeBase = @25.0;
+        _timecodeBase = [_defaultTimecodeBase copy];
+        _timeInSeconds = [NSNumber numberWithDouble: h * 3600.0 + m * 60.0 + s + ms / 1000.0];
     }
     return self;
 }
 
 - (id)initWithHours:(int) h minutes:(int) m seconds:(int) s milliseconds:(int) ms timecodeBase:(NSNumber *) tcBase {
     if (self = [super init]) {
-        __defaultTimecodeBase = @25.0;
-        __timecodeBase = tcBase;
-        __timeInSeconds = [NSNumber numberWithDouble: h * 3600.0 + m * 60.0 + s + ms /1000.0];
+        _defaultTimecodeBase = @25.0;
+        _timecodeBase = tcBase;
+        _timeInSeconds = [NSNumber numberWithDouble: h * 3600.0 + m * 60.0 + s + ms /1000.0];
     }
     return self;
 }
 
 - (id) init {
     if (self = [super init]) {
-        __defaultTimecodeBase = @25.0;
-        __timecodeBase = [__defaultTimecodeBase copy];
-        __timeInSeconds = @0.0;
+        _defaultTimecodeBase = @25.0;
+        _timecodeBase = [_defaultTimecodeBase copy];
+        _timeInSeconds = @0.0;
     }
     
     return self;

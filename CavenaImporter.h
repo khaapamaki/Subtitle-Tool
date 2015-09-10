@@ -10,12 +10,14 @@
 #import "Timecode.h"
 #import "Subtitle.h"
 
-@interface CavenaImporter : NSObject
+@interface CavenaImporter : NSObject {
+    NSData *_data;
+}
 
-@property NSData *_data;
 @property NSArray *subtitles;
 @property NSString *title;
 @property NSString *sid;
+@property NSError *lastError;
 @property NSString *errorMessage;
 
 - (BOOL)readFileWithPath:(NSString *)path;

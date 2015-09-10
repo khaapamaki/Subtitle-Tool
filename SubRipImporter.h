@@ -13,6 +13,7 @@
 @interface SubRipImporter : NSObject
 
 @property NSArray *subtitles;
+@property NSError *lastError;
 @property NSString *errorMessage;
 
 - (BOOL)readFileWithPath:(NSString *)path;

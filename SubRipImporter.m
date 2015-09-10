@@ -13,10 +13,19 @@
 -(BOOL)readFileWithPath:(NSString *)path {
 
     NSError *err = nil;
+    self.errorMessage = nil;
     NSMutableArray *subtitleArray = [[NSMutableArray alloc] initWithCapacity:3000];
     NSString *contentString = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&err];
 
+    self.lastError = err;
+    
     if (err != nil || contentString == nil) {
+        self.errorMessage = [err localizedDescription];
+        return NO;
+    }
+    
+    if (contentString == nil) {
+        self.errorMessage = @"Empty file";
         return NO;
     }
     NSArray *linesInFile = [contentString componentsSeparatedByString:@"\n"];
@@ -55,12 +64,15 @@
         return YES;
     }
     
+    self.errorMessage = @"No subtitles";
     return NO;
 }
 
 - (id)init {
     if (self = [super init]) {
         _subtitles = nil;
+        _errorMessage = nil;
+        _lastError = nil;
     }
     return self;
 }

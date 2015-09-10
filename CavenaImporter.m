@@ -14,17 +14,17 @@
 -(NSString *)bytesToStringFromPosition:(long long)start length:(long)length {
     NSMutableString *newString = [[NSMutableString alloc] initWithCapacity:128];
     
-    if (__data == nil) return nil;
-    if (start + length > __data.length) return nil;
+    if (_data == nil) return nil;
+    if (start + length > _data.length) return nil;
     
-    const char * fileBytes = (const char *)[__data bytes];
+    const char * fileBytes = (const char *)[_data bytes];
     
     long long index = start;
     long counter = 0;
     BOOL specialCharMode = NO; // takes in two bytes
     unsigned char specialCode = 0;
     
-    while (counter < length && index < __data.length) {
+    while (counter < length && index < _data.length) {
         char aByte = fileBytes[index];
         unsigned char numByte = (unsigned char) aByte;
         
@@ -140,9 +140,9 @@
 }
 
 - (unsigned char)byteAtPosition:(long long)position {
-    const char * fileBytes = (const char *)[__data bytes];
+    const char * fileBytes = (const char *)[_data bytes];
     unsigned char byteValue = (unsigned char) fileBytes[position];
-    if (position < __data.length) {
+    if (position < _data.length) {
         return byteValue;
     }
     return 0;
@@ -177,41 +177,54 @@
 }
 
 -(BOOL)readFileWithPath:(NSString *)path {
-    __data  = [NSData dataWithContentsOfFile:path];
-    NSMutableArray *newSubtitles = [[NSMutableArray alloc] initWithCapacity:3000];
-    if (__data  != nil) {
-        
-        _title = [self bytesToStringFromPosition:40 length:28];
-        _sid = [self bytesToStringFromPosition:2 length:20];
-        
-        long long position = 384;
-        long subCount = 0;
-        
-        while (__data.length >= position + 127) {
-            Subtitle *newSub = [self readFromPosition:position];
-            
-            if (newSub != nil) {
-                [newSubtitles addObject:newSub];
-                subCount++;
-            }
-            
-            position += 128;
-        }
-        if (subCount > 0) {
-            _subtitles = [NSArray arrayWithArray:newSubtitles];
-        }
-        return YES;
+    NSError *err = nil;
+    
+    _data  = [NSData dataWithContentsOfFile:path options:0 error:&err];
+    self.lastError = err;
+    self.errorMessage = nil;
+    
+    if (err != nil) {
+        self.errorMessage = [err localizedDescription];
+        return NO;
     }
-    return NO;
+    if (_data == nil) {
+        self.errorMessage = @"Empty file";
+        return NO;
+    }
+    NSMutableArray *newSubtitles = [[NSMutableArray alloc] initWithCapacity:3000];
+    
+    _title = [self bytesToStringFromPosition:40 length:28];
+    _sid = [self bytesToStringFromPosition:2 length:20];
+    
+    long long position = 384;
+    long subCount = 0;
+    
+    while (_data.length >= position + 127) {
+        Subtitle *newSub = [self readFromPosition:position];
+        
+        if (newSub != nil) {
+            [newSubtitles addObject:newSub];
+            subCount++;
+        }
+        
+        position += 128;
+    }
+    if (subCount > 0) {
+        _subtitles = [NSArray arrayWithArray:newSubtitles];
+    }
+    return YES;
+    
+
 }
 
 -(id) init {
     if (self = [super init]) {
         _subtitles = nil;
-        __data = nil;
+        _data = nil;
         _title = nil;
         _sid = nil;
         _errorMessage = nil;
+        _lastError = nil;
     }
     
     return self;

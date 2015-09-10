@@ -22,18 +22,21 @@
 @property (weak) IBOutlet NSTextField *statusLabel;
 @property (weak) IBOutlet NSTextField *sequenceTitle;
 @property (weak) IBOutlet NSButton *exportTTMLButton;
-@property (weak) IBOutlet NSButton *exportSRTButton;
+@property (weak) IBOutlet NSButton *exportSubRipButton;
 @property (weak) IBOutlet NSButton *addPlaceholderOption;
+@property (weak) IBOutlet NSMenuItem *exportTTMLMenuItem;
+@property (weak) IBOutlet NSMenuItem *exportSubRipMenuItem;
 
-- (IBAction)clickedOpenButton:(id)sender;
-- (IBAction)clickedExportTTMLButton:(id)sender;
-- (IBAction)clickedExportSRTButton:(id)sender;
+
+- (IBAction)openFile:(id)sender;
+- (IBAction)exportTTML:(id)sender;
+- (IBAction)exportSubRip:(id)sender;
 
 - (NSString *)selectFilePathForReading:(NSString*)initialPath;
 - (NSString *)selectFilePathForWriting:(NSString*)initialPath fileName:(NSString*)fileName;
 - (NSString *)getExportFileNameWithoutExtension;
 
-@property (weak) IBOutlet SubtitlePreviewControl *testi;
+@property (weak) IBOutlet SubtitlePreviewControl *tableViewController;
 
 @end
 
