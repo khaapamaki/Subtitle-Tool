@@ -11,11 +11,12 @@
 #import "Subtitle.h"
 
 @interface SubtitleData : NSObject
-@property NSString * title;
-@property NSArray * subtitles;
+
+@property (nonatomic, copy) NSString * title;
+@property (nonatomic, copy) NSArray * subtitles;
 @property (readonly) Timecode * firstTimecode;
 @property (readonly) Timecode * lastTimecode;
-@property NSNumber * timecodeBase;
-@property NSString * pathToSource;
+@property (nonatomic, copy) NSNumber * timecodeBase;
+@property (nonatomic, copy) NSString * pathToSource;
 
 @end

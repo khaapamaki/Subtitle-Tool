@@ -17,7 +17,7 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
-@property SubtitleData * subtitleData;
+@property (nonatomic) SubtitleData * subtitleData;
 
 @property (weak) IBOutlet NSTextField *statusLabel;
 @property (weak) IBOutlet NSTextField *sequenceTitle;

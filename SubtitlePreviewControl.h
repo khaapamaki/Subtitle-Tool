@@ -11,13 +11,13 @@
 
 @interface SubtitlePreviewControl : NSObject <NSTableViewDataSource, NSTableViewDataSource> 
 
-@property SubtitleData *sData;
+@property (nonatomic) SubtitleData *sData;
 @property (weak) IBOutlet NSTableView *aTableView;
 
 -(NSInteger)numberOfRowsInTableView:(NSTableView *)tableView; // NSTableViewDataSource
 -(id)tableView:(NSTableView *)tableView viewForTableColumn:(NSTableColumn *)tableColumn row:(NSInteger)row; // NSTableViewDelegate
 
--(void)redraw;
+-(void)reload;
 
 
 @end

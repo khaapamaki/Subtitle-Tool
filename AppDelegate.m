@@ -46,11 +46,15 @@
     
     NSString *extension = [[path pathExtension] lowercaseString];
     BOOL didLoad = NO;
+    NSString *errorMessage = nil;
     
     // Import Cavena
     if ([extension isEqualToString:@"890"]) {
+
+
         CavenaImporter *reader = [[CavenaImporter alloc] init];
         didLoad = [reader readFileWithPath:path];
+        errorMessage = reader.errorMessage;
         _subtitleData = [[SubtitleData alloc] init];
         _subtitleData.title = reader.title;
         if (reader.sid != nil) {
@@ -66,7 +70,7 @@
     if ([extension isEqualToString:@"srt"]) {
         SubRipImporter *reader = [[SubRipImporter alloc] init];
         didLoad = [reader readFileWithPath:path];
-        
+        errorMessage = reader.errorMessage;
         _subtitleData = [[SubtitleData alloc] init];
         _subtitleData.subtitles = reader.subtitles;
         _subtitleData.title = [[path lastPathComponent] stringByDeletingPathExtension];
@@ -92,12 +96,13 @@
 
     } else {
         [_statusLabel setStringValue:@"Could not open file"];
+        [_statusLabel setStringValue:errorMessage];
         _subtitleData = nil;
         [_exportTTMLButton setEnabled:NO];
         [_exportSubRipButton setEnabled:NO];
         [_sequenceTitle setStringValue:@""];
     }
-    [_tableViewController redraw];
+    [_tableViewController reload];
 }
 
 
@@ -114,8 +119,12 @@
     }
     if (pathToWrite != nil) {
         TTMLExporter *exporter = [[TTMLExporter alloc] init];
-        [exporter export:_subtitleData toPath:pathToWrite options:options];
-        [_statusLabel setStringValue:@"Wrote TTML file"];
+        if ([exporter export:_subtitleData toPath:pathToWrite options:options]) {
+            [_statusLabel setStringValue:@"Wrote TTML file"];
+        } else {
+            [_statusLabel setStringValue:exporter.errorMessage];
+        }
+
     } else {
         [_statusLabel setStringValue:@"Did not export"];
     }
@@ -134,8 +143,11 @@
     }
     if (pathToWrite != nil) {
         SubRipExporter *exporter = [[SubRipExporter alloc] init];
-        [exporter export:_subtitleData toPath:pathToWrite options:options];
-        [_statusLabel setStringValue:@"Wrote SubRip file"];
+        if ([exporter export:_subtitleData toPath:pathToWrite options:options]) {
+            [_statusLabel setStringValue:@"Wrote SubRip file"];
+        } else {
+            [_statusLabel setStringValue:exporter.errorMessage];
+        }
     } else {
         [_statusLabel setStringValue:@"Did not export"];
     }
@@ -156,6 +168,7 @@
 -(NSString*)selectFilePathForReading:(NSString*)initialPath {
     NSOpenPanel *openDlg = [NSOpenPanel openPanel];
     NSString *pathToOpen = nil;
+
     [openDlg setAllowedFileTypes:[NSArray arrayWithObjects:@"890", @"srt", nil]];
     [openDlg setCanChooseFiles:YES];
     [openDlg setAllowsMultipleSelection:NO];
@@ -183,7 +196,6 @@
     [saveDlg setAnimationBehavior:NSWindowAnimationBehaviorNone];
     if ([saveDlg runModal] == NSOKButton) {
         path = [[saveDlg URL] path];
-        
     }
     return path;
 }

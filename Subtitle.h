@@ -12,10 +12,11 @@
 
 @interface Subtitle : NSObject
 
-@property NSMutableArray *lines;
-@property Timecode *timecodeIn;
-@property Timecode *timecodeOut;
+@property (nonatomic, copy) NSMutableArray *lines;
+@property (nonatomic) Timecode *timecodeIn;
+@property (nonatomic) Timecode *timecodeOut;
 @property (readonly) NSString *timecodeInString;
 @property (readonly) NSString *text; // computed property with joined lines, italics removed
+
 @end
 

@@ -10,7 +10,7 @@
 
 @interface NSMutableString (NSMutableStringAdditions)
 
-// returns number of replacements done.. turha, käytä replacesOccurences...
+// a bit simpler to use than default replaceOccurences...
 - (long)replaceString:(NSString*)lookup withString:(NSString*)replacement;
 
 @end

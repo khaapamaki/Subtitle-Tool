@@ -15,11 +15,11 @@
 
     unsigned long subtitleCounter = 1;
     NSError *err = nil;
-    self.lastError = nil;
-    self.errorMessage = nil;
+    _lastError = nil;
+    _errorMessage = nil;
     
     if (options != nil) {
-        // add placeholder to the beginning of full hour
+        // add placeholder to the begining of first hour
         if ([options integerValue] != 0) {
             int firstHour = subtitleData.firstTimecode.hours;
             Timecode *inTC = [Timecode timecodeWithHours:firstHour minutes:0 seconds:0 frames:0 timecodeBase:subtitleData.timecodeBase];
@@ -53,14 +53,14 @@
         newFile = nil;
         
         if (err != nil) {
-            self.lastError = err;
-            self.errorMessage = [err localizedDescription];
+            _lastError = err;
+            _errorMessage = [err localizedDescription];
             return NO;
         }
         
         return YES;
     }
-    self.errorMessage = @"No path";
+    _errorMessage = @"No path";
     
     return NO;
 

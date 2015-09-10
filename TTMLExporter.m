@@ -13,15 +13,15 @@
 - (BOOL)export:(SubtitleData *)subtitleData toPath:(NSString *)path options:(NSNumber *)options {
     NSMutableString *newFile = [_headerTemplate mutableCopy];
     NSError *err = nil;
-    self.errorMessage = nil;
-    self.lastError = nil;
+    _errorMessage = nil;
+    _lastError = nil;
     
     const float originX = 15.0f;
     const float originY = 84.0f;
     const float originYDecrement = 5.0f;
     
     if (options != nil) {
-        // add placeholder to the beginning of first hour
+        // add placeholder to the begining of first hour
         if ([options integerValue] != 0) {
             int firstHour = subtitleData.firstTimecode.hours;
             Timecode *inTC = [Timecode timecodeWithHours:firstHour minutes:0 seconds:0 frames:0 timecodeBase:subtitleData.timecodeBase];
@@ -70,15 +70,15 @@
         [newFile writeToFile:path atomically:YES encoding:NSUTF8StringEncoding error:&err];
         newFile = nil;
         if (err != nil) {
-            self.lastError = err;
-            self.errorMessage = [err localizedDescription];
+            _lastError = err;
+            _errorMessage = [err localizedDescription];
             return NO;
         }
         
         return YES;
     }
     
-    self.errorMessage = @"No path";
+    _errorMessage = @"No path";
     return NO;
 }
 

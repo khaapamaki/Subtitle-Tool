@@ -180,15 +180,15 @@
     NSError *err = nil;
     
     _data  = [NSData dataWithContentsOfFile:path options:0 error:&err];
-    self.lastError = err;
-    self.errorMessage = nil;
+    _lastError = err;
+    _errorMessage = nil;
     
     if (err != nil) {
-        self.errorMessage = [err localizedDescription];
+        _errorMessage = [err localizedDescription];
         return NO;
     }
     if (_data == nil) {
-        self.errorMessage = @"Empty file";
+        _errorMessage = @"Empty file";
         return NO;
     }
     NSMutableArray *newSubtitles = [[NSMutableArray alloc] initWithCapacity:3000];

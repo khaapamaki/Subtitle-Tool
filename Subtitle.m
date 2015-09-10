@@ -16,12 +16,14 @@
     }
     return @"";
 }
+
 -(NSString *)timecodeOutString {
     if (_timecodeIn != nil) {
         return [_timecodeOut getTimecodeStringWithFrames];
     }
     return @"";
 }
+
 -(NSString*)text {
     if (_lines != nil) {
         NSMutableString *displayStr = [[self.lines componentsJoinedByString:@" "] mutableCopy];
@@ -31,6 +33,7 @@
     }
     return @"";
 }
+
 - (id)init {
     if (self = [super init]) {
         _lines = [NSMutableArray new];

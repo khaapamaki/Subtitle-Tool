@@ -36,7 +36,7 @@
     return result;
 }
 
--(void)redraw {
+-(void)reload {
     [self.aTableView reloadData];
 }
 

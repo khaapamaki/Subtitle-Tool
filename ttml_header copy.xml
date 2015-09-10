@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<tt:tt xmlns:tt="http://www.w3.org/ns/ttml" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:dropMode="nonDrop" ttp:frameRate="25" ttp:timeBase="smpte" xmlns:ebuttdt="urn:ebu:tt:datatypes" xmlns:ebuttm="urn:ebu:tt:metadata" xmlns:ebutts="urn:ebu:tt:style" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling">
+    
+    <tt:head>
+        <tt:styling>
+            <tt:style tts:color="white" tts:fontFamily="arial" tts:fontWeight="normal" tts:textAlign="left" xml:id="basic"/>
+        </tt:styling>
+        <tt:layout>
+            <tt:region tts:backgroundColor="transparent" xml:id="pop1"/>
+            <tt:region tts:backgroundColor="transparent" xml:id="paint"/>
+            <tt:region tts:backgroundColor="transparent" xml:id="rollup2"/>
+            <tt:region tts:backgroundColor="transparent" xml:id="rollup3"/>
+            <tt:region tts:backgroundColor="transparent" xml:id="rollup4"/>
+        </tt:layout>
+        <tt:metadata>
+            <ebuttm:documentMetadata>
+                <ebuttm:documentEbuttVersion>v1.0</ebuttm:documentEbuttVersion>
+            </ebuttm:documentMetadata>
+        </tt:metadata>
+    </tt:head>
+    
+<tt:body>
+    <tt:div>

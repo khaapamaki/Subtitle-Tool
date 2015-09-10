@@ -14,11 +14,11 @@
     NSData *_data;
 }
 
-@property NSArray *subtitles;
-@property NSString *title;
-@property NSString *sid;
-@property NSError *lastError;
-@property NSString *errorMessage;
+@property (nonatomic, copy) NSArray *subtitles;
+@property (nonatomic, copy) NSString *title;
+@property (nonatomic, copy) NSString *sid;
+@property (readonly) NSError *lastError;
+@property (readonly) NSString *errorMessage;
 
 - (BOOL)readFileWithPath:(NSString *)path;
 

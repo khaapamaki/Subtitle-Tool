@@ -13,23 +13,23 @@
 -(BOOL)readFileWithPath:(NSString *)path {
 
     NSError *err = nil;
-    self.errorMessage = nil;
+    _errorMessage = nil;
     NSMutableArray *subtitleArray = [[NSMutableArray alloc] initWithCapacity:3000];
     NSString *contentString = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&err];
 
-    self.lastError = err;
+    _lastError = err;
     
     if (err != nil || contentString == nil) {
-        self.errorMessage = [err localizedDescription];
+        _errorMessage = [err localizedDescription];
         return NO;
     }
     
     if (contentString == nil) {
-        self.errorMessage = @"Empty file";
+        _errorMessage = @"Empty file";
         return NO;
     }
-    NSArray *linesInFile = [contentString componentsSeparatedByString:@"\n"];
     
+    NSArray *linesInFile = [contentString componentsSeparatedByString:@"\n"];
     NSString *regexPattern = @"^([0-9]{2}:[0-9]{2}:[0-9]{2},[0-9]{3}) --> ([0-9]{2}:[0-9]{2}:[0-9]{2},[0-9]{3})$";
     
     for (long index=0; index < [linesInFile count]; index++) {
@@ -60,11 +60,9 @@
     
     if ([subtitleArray count] > 0) {
         self.subtitles = [subtitleArray copy];
-        
         return YES;
     }
-    
-    self.errorMessage = @"No subtitles";
+    _errorMessage = @"No subtitles";
     return NO;
 }
 
