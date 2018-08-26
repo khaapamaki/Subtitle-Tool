@@ -1,0 +1,656 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:timeBase="media" xmlns:tts="http://www.w3.org/ns/ttml#style" xml:lang="en" xmlns:ttm="http://www.w3.org/ns/ttml#metadata">
+  <head>
+    <metadata>
+      <ttm:title></ttm:title>
+    </metadata>
+    <styling>
+      <style id="s0" tts:backgroundColor="black" tts:fontStyle="normal" tts:fontSize="16" tts:fontFamily="sansSerif" tts:color="white" />
+    </styling>
+  </head>
+  <body style="s0">
+    <div>
+      <p begin="00:00:05:00" id="p0" end="00:00:08:08"><span tts:fontStyle="italic">Pääministerimme on</span><br /><span tts:fontStyle="italic">määrätietoinen ja realistinen.</span></p>
+      <p begin="00:00:08:13" id="p1" end="00:00:10:22">Täällä ei ole onnellisia liittoja.</p>
+      <p begin="00:00:11:02" id="p2" end="00:00:16:07">Osaamme tehdä kompromisseja<br />töissä, mutta emme kotona.</p>
+      <p begin="00:00:16:11" id="p3" end="00:00:18:07">Mitä teille on tapahtumassa?</p>
+      <p begin="00:00:18:11" id="p4" end="00:00:22:16">Kanssasi jakamani aika<br />on ollut hienointa elämässäni.</p>
+      <p begin="00:00:24:11" id="p5" end="00:00:28:09">Tämä ei saa olla se,<br />minkä muistamme. Haluan erota.</p>
+      <p begin="00:00:29:07" id="p6" end="00:00:32:22">Annoit pääministerin spintohtorin<br />editoida aineistoa!</p>
+      <p begin="00:00:33:01" id="p7" end="00:00:37:20">Sinä vähät välität lehdistön-<br />vapaudesta. Minä otan lopputilin.</p>
+      <p begin="00:00:38:06" id="p8" end="00:00:41:07">Työväenpuolue alkaa<br />pian painostaa sinua.</p>
+      <p begin="00:00:41:12" id="p9" end="00:00:44:11">Mitä tekisin?<br />- Anna heille myönnytyksiä.</p>
+      <p begin="00:00:44:16" id="p10" end="00:00:48:22">He haluavat saada valtiovarain-<br />ministeriön. - Ei ole pakko antaa.</p>
+      <p begin="00:00:49:01" id="p11" end="00:00:51:20">Minun on pyydettävä<br />sinua eroamaan.</p>
+      <p begin="00:00:57:19" id="p12" end="00:01:03:19">Siksi jätin sinut. Mietit vain omia<br />prioriteettejasi ja salaisuuksiasi.</p>
+      <p begin="00:01:03:23" id="p13" end="00:01:06:00">Ei minulla ole salaisuuksia.</p>
+      <p begin="00:01:06:05" id="p14" end="00:01:11:03">Tein vain sen, mikä oli tarpeen.<br />- Niin pääministeri tekee.</p>
+      <p begin="00:01:18:15" id="p15" end="00:01:22:11">"Sota on perusteltua silloin,<br />kun se on välttämätöntä."</p>
+      <p begin="00:01:24:15" id="p16" end="00:01:29:05">11 KUUKAUTTA MYÖHEMMIN</p>
+      <p begin="00:01:34:09" id="p17" end="00:01:36:21">Tämä on syvimmällä<br />sijaitseva asemamme.</p>
+      <p begin="00:01:37:02" id="p18" end="00:01:39:14">Sittenkö talibanit<br />määräävät tahdin?</p>
+      <p begin="00:01:39:18" id="p19" end="00:01:43:17">Haluamme olla niskan päällä,<br />mutta lähistöllä on talibaneja.</p>
+      <p begin="00:01:43:24" id="p20" end="00:01:47:19">Viimeisin yhteenottoko<br />oli huhtikuussa? - Aivan.</p>
+      <p begin="00:01:47:23" id="p21" end="00:01:50:10">Onneksi on ollut hiljaista.</p>
+      <p begin="00:01:54:20" id="p22" end="00:01:59:01">Pääministeri pitää puheen<br />kymmenen minuutin päästä.</p>
+      <p begin="00:02:03:04" id="p23" end="00:02:08:18">Puheen jälkeen toimittajat<br />voivat esittää kysymyksiä.</p>
+      <p begin="00:02:13:04" id="p24" end="00:02:18:08">Mitä hittoa sinä täällä teet?<br />- Kutsuttiin lehdistökiertueelle.</p>
+      <p begin="00:02:20:09" id="p25" end="00:02:24:22">Saako Ekspres nyt erityiskohtelua?<br />- Pyysin oikein nätisti.</p>
+      <p begin="00:02:25:02" id="p26" end="00:02:28:17">Olet kuulemma Laugesenin<br />uusi tähtitoimittaja.</p>
+      <p begin="00:02:28:22" id="p27" end="00:02:32:17">Mitä pääministeri aikoo sanoa?<br />- "Kiitos panostuksestanne."</p>
+      <p begin="00:02:32:21" id="p28" end="00:02:37:00">"Nyt pääsette kotiin."<br />Sitten hän saa kolikon.</p>
+      <p begin="00:02:37:04" id="p29" end="00:02:41:18">Palaatko kotiin muiden kanssa?<br />- Tässä on valokuvaajani Kalle.</p>
+      <p begin="00:02:41:23" id="p30" end="00:02:47:13">Seuraamme sotilaita viikon ajan.<br />- Oletko nykyään sotatoimittaja?</p>
+      <p begin="00:02:47:17" id="p31" end="00:02:52:04">Täällä pitäisi olla rauhallista.<br />Konfliktista on viisi kuukautta.</p>
+      <p begin="00:02:52:09" id="p32" end="00:02:54:21">Pitkä aika.<br />- Niinpä.</p>
+      <p begin="00:02:55:00" id="p33" end="00:02:58:18">Seurustelet viestintäkonsultti<br />Lotte Ågårdin kanssa.</p>
+      <p begin="00:02:58:23" id="p34" end="00:03:02:11">Luen hänen blogiaan. Se on hyvä.<br />- Kiitos.</p>
+      <p begin="00:03:02:16" id="p35" end="00:03:05:10">Tervetuloa Afganistaniin.<br />- Kiitos.</p>
+      <p begin="00:03:05:14" id="p36" end="00:03:10:14">Tervehditäänkö ykköspartiota?<br />- Hei.</p>
+      <p begin="00:03:10:19" id="p37" end="00:03:14:18">Niklas.<br />- Hei, Niklas.</p>
+      <p begin="00:03:16:02" id="p38" end="00:03:20:15">Hei. Hedegård. Pääsisinkö kuvaan<br />pääministerin kanssa? - Totta kai.</p>
+      <p begin="00:03:20:20" id="p39" end="00:03:24:21">Menemme partioimaan,<br />joten emme kuule puhettanne.</p>
+      <p begin="00:03:26:08" id="p40" end="00:03:29:01">Täällä käy harvoin<br />hyvännäköisiä naisia -</p>
+      <p begin="00:03:29:05" id="p41" end="00:03:32:19">joten on tartuttava tilaisuuteen.</p>
+      <p begin="00:03:32:24" id="p42" end="00:03:35:13">Ja vielä toinen.</p>
+      <p begin="00:03:35:17" id="p43" end="00:03:40:11">Nyt riittää, Hedegård.<br />- Hyvää päivänjatkoa.</p>
+      <p begin="00:03:40:16" id="p44" end="00:03:44:00">Turvallista matkaa.<br />- Samoin.</p>
+      <p begin="00:03:44:05" id="p45" end="00:03:48:08">Hittolainen, miten hyvä kuva.</p>
+      <p begin="00:03:49:11" id="p46" end="00:03:53:05">Olen kiitollinen siitä,<br />että laitatte henkenne alttiiksi -</p>
+      <p begin="00:03:53:09" id="p47" end="00:03:58:10">jotta Afganistaniin saataisiin<br />rauha ja demokratia.</p>
+      <p begin="00:03:58:15" id="p48" end="00:04:01:02">Saatte olla ylpeitä tuloksista.</p>
+      <p begin="00:04:01:07" id="p49" end="00:04:06:12">Parlamentti tekee pian päätöksen<br />palveluksestanne Afganistanissa.</p>
+      <p begin="00:04:06:17" id="p50" end="00:04:12:17">Uskon vahvasti, että tanskalaiset<br />joukot vedetään pian pois maasta.</p>
+      <p begin="00:04:12:22" id="p51" end="00:04:17:11">Toisin sanoen palveluksenne<br />täällä päättyy lähiaikoina.</p>
+      <p begin="00:04:17:16" id="p52" end="00:04:22:05">Kiitän teitä koko Tanskan puolesta<br />suuresta panostuksestanne.</p>
+      <p begin="00:04:22:10" id="p53" end="00:04:27:04">Sitä ei unohdeta täällä<br />eikä Tanskassa. Kiitoksia.</p>
+      <p begin="00:04:32:06" id="p54" end="00:04:34:18">Ette kuulleet sitä, mitä halusitte.</p>
+      <p begin="00:04:34:22" id="p55" end="00:04:38:16">Me teemme niin,<br />kuin poliitikot päättävät.</p>
+      <p begin="00:04:38:20" id="p56" end="00:04:42:04">Onhan teillä omiakin näkemyksiä.<br />- Emme puhu niistä.</p>
+      <p begin="00:04:42:08" id="p57" end="00:04:46:04">Olen menettänyt neljä nuorta<br />sotilasta. Siinä on neljä liikaa.</p>
+      <p begin="00:04:46:08" id="p58" end="00:04:50:04">Kello 16 lähtenyt partio<br />on joutunut ankaraan tulitukseen.</p>
+      <p begin="00:04:50:09" id="p59" end="00:04:55:05">Kahta haavoittunutta tuodaan,<br />ja alueella on vihollisten väkeä.</p>
+      <p begin="00:04:55:10" id="p60" end="00:05:00:15">Pääministeri ja puolustusministeri<br />lennätetään pois saman tien.</p>
+      <p begin="00:05:00:19" id="p61" end="00:05:04:10">Kalle?<br />- Mitä nyt?</p>
+      <p begin="00:05:04:24" id="p62" end="00:05:08:00">Haavoittuneita tuodaan!<br />On saatava kuvia!</p>
+      <p begin="00:05:08:04" id="p63" end="00:05:10:17">Saako kuvata?<br />- Pakko saada.</p>
+      <p begin="00:05:10:22" id="p64" end="00:05:13:04">Katrine!</p>
+      <p begin="00:05:15:02" id="p65" end="00:05:18:23">Lähdemme nyt ja koneessa<br />on tilaa. Tuletteko mukaan?</p>
+      <p begin="00:05:19:03" id="p66" end="00:05:21:23">Jäämme tänne.<br />- Se on vaarallista!</p>
+      <p begin="00:05:22:03" id="p67" end="00:05:25:16">Mitä luulet Laugesenin sanovan,<br />jos heti jänistän?</p>
+      <p begin="00:05:25:21" id="p68" end="00:05:29:08">Vie kovalevy mukanasi<br />kaiken varalta.</p>
+      <p begin="00:05:29:12" id="p69" end="00:05:31:11">Nähdään Kööpenhaminassa.</p>
+      <p begin="00:05:44:02" id="p70" end="00:05:49:23">Kaksi traumapotilasta!<br />- Ammuttu alavatsaan.</p>
+      <p begin="00:05:50:03" id="p71" end="00:05:55:17">Ampumahaava myös kaulassa.<br />Hengitys kiivasta ja vaikeaa.</p>
+      <p begin="00:05:55:22" id="p72" end="00:05:58:12">Heidän tilansa on<br />saatava vakaaksi!</p>
+      <p begin="00:05:58:16" id="p73" end="00:06:01:11">Miksi täällä on toimittajia?<br />- Meillä on lupa.</p>
+      <p begin="00:06:01:15" id="p74" end="00:06:05:06">Pysykää pois tieltä.<br />- Lääkäri tänne!</p>
+      <p begin="00:06:07:17" id="p75" end="00:06:12:08">Vuoto on saatava tyrehtymään.<br />- Kaksi uutta potilasta tulossa!</p>
+      <p begin="00:06:12:13" id="p76" end="00:06:15:23">Ilmoittakaa kenttäsairaalaan!<br />Tarvitsemme verta.</p>
+      <p begin="00:06:16:06" id="p77" end="00:06:19:13">Hän on kuolemaisillaan, helvetti!</p>
+      <p begin="00:07:26:09" id="p78" end="00:07:30:19">VALLAN LINNAKE<br />89 000 lasta</p>
+      <p begin="00:07:35:22" id="p79" end="00:07:39:12">Selvä...</p>
+      <p begin="00:07:39:17" id="p80" end="00:07:45:10">Myös brittien, amerikkalaisten<br />ja saksalaisten leireihin iskettiin.</p>
+      <p begin="00:07:45:15" id="p81" end="00:07:48:22">Kuolonuhreja on useita<br />ja teot ovat suunniteltuja.</p>
+      <p begin="00:07:49:02" id="p82" end="00:07:54:17">Miksi nyt? - Taliban kyttää maita,<br />joilla on joukkoja Afganistanissa.</p>
+      <p begin="00:07:54:21" id="p83" end="00:07:58:00">He tietävät,<br />että olemme vetäytymässä.</p>
+      <p begin="00:07:58:05" id="p84" end="00:08:01:19">Hyökkäykset saavat lähdön<br />näyttämään pakenemiselta -</p>
+      <p begin="00:08:01:24" id="p85" end="00:08:05:10">mikä olisi suuri henkinen voitto<br />talibaneille.</p>
+      <p begin="00:08:05:15" id="p86" end="00:08:11:03">Siksi vastustinkin sitä,<br />että nyt puhutaan vetäytymisestä.</p>
+      <p begin="00:08:13:11" id="p87" end="00:08:15:21">Suokaa anteeksi.</p>
+      <p begin="00:08:21:00" id="p88" end="00:08:24:01">Hei, Lotte. Minä tässä.<br />Leiriin hyökättiin -</p>
+      <p begin="00:08:24:05" id="p89" end="00:08:27:12">mutta olemme nyt kotimatkalla.<br />Nukun yön kotonani.</p>
+      <p begin="00:08:27:17" id="p90" end="00:08:30:02">Soitan aamulla.<br />Pusuja. Hei sitten.</p>
+      <p begin="00:08:30:17" id="p91" end="00:08:33:21">Taliban-hyökkäysten<br />laajuutta ei vielä tiedetä -</p>
+      <p begin="00:08:34:00" id="p92" end="00:08:38:00">mutta kahden tanskalaispartion<br />kimppuun hyökättiin yhtä aikaa -</p>
+      <p begin="00:08:38:04" id="p93" end="00:08:42:15">suhteellisen rauhallisena<br />pidetyllä alueella.</p>
+      <p begin="00:08:42:20" id="p94" end="00:08:46:13">Katrine Fønsmark, Ekspers,<br />Afganistan.</p>
+      <p begin="00:08:53:15" id="p95" end="00:08:56:08">Se oli USA:n puolustusministeri.</p>
+      <p begin="00:08:56:12" id="p96" end="00:09:00:09">He pyytävät meitä lykkäämään<br />vetäytymistä. - Mitä vastasit?</p>
+      <p begin="00:09:00:13" id="p97" end="00:09:04:06">Sanoin hallituksen kokoustavan<br />asiasta heti aamulla.</p>
+      <p begin="00:09:04:10" id="p98" end="00:09:09:18">Tavoite on vetää joukot pois ja<br />siirtää vastuu afganistanilaisille.</p>
+      <p begin="00:09:09:23" id="p99" end="00:09:15:14">Tämä osoittaa, etteivät he ole<br />valmiita ottamaan vastuuta itse.</p>
+      <p begin="00:09:16:19" id="p100" end="00:09:22:01">Haloo.<br />- Lehdistötilaisuus pidetään heti.</p>
+      <p begin="00:09:24:24" id="p101" end="00:09:27:21">Yksi sotilaistamme kuoli.</p>
+      <p begin="00:09:29:16" id="p102" end="00:09:33:06">Ei... Miten se tapahtui?</p>
+      <p begin="00:09:35:00" id="p103" end="00:09:37:11">Onko omaisille ilmoitettu?</p>
+      <p begin="00:09:39:08" id="p104" end="00:09:42:24">Hyvä. Selvä. Kiitos.</p>
+      <p begin="00:09:44:16" id="p105" end="00:09:51:11">Neljä muuta sotilasta on saanut<br />surmansa Gereshkin laaksossa.</p>
+      <p begin="00:09:51:15" id="p106" end="00:09:55:18">Viisi sotilasta? - Yhtenä päivänä.<br />Tämä on ennenkuulumatonta.</p>
+      <p begin="00:09:57:10" id="p107" end="00:10:00:20">Pitää miettiä,<br />mitä sanomme lehdistölle.</p>
+      <p begin="00:10:01:09" id="p108" end="00:10:05:04">Pyydän pääesikunnan väkeä<br />lentokentälle vastaan.</p>
+      <p begin="00:10:06:03" id="p109" end="00:10:09:21">Sotilaat on saatava heti kotiin!</p>
+      <p begin="00:10:12:19" id="p110" end="00:10:15:09">Katso.</p>
+      <p begin="00:10:19:10" id="p111" end="00:10:23:00">Tehän olette Expresin väkeä?<br />- Kyllä. Katrine Fønsmark.</p>
+      <p begin="00:10:23:04" id="p112" end="00:10:27:23">Thomas Hald.<br />Miten ajattelitte asiaa lähestyä?</p>
+      <p begin="00:10:28:03" id="p113" end="00:10:30:12">Emme tiedä vielä.</p>
+      <p begin="00:10:30:17" id="p114" end="00:10:34:08">Näin montaa kuolonuhria<br />ei ole koskaan tullut päivässä -</p>
+      <p begin="00:10:34:13" id="p115" end="00:10:40:00">mutta he ovat tietoisia riskeistä.<br />En halua puuttua näkökulmaanne -</p>
+      <p begin="00:10:40:05" id="p116" end="00:10:44:11">mutta jos esitätte heidät hyvä-<br />uskoisina uhreina, moni pahastuu.</p>
+      <p begin="00:10:44:16" id="p117" end="00:10:49:11">Kuolleet sotilaatkin ovat<br />joidenkin poikia, veljiä ja isiä.</p>
+      <p begin="00:10:49:16" id="p118" end="00:10:52:15">Ihmisten,<br />jotka ovat heistä ylpeitä.</p>
+      <p begin="00:10:53:05" id="p119" end="00:10:55:16">Ovatko nuo omaisille?<br />- Kyllä.</p>
+      <p begin="00:10:55:21" id="p120" end="00:11:00:24">He kirjoittavat jäähyväiskirjeen<br />omaisilleen kaatumisen varalta.</p>
+      <p begin="00:11:01:03" id="p121" end="00:11:05:14">Mieti heitä, kun kirjoitat juttuasi.<br />- Totta kai.</p>
+      <p begin="00:11:05:19" id="p122" end="00:11:08:09">En aikonut...<br />- Lupaa miettiä heitä.</p>
+      <p begin="00:11:34:11" id="p123" end="00:11:37:04">TERVETULOA KOTIIN, ÄITI</p>
+      <p begin="00:12:28:12" id="p124" end="00:12:31:01">Hän taitaa vielä nukkua.</p>
+      <p begin="00:12:33:14" id="p125" end="00:12:38:07">Hän ei ole täällä.<br />- Haetaan jumppavaatteesi.</p>
+      <p begin="00:12:40:06" id="p126" end="00:12:44:04">Huomenta, kulta!<br />- Nukuitko sängyssäni?</p>
+      <p begin="00:12:44:09" id="p127" end="00:12:48:11">Poikkesimme vain hakemaan<br />hänen jumppavaatteensa.</p>
+      <p begin="00:12:50:23" id="p128" end="00:12:53:23">Näin uutiset.<br />Taisi olla rankka matka. - Kyllä.</p>
+      <p begin="00:12:54:04" id="p129" end="00:12:56:13">Mikä tämä on?</p>
+      <p begin="00:12:57:16" id="p130" end="00:13:00:22">Sain sen lahjaksi Afganistanissa.</p>
+      <p begin="00:13:01:02" id="p131" end="00:13:05:04">Se on kolikko<br />Aleksanteri Suuren ajalta.</p>
+      <p begin="00:13:05:08" id="p132" end="00:13:08:20">Hän oli kuuluisa kuningas,<br />joka eli kauan ennen Jeesusta.</p>
+      <p begin="00:13:08:24" id="p133" end="00:13:12:06">Kolikko on löytynyt alueelta,<br />jossa eilen olin.</p>
+      <p begin="00:13:12:11" id="p134" end="00:13:14:22">Siisti!<br />- Hieno on.</p>
+      <p begin="00:13:15:02" id="p135" end="00:13:21:20">Magnus, hae nyt ne kamppeesi.<br />- Se oli kamala reissu.</p>
+      <p begin="00:13:24:18" id="p136" end="00:13:28:13">Joko allekirjoitit ne paperit?<br />- Mitkä paperit?</p>
+      <p begin="00:13:28:18" id="p137" end="00:13:32:12">Eropaperit. Nimi alle vain.<br />Minä olen jo allekirjoittanut.</p>
+      <p begin="00:13:32:17" id="p138" end="00:13:36:14">Olen pahoillani, Phillip.</p>
+      <p begin="00:13:36:18" id="p139" end="00:13:41:23">En muista, mihin ne laitoin.<br />Ehkä ne ovat työpaikalla.</p>
+      <p begin="00:13:42:03" id="p140" end="00:13:45:06">Otatko kahvia?<br />- En. Haluan vain ne paperit.</p>
+      <p begin="00:13:45:11" id="p141" end="00:13:49:20">Muutin pois jo 10 kk:ta sitten.<br />Ostaisit osuuteni talosta.</p>
+      <p begin="00:13:50:00" id="p142" end="00:13:54:00">Lähetä uudet lomakkeet.<br />Lupaan allekirjoittaa ne heti.</p>
+      <p begin="00:13:54:04" id="p143" end="00:13:58:08">Tarvitsen ne jo loppuviikosta.<br />- Saat ne loppuviikosta.</p>
+      <p begin="00:13:58:13" id="p144" end="00:14:01:06">Magnus, tule jo!</p>
+      <p begin="00:14:03:08" id="p145" end="00:14:06:14">Hauskaa päivää, kulta.<br />- Nähdään pian, äiti.</p>
+      <p begin="00:14:08:04" id="p146" end="00:14:11:13">Hei sitten.<br />- Lähetän ne paperit. Hei.</p>
+      <p begin="00:14:13:04" id="p147" end="00:14:17:12"><span tts:fontStyle="italic">Birgitte Nyborg palasi aamulla</span><br /><span tts:fontStyle="italic">Afganistanin matkaltaan.</span></p>
+      <p begin="00:14:17:17" id="p148" end="00:14:21:21"><span tts:fontStyle="italic">Taliban-hyökkäys pakotti</span><br /><span tts:fontStyle="italic">pääministerin lähtemään -</span></p>
+      <p begin="00:14:22:02" id="p149" end="00:14:25:08">tanskalaisten tukikohdasta<br />ja lentämään kotiin.</p>
+      <p begin="00:14:25:17" id="p150" end="00:14:30:04">Tällä hetkellä viisi tanskalaista<br />sotilasta on saanut surmansa -</p>
+      <p begin="00:14:30:08" id="p151" end="00:14:32:14">toistaiseksi rajuimmassa iskussa.</p>
+      <p begin="00:14:32:20" id="p152" end="00:14:38:10">Politiikan toimittaja Torben Friis,<br />mitä Nyborgilla on nyt edessään?</p>
+      <p begin="00:14:38:15" id="p153" end="00:14:43:11">Hän lienee tähänastisen uransa<br />vaikeimmassa tilanteessa.</p>
+      <p begin="00:14:43:16" id="p154" end="00:14:47:17">Hänhän kumosi Afganistania<br />koskevan sopimuksen -</p>
+      <p begin="00:14:47:21" id="p155" end="00:14:50:15">ja oppositio on raivoissaan.</p>
+      <p begin="00:14:50:19" id="p156" end="00:14:53:24">Tanskan osallistuminen sotaan<br />on siis epäselvää.</p>
+      <p begin="00:14:54:04" id="p157" end="00:14:59:15">Nyborg joutuu siis päättämään,<br />vedetäänkö joukot pois maasta?</p>
+      <p begin="00:14:59:19" id="p158" end="00:15:05:01">Aivan. Uhriluku oli suurin,<br />jonka Tanska on päivässä kokenut.</p>
+      <p begin="00:15:05:05" id="p159" end="00:15:09:04"><span tts:fontStyle="italic">Pääministerin on osoitettava</span><br /><span tts:fontStyle="italic">tukensa maamme panostukselle -</span></p>
+      <p begin="00:15:09:08" id="p160" end="00:15:13:12"><span tts:fontStyle="italic">vaikka hän on vastustanut</span><br /><span tts:fontStyle="italic">osallistumistamme alusta alkaen.</span></p>
+      <p begin="00:15:13:17" id="p161" end="00:15:16:18">Huomenta.<br />- Huomenta!</p>
+      <p begin="00:15:16:22" id="p162" end="00:15:19:16">Käymmekö läpi<br />pääministerin aikataulut?</p>
+      <p begin="00:15:19:20" id="p163" end="00:15:23:05">Voit sinutella, Jytte.<br />Vedä yli kaikki -</p>
+      <p begin="00:15:23:09" id="p164" end="00:15:25:23">mikä ei koske Afganistania.<br />- Selvä.</p>
+      <p begin="00:15:26:15" id="p165" end="00:15:30:06">Kello 09:15 pääministeri tapaa...</p>
+      <p begin="00:15:30:18" id="p166" end="00:15:34:02">...tapaat hallituspuolueet<br />ja puolustusministerin.</p>
+      <p begin="00:15:34:06" id="p167" end="00:15:40:10">EU-ministeri Krusekin on paikalla.<br />Hän on puhunut EU-kollegoilleen.</p>
+      <p begin="00:15:40:16" id="p168" end="00:15:44:17">Sitten on lyhyt lehdistötilaisuus.<br />- Entä USA:n ulkoministeri?</p>
+      <p begin="00:15:44:22" id="p169" end="00:15:50:04">Hän soittaa ylihuomenna 10.30.<br />Afgaanien NGO otti yhteyttä.</p>
+      <p begin="00:15:50:09" id="p170" end="00:15:53:19">He haluavat tavata sinut pian.<br />- NGO?</p>
+      <p begin="00:15:53:24" id="p171" end="00:15:57:23">Se on kansalaisjärjestö.<br />- Tiedän, mikä NGO on.</p>
+      <p begin="00:15:58:03" id="p172" end="00:16:02:19">Ehkä puhuttuani amerikkalaisille?<br />- Yritän järjestää asian.</p>
+      <p begin="00:16:04:05" id="p173" end="00:16:08:14">Eikö ole tärkeämpääkin tekemistä<br />kuin tavata afgaanijärjestö?</p>
+      <p begin="00:16:08:19" id="p174" end="00:16:13:02">Viisi sotilastamme kuoli.<br />- Ei tarvitse muistuttaa, Kasper.</p>
+      <p begin="00:16:13:07" id="p175" end="00:16:16:10">Nähdään ihan pian.<br />- Selvä.</p>
+      <p begin="00:16:16:15" id="p176" end="00:16:19:04">Puhuit kollegoittesi kanssa.<br />- Kyllä.</p>
+      <p begin="00:16:19:08" id="p177" end="00:16:22:15">Espanja ja Italia haluavat<br />yhä vetäytyä nopeasti.</p>
+      <p begin="00:16:22:20" id="p178" end="00:16:25:19">Hyökkäys ei muuttanut kantoja.</p>
+      <p begin="00:16:25:24" id="p179" end="00:16:30:01">Espanja ja Italia ovat<br />koalition heikoimmat maat.</p>
+      <p begin="00:16:30:06" id="p180" end="00:16:32:20">Heidän panostuksensa on pieni.</p>
+      <p begin="00:16:33:00" id="p181" end="00:16:37:02">Tanska maksoi kovan hinnan.<br />Vetäytymisemme ymmärrettäisiin.</p>
+      <p begin="00:16:37:07" id="p182" end="00:16:39:11">Olen samaa mieltä.</p>
+      <p begin="00:16:39:16" id="p183" end="00:16:43:08">Uusin Taliban-hyökkäys<br />viestii päinvastaista -</p>
+      <p begin="00:16:43:13" id="p184" end="00:16:46:13">ja USA pyytää meitä jäämään.</p>
+      <p begin="00:16:46:18" id="p185" end="00:16:50:05">Jäämään?<br />- Vihreät eivät sitä päätöstä tee.</p>
+      <p begin="00:16:50:10" id="p186" end="00:16:53:17">Kansankäräjien enemmistö<br />on vetäytymisen kannalla.</p>
+      <p begin="00:16:53:22" id="p187" end="00:16:58:04">Työväenpuolue haluaa vetäytyä<br />strategisen tilanteen mentyä ohi.</p>
+      <p begin="00:16:58:09" id="p188" end="00:17:02:14">Mitä puolustusvoimat sanovat?<br />- He tekevät niin, kuin käskemme.</p>
+      <p begin="00:17:02:19" id="p189" end="00:17:06:24">Onhan heillä oltava jokin kanta<br />strategiseen tilanteeseen.</p>
+      <p begin="00:17:07:04" id="p190" end="00:17:11:19">He eivät halua vetäytyä,<br />koska uskovat voivansa voittaa.</p>
+      <p begin="00:17:11:24" id="p191" end="00:17:17:17">Tämä ei ole Clint Eastwood-leffa.<br />Olemme olleet siellä 10 vuotta.</p>
+      <p begin="00:17:17:22" id="p192" end="00:17:21:18">Venäläiset vielä kauemmin.<br />Ehkei Afganistanissa voi voittaa.</p>
+      <p begin="00:17:21:23" id="p193" end="00:17:23:19">Asia ei etene mihinkään.</p>
+      <p begin="00:17:23:23" id="p194" end="00:17:28:00">Kerron medialle, että odotamme<br />yhä vetäytymistä lähiaikoina -</p>
+      <p begin="00:17:28:04" id="p195" end="00:17:31:04">ja teemme kaikkemme<br />välttyäksemme lisäuhreilta.</p>
+      <p begin="00:17:31:09" id="p196" end="00:17:34:10">Ei pidä sanoa<br />"teemme kaikkemme".</p>
+      <p begin="00:17:34:14" id="p197" end="00:17:37:14">Media voi syyttää sinua,<br />jos uhreja tulee. - Aivan.</p>
+      <p begin="00:17:37:18" id="p198" end="00:17:40:05">Olemme yhtä mieltä<br />vetäytymisestä -</p>
+      <p begin="00:17:40:09" id="p199" end="00:17:44:18">ja yritämme saada joukot kotiin.<br />- Emme ole yhtä mieltä asiasta.</p>
+      <p begin="00:17:44:22" id="p200" end="00:17:49:05">Kannatamme yhä vetäytymistä,<br />mutta tarkkailemme tilannetta.</p>
+      <p begin="00:17:49:10" id="p201" end="00:17:52:06">Kiitos, hyvät herrat.</p>
+      <p begin="00:17:54:18" id="p202" end="00:18:00:10">Vaihda paitasi. Olemme sodassa.<br />Pue jotain mustaa ja napit kiinni.</p>
+      <p begin="00:18:00:16" id="p203" end="00:18:04:02">Hallitus on hyvin tietoinen<br />Afganistanin tilanteesta -</p>
+      <p begin="00:18:04:07" id="p204" end="00:18:08:02">ja sotilaidemme kohtaamasta<br />todellisuudesta siellä.</p>
+      <p begin="00:18:08:07" id="p205" end="00:18:12:04">Entä jos USA pyytää Tanskalta<br />suurempaa panostusta sotaan?</p>
+      <p begin="00:18:12:09" id="p206" end="00:18:15:02">En vastaa hypoteettisiin<br />kysymyksiin.</p>
+      <p begin="00:18:15:07" id="p207" end="00:18:18:10">Etusijalla on nyt<br />sotilaidemme turvallisuus -</p>
+      <p begin="00:18:18:14" id="p208" end="00:18:24:15">ja se, että afganistanilaiset<br />saisivat itse maansa hallintaan.</p>
+      <p begin="00:18:24:19" id="p209" end="00:18:26:09">Kiitos.<br />- Birgitte...</p>
+      <p begin="00:18:27:22" id="p210" end="00:18:30:13">Kiitoksia.</p>
+      <p begin="00:18:35:05" id="p211" end="00:18:38:12">Kaunokainen!<br />- Hei!</p>
+      <p begin="00:18:40:03" id="p212" end="00:18:42:19">Onpa ihana nähdä sinua.</p>
+      <p begin="00:18:47:13" id="p213" end="00:18:51:03">Olen ajatellut sinua niin paljon!</p>
+      <p begin="00:18:52:20" id="p214" end="00:18:56:18">Menetimme viisi miestä päivässä.</p>
+      <p begin="00:18:57:20" id="p215" end="00:18:59:22">Se on ihan hullua.</p>
+      <p begin="00:19:00:02" id="p216" end="00:19:03:18">Moni niistä, joita tapasimme,<br />saattaa olla nyt kuollut.</p>
+      <p begin="00:19:05:06" id="p217" end="00:19:10:04">Millainen päivä sinulla oli?<br />- Aika kesy sinun päiväsi rinnalla.</p>
+      <p begin="00:19:10:09" id="p218" end="00:19:13:21">Neuvoin vakuutusyhtiötä<br />neuvottelemaan hinnoista -</p>
+      <p begin="00:19:14:00" id="p219" end="00:19:17:17">menettämättä asiakkaitaan.<br />- Kuulostaa minun päivältäni.</p>
+      <p begin="00:19:17:21" id="p220" end="00:19:20:11">Minä neuvoin pääministeriä -</p>
+      <p begin="00:19:20:15" id="p221" end="00:19:24:20">kertomaan korkeista uhriluvuista<br />menettämättä äänestäjiään.</p>
+      <p begin="00:19:25:19" id="p222" end="00:19:29:06">Ja sitten minä olen...</p>
+      <p begin="00:19:31:17" id="p223" end="00:19:36:07">...ostanut ostereita<br />ja samppanjaa paluusi kunniaksi.</p>
+      <p begin="00:19:40:02" id="p224" end="00:19:46:00">Ostitko myös osteriveitsen?<br />- En. Se on ylälaatikossa.</p>
+      <p begin="00:19:46:04" id="p225" end="00:19:50:08">Minulta puuttuu kaikki,<br />mitä kotitaloudessa tarvitaan.</p>
+      <p begin="00:19:50:13" id="p226" end="00:19:54:02">Kun muutat tänne,<br />sinulta ei puutu enää mitään.</p>
+      <p begin="00:19:54:07" id="p227" end="00:20:00:13">Auttaako pääministeri muutossa?<br />- Ei. Minulla on vähän tavaraa.</p>
+      <p begin="00:20:00:18" id="p228" end="00:20:07:12">Tilaammeko muuttoauton?<br />- Asunto oli valmiiksi kalustettu.</p>
+      <p begin="00:20:07:17" id="p229" end="00:20:13:04">Minulla on kaksi matkalaukkua<br />ja yksi laatikko. Siinä kaikki.</p>
+      <p begin="00:20:13:09" id="p230" end="00:20:17:02">Selvä. Aika vähän tavaraa.</p>
+      <p begin="00:20:18:24" id="p231" end="00:20:23:10">Suurin osa tavaroistani on<br />varastossa Etelä-Ranskassa.</p>
+      <p begin="00:20:23:15" id="p232" end="00:20:27:13">Minun pitäisi hakea ne,<br />mutta kun isäni kuoli...</p>
+      <p begin="00:20:29:01" id="p233" end="00:20:34:08">Pitäisi kyllä hakea ne...<br />- Hei, ei se mitään.</p>
+      <p begin="00:20:34:13" id="p234" end="00:20:37:11">Ei ollut tarkoitus udella.</p>
+      <p begin="00:20:39:11" id="p235" end="00:20:43:19">Kiirehdimmeköhän tätä liikaa?<br />- Emme.</p>
+      <p begin="00:20:43:24" id="p236" end="00:20:47:22">Olet maailman upein nainen.</p>
+      <p begin="00:20:53:08" id="p237" end="00:20:56:23">Muista soittaa tälle miehelle.<br />Hei sitten, Magnus.</p>
+      <p begin="00:20:57:03" id="p238" end="00:21:01:15">Pesin uudet, isot pyyhkeet<br />ja laitoin ne kylpyhuoneeseen.</p>
+      <p begin="00:21:01:20" id="p239" end="00:21:04:04">Hienoa, Anne.<br />Nähdään huomenna.</p>
+      <p begin="00:21:04:08" id="p240" end="00:21:09:24"><span tts:fontStyle="italic">Lars Hesselboe, eikö ole korkea</span><br /><span tts:fontStyle="italic">aika vetää joukot Afganistanista?</span></p>
+      <p begin="00:21:10:04" id="p241" end="00:21:16:02"><span tts:fontStyle="italic">Pääministeri puolueineen on ollut</span><br /><span tts:fontStyle="italic">jo kauan kotiuttamisen kannalla -</span></p>
+      <p begin="00:21:16:07" id="p242" end="00:21:21:00"><span tts:fontStyle="italic">mutta afganistanilaiset eivät ole</span><br /><span tts:fontStyle="italic">valmiita ottamaan itse vastuuta.</span></p>
+      <p begin="00:21:21:04" id="p243" end="00:21:22:24"><span tts:fontStyle="italic">Milloin he ovat valmiita?</span></p>
+      <p begin="00:21:23:04" id="p244" end="00:21:29:14"><span tts:fontStyle="italic">Afganistan saanee Helmandin</span><br /><span tts:fontStyle="italic">hallintaan kahdessa vuodessa.</span></p>
+      <p begin="00:21:29:18" id="p245" end="00:21:31:09"><span tts:fontStyle="italic">Ollessani pääministeri -</span></p>
+      <p begin="00:21:31:13" id="p246" end="00:21:35:00"><span tts:fontStyle="italic">sotilaillemme piti lähettää</span><br /><span tts:fontStyle="italic">Leopard-panssarivaunuja -</span></p>
+      <p begin="00:21:35:04" id="p247" end="00:21:40:07"><span tts:fontStyle="italic">mutta Nyborg ei toteuttanut sitä,</span><br /><span tts:fontStyle="italic">ja nyt viisi sotilasta on kuollut.</span></p>
+      <p begin="00:21:40:11" id="p248" end="00:21:44:10">Älä hemmetissä minua syytä!</p>
+      <p begin="00:21:44:15" id="p249" end="00:21:47:24">Hei!<br />- Hei, kulta. Missä olet ollut?</p>
+      <p begin="00:21:48:04" id="p250" end="00:21:51:19">Luistelemassa.<br />- Unohdit luistimesi.</p>
+      <p begin="00:21:51:24" id="p251" end="00:21:56:11">Lainasin Rebeccalta.<br />Milloin syödään?</p>
+      <p begin="00:21:57:22" id="p252" end="00:22:02:08">Ajattelin tilata thai-ruokaa.<br />- Minä en halua sitä.</p>
+      <p begin="00:22:02:13" id="p253" end="00:22:05:21">Mitä sinä sitten haluat?<br />- Kotiruokaa.</p>
+      <p begin="00:22:06:01" id="p254" end="00:22:09:24">Minulla ei ole ollut aikaa.<br />- Ei niin.</p>
+      <p begin="00:22:10:04" id="p255" end="00:22:13:11">Teen huomenna kotiruokaa.</p>
+      <p begin="00:22:14:14" id="p256" end="00:22:18:10">Magnus, minkä sinä haluat?<br />Vitosenko?</p>
+      <p begin="00:22:18:15" id="p257" end="00:22:21:21">Ei, vaan seiskan.<br />- Selvä.</p>
+      <p begin="00:22:32:01" id="p258" end="00:22:34:14">Entä se Kasperille<br />antamani kovalevy?</p>
+      <p begin="00:22:34:19" id="p259" end="00:22:38:00">Tekstasin hänelle.<br />Saan sen illalla.</p>
+      <p begin="00:22:47:12" id="p260" end="00:22:49:05">Hei, muru.</p>
+      <p begin="00:22:49:10" id="p261" end="00:22:53:06">Hei, Hanne.<br />- Taisi olla rankka reissu.</p>
+      <p begin="00:22:53:11" id="p262" end="00:22:58:01">Meidät lähetettiin kotiin, koska<br />turvallisuuttamme ei voitu taata.</p>
+      <p begin="00:22:58:06" id="p263" end="00:23:02:18">Siinähän te olette.<br />Vihreä sopii sinulle, Katrine.</p>
+      <p begin="00:23:02:23" id="p264" end="00:23:05:16">Haluatko nähdä kuvia?<br />- Totta hemmetissä.</p>
+      <p begin="00:23:07:19" id="p265" end="00:23:12:00">Tuo on hyvä.<br />Kerrohan nyt kaikki, Katrine.</p>
+      <p begin="00:23:12:05" id="p266" end="00:23:15:09">Olimme paikalla,<br />kun ensimmäiset uhrit tuotiin.</p>
+      <p begin="00:23:15:14" id="p267" end="00:23:19:09">Haluaisin keskittyä<br />ensimmäiseen kuolonuhriin -</p>
+      <p begin="00:23:19:14" id="p268" end="00:23:22:01">ja ottaa yhteyttä<br />hänen perheeseensä.</p>
+      <p begin="00:23:22:05" id="p269" end="00:23:24:22">Onko kuvat käyty läpi?<br />- Se hoituu.</p>
+      <p begin="00:23:25:09" id="p270" end="00:23:29:19">Hyvä idea, mutta ehdotan<br />jotakin yksinkertaisempaa.</p>
+      <p begin="00:23:29:24" id="p271" end="00:23:35:02">"Birgitte Nyborg epäröi<br />ja sotilaita kuolee."</p>
+      <p begin="00:23:35:07" id="p272" end="00:23:38:14">Tekisin mieluummin reportaasin.<br />- Tee molemmat.</p>
+      <p begin="00:23:38:19" id="p273" end="00:23:42:17">Haluat siis syyttää pääministeriä?<br />- Nyborg on aivan kädetön.</p>
+      <p begin="00:23:42:22" id="p274" end="00:23:47:01">Hän nojautuu Vihreiden<br />ja Maltillisten rauhanpolitiikkaan.</p>
+      <p begin="00:23:47:06" id="p275" end="00:23:51:11">Hänellä ei ole munaa sotia.<br />- Kirjoita siitä pääkirjoitukseesi.</p>
+      <p begin="00:23:51:16" id="p276" end="00:23:55:21">Selvä, mutta teet myös uutisen<br />tukemaan kirjoitustani.</p>
+      <p begin="00:23:56:00" id="p277" end="00:23:58:22">Pitää vastata.<br />Tervetuloa kotiin hengissä.</p>
+      <p begin="00:23:59:02" id="p278" end="00:24:02:10">"Nyborg epäröi<br />ja sotilaita kuolee."</p>
+      <p begin="00:24:10:13" id="p279" end="00:24:14:17">BIRGITTE NYBORG EPÄRÖI -<br />SOTILAITA KUOLEE</p>
+      <p begin="00:24:22:10" id="p280" end="00:24:26:09">Lupaan, etten ole tutkinut tätä.<br />- Kiitos.</p>
+      <p begin="00:24:26:13" id="p281" end="00:24:29:24">Meidät lähetettiin kotiin<br />12 tuntia teidän peräänne.</p>
+      <p begin="00:24:30:04" id="p282" end="00:24:33:08">Olin huolissani sinusta.</p>
+      <p begin="00:24:34:19" id="p283" end="00:24:37:00">Saitko kuitenkin jutun kasaan?</p>
+      <p begin="00:24:37:04" id="p284" end="00:24:41:15">En ihan haluamaani, mutta<br />Laugesenilla oli hyviä ehdotuksia.</p>
+      <p begin="00:24:41:20" id="p285" end="00:24:46:20">Hän varmasti syyttää Birgitteä<br />kaikesta maailman pahuudesta.</p>
+      <p begin="00:24:49:23" id="p286" end="00:24:51:20">Ei voi olla totta.</p>
+      <p begin="00:24:52:00" id="p287" end="00:24:55:21">Aiotko syyttää pääministeriä<br />Afganistanin kuolemista?</p>
+      <p begin="00:24:56:00" id="p288" end="00:25:00:22">Tiedät, ettemme voi puhua tästä.<br />- Mauton ja yksipuolinen näkemys!</p>
+      <p begin="00:25:01:02" id="p289" end="00:25:05:10">Irtisanouduit TV1:stä, koska et<br />halunnut olla Friisin sätkynukke.</p>
+      <p begin="00:25:05:15" id="p290" end="00:25:10:06">Nyt Laugesen sanelee tekstisi.<br />- Sinä tässä sitä yrität sanella.</p>
+      <p begin="00:25:11:20" id="p291" end="00:25:13:09">Tein sinulle palveluksen.</p>
+      <p begin="00:25:13:13" id="p292" end="00:25:18:06">Kiitos, kun toit kovalevyn<br />ja tarjosit paikkaa lentokoneesta.</p>
+      <p begin="00:25:18:10" id="p293" end="00:25:22:04">Lähde, tai käräytän sinut<br />vapaan lehdistön manipuloinnista.</p>
+      <p begin="00:25:22:08" id="p294" end="00:25:26:23">Et ole osa vapaata lehdistöä,<br />jos työskentelet Laugesenille.</p>
+      <p begin="00:25:29:03" id="p295" end="00:25:31:19">Ja tiedät sen itsekin.</p>
+      <p begin="00:25:43:14" id="p296" end="00:25:47:12">BIRGITTE NYBORG EPÄRÖI -<br />SOTILAITA KUOLEE</p>
+      <p begin="00:26:04:03" id="p297" end="00:26:05:21">Se on hyvä.</p>
+      <p begin="00:26:06:01" id="p298" end="00:26:09:04">USA:n ulkoministeri soittaa.</p>
+      <p begin="00:26:09:09" id="p299" end="00:26:13:24">Puolustusministeriön muistio<br />on vaaleanvihreässä kansiossa.</p>
+      <p begin="00:26:17:17" id="p300" end="00:26:20:12">Hänellä on homma hallussa.</p>
+      <p begin="00:26:20:17" id="p301" end="00:26:24:00">Niin, ja huumorintaju puuttuu.</p>
+      <p begin="00:26:24:05" id="p302" end="00:26:27:23">Eipä tarvitse tuhlata aikaa<br />hölynpölyn jauhamiseen.</p>
+      <p begin="00:26:30:20" id="p303" end="00:26:35:02">Herra ulkoministeri.<br /><span tts:fontStyle="italic">- Kiitos, että ehditte vastata.</span></p>
+      <p begin="00:26:35:07" id="p304" end="00:26:39:17"><span tts:fontStyle="italic">Keskustelin eilen</span><br /><span tts:fontStyle="italic">puolustusministerinne kanssa.</span></p>
+      <p begin="00:26:39:22" id="p305" end="00:26:45:12"><span tts:fontStyle="italic">Yritätte kuulemma välttyä</span><br /><span tts:fontStyle="italic">sotilaidenne kotiuttamiselta.</span></p>
+      <p begin="00:26:45:18" id="p306" end="00:26:48:10">Haluan puhua heti<br />puolustusministerille.</p>
+      <p begin="00:26:48:14" id="p307" end="00:26:51:22">Thorsen on luvannut USA:lle<br />täyden tukemme.</p>
+      <p begin="00:26:52:01" id="p308" end="00:26:56:16">Afganistanissa on kuollut aamulla<br />taas kolme sotilastamme.</p>
+      <p begin="00:26:58:17" id="p309" end="00:27:02:23">Kahdeksan sotilasta kahdessa<br />päivässä. Mikä painajainen!</p>
+      <p begin="00:27:03:05" id="p310" end="00:27:06:21">Saitko hänet kiinni?<br />- En.</p>
+      <p begin="00:27:07:01" id="p311" end="00:27:08:24">Mitä hemmettiä on tekeillä?</p>
+      <p begin="00:27:09:04" id="p312" end="00:27:12:13">Thorsen testaa sinua.<br />Hän on armeijan miehiä.</p>
+      <p begin="00:27:12:17" id="p313" end="00:27:16:11">Ei Työväenpuolue...<br />- Marrot on Thorsenin kannalla.</p>
+      <p begin="00:27:16:15" id="p314" end="00:27:18:15">Thorsen on Marrotia vahvempi.</p>
+      <p begin="00:27:18:19" id="p315" end="00:27:23:12">Miksi se mies ei saa<br />pidettyä joukkojaan kurissa?</p>
+      <p begin="00:27:23:17" id="p316" end="00:27:28:10">Meidän on informoitava asioista.<br />Mitään salattavaa ei saa olla.</p>
+      <p begin="00:27:28:14" id="p317" end="00:27:32:09">Päätös on pakko tehdä pian,<br />muuten näytämme kädettömiltä.</p>
+      <p begin="00:27:32:13" id="p318" end="00:27:36:17">Sinulla on tapaaminen<br />afganistanilaisten NGO:n kanssa.</p>
+      <p begin="00:27:37:24" id="p319" end="00:27:41:06">Perutaanko se?<br />- Ei.</p>
+      <p begin="00:27:51:23" id="p320" end="00:27:55:20">Kerro, mitä olet saanut aikaan.<br />- En mitään.</p>
+      <p begin="00:27:56:00" id="p321" end="00:27:57:23">Voi kristus.</p>
+      <p begin="00:27:58:03" id="p322" end="00:28:01:10">En voi kirjoittaa sellaista,<br />mihin en usko.</p>
+      <p begin="00:28:01:14" id="p323" end="00:28:05:00">Minun pitää keksiä jotain.<br />- Pitikin palkata taiteilija.</p>
+      <p begin="00:28:05:04" id="p324" end="00:28:09:00">Mitä voit kirjoittaa?<br />- Jutun kaatuneesta Hedegårdista.</p>
+      <p begin="00:28:09:05" id="p325" end="00:28:11:13">Hän oli 23-vuotias.</p>
+      <p begin="00:28:11:18" id="p326" end="00:28:16:17">Hän oli kotoisin Jyllannista<br />ja kuoli kaukana Afganistanissa.</p>
+      <p begin="00:28:16:22" id="p327" end="00:28:21:04">Rauhoitu, Michael.<br />- Hyvä on. Kerro se nyyhkytarina.</p>
+      <p begin="00:28:21:20" id="p328" end="00:28:24:24">Andreas kirjoitti<br />jäähyväiskirjeen isälleen.</p>
+      <p begin="00:28:25:03" id="p329" end="00:28:27:22">Yritän saada luvan<br />sen lukemiseen.</p>
+      <p begin="00:28:28:02" id="p330" end="00:28:32:14">Kirje lähetetään omaisille,<br />jos sotilas kaatuu.</p>
+      <p begin="00:28:32:19" id="p331" end="00:28:36:12">Ajattelin kysyä hänen isältään,<br />saako kirjeen julkaista.</p>
+      <p begin="00:28:38:10" id="p332" end="00:28:45:05">Jos saat kirjeen,<br />jutusta voi tulla fantastinen.</p>
+      <p begin="00:28:45:10" id="p333" end="00:28:51:21">Saatko jonkun muun kirjoittamaan<br />Nyborgin lamautumisesta? <span tts:fontStyle="italic">- Yes.</span></p>
+      <p begin="00:28:56:02" id="p334" end="00:29:01:14">Älkää suotta nousko. Ikävä kyllä<br />minulla on hyvin vähän aikaa.</p>
+      <p begin="00:29:01:19" id="p335" end="00:29:06:16">Tulimme vain kiittämään teitä<br />panostuksestanne maassamme.</p>
+      <p begin="00:29:06:21" id="p336" end="00:29:09:06">Kerron kiitokset eteenpäin.</p>
+      <p begin="00:29:09:11" id="p337" end="00:29:13:10">Ymmärrämme toki sen,<br />miksi haluatte vetäytyä -</p>
+      <p begin="00:29:13:15" id="p338" end="00:29:15:21">kärsittyänne moisia menetyksiä -</p>
+      <p begin="00:29:16:01" id="p339" end="00:29:21:13">mutta ette taida ymmärtää läsnä-<br />olonne merkitystä maassamme.</p>
+      <p begin="00:29:21:18" id="p340" end="00:29:26:08">Saanko yrittää selittää?<br />- Olkaa hyvä vain.</p>
+      <p begin="00:29:28:04" id="p341" end="00:29:32:21">Saisinko nähdä lompakkonne,<br />rouva pääministeri? - Lompakkoni?</p>
+      <p begin="00:29:33:01" id="p342" end="00:29:35:22">Toki.<br />- Kiitos.</p>
+      <p begin="00:29:36:02" id="p343" end="00:29:39:07">Saanko avata sen?</p>
+      <p begin="00:29:43:02" id="p344" end="00:29:48:09">Kaikki nämä kortit edustavat<br />vapautta ja demokratiaa.</p>
+      <p begin="00:29:49:15" id="p345" end="00:29:54:24">Talibanien hallitessa Afganistania<br />en saanut ajaa ajokorttia -</p>
+      <p begin="00:29:55:04" id="p346" end="00:30:00:11">koska olen nainen.<br />Nyt ajan töihin joka aamu.</p>
+      <p begin="00:30:01:20" id="p347" end="00:30:06:12">Koska asutte Kabulissa?<br />- Muutosta ei tapahdu hetkessä.</p>
+      <p begin="00:30:06:17" id="p348" end="00:30:08:21">Asiat ovat silti muuttumassa.</p>
+      <p begin="00:30:09:00" id="p349" end="00:30:12:16">Ennen sotaa en saanut<br />käydä töissä, koska olen nainen.</p>
+      <p begin="00:30:12:20" id="p350" end="00:30:16:02">Nyt minulla on oma pankkitili.</p>
+      <p begin="00:30:16:07" id="p351" end="00:30:20:01">Tytöt ovat taas voineet<br />alkaa käydä koulua.</p>
+      <p begin="00:30:20:06" id="p352" end="00:30:25:02">Koulutetut naiset ovat saaneet<br />työnsä takaisin. - Vain osa heistä.</p>
+      <p begin="00:30:25:07" id="p353" end="00:30:29:23">Ja kouluja pommitetaan yhä.<br />- Kyllä, mutta toivo elää.</p>
+      <p begin="00:30:30:03" id="p354" end="00:30:34:23">Toivo paremmasta. Ja se on<br />seurausta panostuksestanne.</p>
+      <p begin="00:30:35:03" id="p355" end="00:30:39:21">Jos lähdette ennen kuin maa on<br />valmis huolehtimaan itsestään -</p>
+      <p begin="00:30:40:00" id="p356" end="00:30:46:12">toivomme on mennyttä,<br />ja meillä on vain talibanit.</p>
+      <p begin="00:30:48:03" id="p357" end="00:30:51:20">Olen pahoillani.<br />Minulla alkaa toinen kokous.</p>
+      <p begin="00:30:52:00" id="p358" end="00:30:56:06">Onko kuvassa miehenne?<br />- On.</p>
+      <p begin="00:30:56:10" id="p359" end="00:31:00:20">Minullakin on lompakossa mieheni<br />kuva. Hän on tosin kuollut.</p>
+      <p begin="00:31:01:10" id="p360" end="00:31:03:07">Hän oli toimittaja.</p>
+      <p begin="00:31:03:12" id="p361" end="00:31:08:07">Talibanit surmasivat hänet<br />tullessaan Kabuliin vuonna -96.</p>
+      <p begin="00:31:08:12" id="p362" end="00:31:10:10">Olen pahoillani.</p>
+      <p begin="00:31:18:00" id="p363" end="00:31:22:10">Hei. Etsin Jørgen Hedegårdia.</p>
+      <p begin="00:31:22:15" id="p364" end="00:31:26:13">Löysitte hänet.<br />- Toimittaja Katrine Fønsmark.</p>
+      <p begin="00:31:26:17" id="p365" end="00:31:31:06">Olen soittanut lukuisia kertoja.<br />Tapasin poikanne Afganistanissa.</p>
+      <p begin="00:31:31:10" id="p366" end="00:31:34:06">Otan osaa.</p>
+      <p begin="00:31:34:11" id="p367" end="00:31:39:07">Puhuin jo Andreaksen ystäville.<br />Olisiko teillä hetki aikaa?</p>
+      <p begin="00:31:39:12" id="p368" end="00:31:43:06">Kyllä. Mennään tänne.</p>
+      <p begin="00:31:53:16" id="p369" end="00:31:57:21">Haluaisin haastatella teitä<br />ja kirjoittaa Andreaksesta.</p>
+      <p begin="00:31:58:01" id="p370" end="00:32:02:00">Siitä, millainen hän oli<br />ja miksi hän lähti Afganistaniin.</p>
+      <p begin="00:32:02:05" id="p371" end="00:32:04:24">En tiedä siitä.<br />- Siitäkö, miksi hän lähti?</p>
+      <p begin="00:32:05:04" id="p372" end="00:32:08:00">Niin. En tiedä syytä siihen.</p>
+      <p begin="00:32:09:04" id="p373" end="00:32:11:21">Kielsin häntä lähtemästä.</p>
+      <p begin="00:32:12:01" id="p374" end="00:32:17:13">Ette siis halunnut hänen lähtevän?<br />- En, mutta hän ei kuunnellut.</p>
+      <p begin="00:32:17:18" id="p375" end="00:32:22:03">Pyysin häntä kotiin,<br />muttei hän suostunut siihenkään.</p>
+      <p begin="00:32:23:13" id="p376" end="00:32:25:21">Minulla ei ole aikaa tähän...</p>
+      <p begin="00:32:26:01" id="p377" end="00:32:30:20">Saitteko jäähyväiskirjeen?<br />- Kyllä.</p>
+      <p begin="00:32:30:24" id="p378" end="00:32:34:08">Voitteko kertoa, mitä siinä luki?<br />- Anteeksi kuinka?</p>
+      <p begin="00:32:35:20" id="p379" end="00:32:39:18">Saisinko lukea kirjeen?<br />- Et.</p>
+      <p begin="00:32:39:23" id="p380" end="00:32:44:18">Oletteko varma?<br />- En halua lukea sitä edes itse.</p>
+      <p begin="00:32:44:23" id="p381" end="00:32:47:20">Tämä oli tässä.<br />- En yritä painostaa teitä.</p>
+      <p begin="00:32:47:24" id="p382" end="00:32:51:21">Haluaisin vain kertoa lukijoille<br />teidän tilanteestanne...</p>
+      <p begin="00:32:52:04" id="p383" end="00:32:55:10">Olkaa hyvä ja poistukaa.<br />- Ymmärrän...</p>
+      <p begin="00:32:55:14" id="p384" end="00:32:58:10">Poistukaa heti paikalla.</p>
+      <p begin="00:33:02:02" id="p385" end="00:33:04:18">Kiitoksia ajastanne.</p>
+      <p begin="00:33:14:04" id="p386" end="00:33:18:22">Kirjoita että olen hajoamaisillani.<br />Kiroan koko turhan sodan!</p>
+      <p begin="00:33:19:02" id="p387" end="00:33:24:15">Mitkään sanat tai mikään kirje<br />ei voi sille asialle yhtään mitään.</p>
+      <p begin="00:33:42:23" id="p388" end="00:33:47:11">Miksi kuulin Kruselta, että muutit<br />kantasi Afganistanin suhteen?</p>
+      <p begin="00:33:47:16" id="p389" end="00:33:50:18">Satuin juuri puhumaan<br />hänelle asiasta.</p>
+      <p begin="00:33:50:23" id="p390" end="00:33:54:09">En näe, miten voisimme<br />vetäytyä juuri nyt.</p>
+      <p begin="00:33:54:14" id="p391" end="00:33:59:06">Maltilliset vastustavat aseellisiin<br />konflikteihin osallistumista.</p>
+      <p begin="00:33:59:10" id="p392" end="00:34:03:01">Se on kaunis periaate,<br />mutta ajat ovat erilaiset.</p>
+      <p begin="00:34:03:06" id="p393" end="00:34:09:02">Nytkö on parempi aika sotia?<br />- Joskus sota on väistämätön.</p>
+      <p begin="00:34:10:12" id="p394" end="00:34:16:12">Tapasin tänään naispuolisen<br />afganistanilaisen lastenlääkärin.</p>
+      <p begin="00:34:16:17" id="p395" end="00:34:20:22">Hän kertoi esimerkkejä kansain-<br />välisen panostuksen tarpeesta.</p>
+      <p begin="00:34:21:02" id="p396" end="00:34:25:16">Se on toki vain yksi elementti.<br />- Se voi olla hämäystä.</p>
+      <p begin="00:34:25:21" id="p397" end="00:34:30:19">Hyvin harjoiteltuja tarinoita<br />hyväuskoisille länsipoliitikoille.</p>
+      <p begin="00:34:30:24" id="p398" end="00:34:35:19">Perin tämän sodan Hesselboelta.<br />En ole ikinä pitänyt siitä -</p>
+      <p begin="00:34:35:24" id="p399" end="00:34:40:19">mutta se on pitänyt talibanit<br />loitolla vallasta, ja se on hyvä.</p>
+      <p begin="00:34:40:24" id="p400" end="00:34:45:15">Olisin halunnut saada sen aikaan<br />mieluiten demokraattisin keinoin.</p>
+      <p begin="00:34:45:20" id="p401" end="00:34:48:19">Mutta miten?</p>
+      <p begin="00:34:48:24" id="p402" end="00:34:53:15">Miten diktatuuri syrjäytetään<br />demokraattisin keinoin?</p>
+      <p begin="00:34:53:20" id="p403" end="00:34:56:20">Ei ainakaan ryhtymällä<br />uudeksi miehittäjäksi.</p>
+      <p begin="00:34:57:00" id="p404" end="00:35:00:16">Haluan väkemme pois sieltä<br />mahdollisimman pian -</p>
+      <p begin="00:35:00:21" id="p405" end="00:35:04:16">mutta vetäytymistä on lykättävä,<br />kunnes tilanne on vakaa.</p>
+      <p begin="00:35:04:21" id="p406" end="00:35:09:18">Onko Afganistanissa ollut 2 000<br />vuoden aikana koskaan vakaata?</p>
+      <p begin="00:35:14:07" id="p407" end="00:35:17:21">Talibanit kivittivät naisia<br />julkisesti 10 vuotta sitten.</p>
+      <p begin="00:35:18:00" id="p408" end="00:35:21:21">Saudi-Arabiassa mestataan, mutta<br />siellä on suurlähetystömme.</p>
+      <p begin="00:35:22:00" id="p409" end="00:35:26:09">Mitä sanot kaatuneiden<br />sotilaiden omaisjärjestölle?</p>
+      <p begin="00:35:26:13" id="p410" end="00:35:28:21">He ovat kauhuissaan<br />menetyksistä.</p>
+      <p begin="00:35:29:01" id="p411" end="00:35:33:17">He uskovat pääministerin<br />tekevän sen, minkä on luvannut -</p>
+      <p begin="00:35:33:22" id="p412" end="00:35:37:24">ja vetävän sotilaamme kotiin.<br />- En tiedä vielä, mitä teen.</p>
+      <p begin="00:35:38:04" id="p413" end="00:35:42:08">Entä Amir ja Vihreät?<br />- Selviän heistä.</p>
+      <p begin="00:35:47:08" id="p414" end="00:35:50:06">Milloin lakkasit kuuntelemasta?<br />- En koskaan.</p>
+      <p begin="00:35:50:10" id="p415" end="00:35:54:19">Mutta minä olen yhä se,<br />jonka on tehtävä päätökset.</p>
+      <p begin="00:36:05:19" id="p416" end="00:36:07:06">Niin?</p>
+      <p begin="00:36:08:11" id="p417" end="00:36:12:15">Miehesi lähetti papereita alle-<br />kirjoitettavaksi. - Jätä ne tähän.</p>
+      <p begin="00:36:12:19" id="p418" end="00:36:17:16">Hän suorastaan vaati nimeänne.<br />- Kiitos.</p>
+      <p begin="00:36:20:03" id="p419" end="00:36:21:23">Vähät minä siitä välitän.</p>
+      <p begin="00:36:22:02" id="p420" end="00:36:26:04">Hommaa minulle valokuvaaja<br />viiden minuutin sisällä!</p>
+      <p begin="00:36:27:02" id="p421" end="00:36:30:16">Miten juttusi etenee?<br />- Se alkaa muodostua.</p>
+      <p begin="00:36:30:21" id="p422" end="00:36:34:19">No, saanko kuulla sen?<br />- Se ei ole vielä valmis.</p>
+      <p begin="00:36:38:20" id="p423" end="00:36:40:22">"Tarkoitukseton sota."</p>
+      <p begin="00:36:41:01" id="p424" end="00:36:44:10">"Autokauppias Jørgen Hedegård<br />istuu toimistossaan -</p>
+      <p begin="00:36:44:14" id="p425" end="00:36:48:01">ja katsoo poikansa<br />jäähyväiskirjettä Afganistanista -</p>
+      <p begin="00:36:48:06" id="p426" end="00:36:52:03">mutta ei rohkene lukea sitä."</p>
+      <p begin="00:36:52:08" id="p427" end="00:36:57:11">Hienoa, Katrine.<br />Ja sinulla on tietysti se kirje.</p>
+      <p begin="00:36:57:16" id="p428" end="00:37:00:00">Ei ole.</p>
+      <p begin="00:37:00:04" id="p429" end="00:37:02:20">Hän ei ole itsekään lukenut sitä.</p>
+      <p begin="00:37:02:24" id="p430" end="00:37:06:16">Et voi kirjoittaa kirjeestä,<br />jos sitä ei julkaista.</p>
+      <p begin="00:37:06:21" id="p431" end="00:37:10:19">Viis siitä, torjuuko hän asian.<br />- En ole mikään hiton psykologi.</p>
+      <p begin="00:37:10:23" id="p432" end="00:37:15:20">Hyvä toimittaja on mitä vain.<br />Kirje on juttusi ydin.</p>
+      <p begin="00:37:16:00" id="p433" end="00:37:19:12">Hän ei anna minun lukea sitä.<br />- Painosta vähän.</p>
+      <p begin="00:37:19:16" id="p434" end="00:37:22:20">Laugesen antoi luvan juttuun<br />juuri kirjeen takia.</p>
+      <p begin="00:37:22:24" id="p435" end="00:37:25:24">Lähden pääministerin<br />lehdistötilaisuuteen.</p>
+      <p begin="00:37:26:03" id="p436" end="00:37:29:09">Hän on muuttanut kantansa<br />Afganistanin suhteen.</p>
+      <p begin="00:37:29:14" id="p437" end="00:37:33:21">Hanki se kirje.<br />Puhutaan myöhemmin.</p>
+      <p begin="00:37:34:01" id="p438" end="00:37:40:09">Viimeaikaisten tapahtumien myötä<br />vetäytymiskysymystä lykätään -</p>
+      <p begin="00:37:40:13" id="p439" end="00:37:44:16">ja joukkomme keskittyvät<br />tilanteen vakauttamiseen.</p>
+      <p begin="00:37:44:20" id="p440" end="00:37:49:00">Hyvä. Ovatko Hesselboe<br />ja Liberaalit ehdotuksen takana?</p>
+      <p begin="00:37:49:04" id="p441" end="00:37:54:01">Hesselboe haluaa lopettaa<br />kaikki puheet vetäytymisestä.</p>
+      <p begin="00:37:54:06" id="p442" end="00:37:58:06">Miksi muutit kantaasi?</p>
+      <p begin="00:37:58:10" id="p443" end="00:38:01:12">Olisi suuri riski vetäytyä<br />kesken hyökkäysten.</p>
+      <p begin="00:38:01:16" id="p444" end="00:38:04:09">Sotilaat olisivat<br />suuremmassa vaarassa.</p>
+      <p begin="00:38:04:13" id="p445" end="00:38:09:09">Sano vain, että vetäytyminen<br />kesken hyökkäysten olisi riski.</p>
+      <p begin="00:38:09:18" id="p446" end="00:38:13:04">"Pidä sanoma lyhyenä<br />ja ytimekkäänä."</p>
+      <p begin="00:38:38:20" id="p447" end="00:38:44:20">Mitä sinä haluat?<br />- Sinun kannattaisi lukea kirje.</p>
+      <p begin="00:38:45:04" id="p448" end="00:38:48:24">Ehkä ymmärtäisit<br />poikaasi paremmin.</p>
+      <p begin="00:38:49:04" id="p449" end="00:38:52:17">Sen, miksi hän teki niin kuin teki.</p>
+      <p begin="00:38:52:22" id="p450" end="00:38:59:03">Poikani kuoli täysin<br />tarkoituksettomassa sodassa.</p>
+      <p begin="00:38:59:08" id="p451" end="00:39:03:12">Muuta minun ei<br />tarvitse ymmärtää.</p>
+      <p begin="00:39:03:17" id="p452" end="00:39:08:02">Ehkä kirjeen lukeminen<br />avaisi sinulle tiettyjä asioita -</p>
+      <p begin="00:39:08:07" id="p453" end="00:39:12:00">ja saisit käsiteltyä asian loppuun.</p>
+      <p begin="00:39:14:00" id="p454" end="00:39:17:08">Vai loppuun?</p>
+      <p begin="00:39:17:19" id="p455" end="00:39:21:17">Pitäisikö minun<br />käsitellä asia loppuun?</p>
+      <p begin="00:39:21:22" id="p456" end="00:39:26:05">Ilmaisin itseni ihan väärin.</p>
+      <p begin="00:39:35:07" id="p457" end="00:39:39:19">Olen silti sitä mieltä,<br />että sinun pitäisi lukea kirje.</p>
+      <p begin="00:39:39:23" id="p458" end="00:39:42:24">Siinä on poikasi<br />viimeiset sanat sinulle.</p>
+      <p begin="00:39:56:16" id="p459" end="00:40:01:21">Liberaalien media-avustaja soitti.<br />Hesselboe haluaa puhua kanssasi.</p>
+      <p begin="00:40:02:13" id="p460" end="00:40:05:19">Hän haluaa tavata kahden kesken.</p>
+      <p begin="00:40:05:24" id="p461" end="00:40:09:19">Mitä asiaa hänellä on?<br />- Sitä ei kerrottu.</p>
+      <p begin="00:40:09:24" id="p462" end="00:40:15:02">Miehesi kyselee paperien perään.<br />- Ei nyt, Jytte! Kiitos.</p>
+      <p begin="00:40:18:16" id="p463" end="00:40:24:09">Näin lehdistötilaisuutesi.<br />Taisit ymmärtää minut väärin.</p>
+      <p begin="00:40:24:14" id="p464" end="00:40:26:09">Miten niin?</p>
+      <p begin="00:40:26:14" id="p465" end="00:40:31:19">Emme voi jättää joukkoja maahan<br />niin kuin mitään ei olisi sattunut.</p>
+      <p begin="00:40:31:23" id="p466" end="00:40:33:15">Mitä tarkoitat?</p>
+      <p begin="00:40:33:19" id="p467" end="00:40:37:12">Enemmistö ei kannata sitä,<br />mitä lehdistölle kerroit.</p>
+      <p begin="00:40:37:16" id="p468" end="00:40:41:04">Yhtenäisyyspuolue vastustaa<br />komennuksen pidentämistä.</p>
+      <p begin="00:40:41:08" id="p469" end="00:40:43:01">Sanoit puhelimessa...</p>
+      <p begin="00:40:43:05" id="p470" end="00:40:48:05">Me vastustamme vetäytymistä,<br />mutta emme kannata ehdotustasi.</p>
+      <p begin="00:40:48:10" id="p471" end="00:40:52:00">Eivätkö sotilaamme ansaitse<br />yhtenäisen tukemme?</p>
+      <p begin="00:40:52:05" id="p472" end="00:40:57:06">Toki, mutta he tarvitsevat<br />järeämpiä aseita, mihin et suostu.</p>
+      <p begin="00:40:57:11" id="p473" end="00:41:00:00">Emme halua pahentaa konfliktia.</p>
+      <p begin="00:41:00:04" id="p474" end="00:41:04:04">Vasemmisto ja oma puolueesi<br />pelkäävät maineensa puolesta -</p>
+      <p begin="00:41:04:08" id="p475" end="00:41:06:10">ja antavat sotilaidemme kuolla -</p>
+      <p begin="00:41:06:14" id="p476" end="00:41:10:04">ennen kuin kerrankin<br />uskaltaisivat ottaa vastuun.</p>
+      <p begin="00:41:12:11" id="p477" end="00:41:18:06">Keksit tämän kaiken saadakseni<br />minut näyttämään neuvottomalta.</p>
+      <p begin="00:41:19:18" id="p478" end="00:41:23:13">Vedä sotilaat pois.<br />Olet taitava poliitikko -</p>
+      <p begin="00:41:23:18" id="p479" end="00:41:26:21">mutta ei sinusta ole<br />johdattamaan väkeä sotaan.</p>
+      <p begin="00:41:27:05" id="p480" end="00:41:31:20">Lehdistön edessä on helpompi<br />perääntyä kuin taistelukentällä.</p>
+      <p begin="00:41:32:00" id="p481" end="00:41:38:10">Fiksu veto Hesselboelta.<br />Epäreilu, mutta fiksu.</p>
+      <p begin="00:41:38:15" id="p482" end="00:41:43:07">Hän sai sinut muuttamaan kantaa,<br />mutta ei aiokaan tukea sinua.</p>
+      <p begin="00:41:45:18" id="p483" end="00:41:49:17">Mitä vaihtoehtoja minulla on?<br />Sitä Bent kysyisi.</p>
+      <p begin="00:41:49:22" id="p484" end="00:41:54:05">Mikset puhu hänen kanssaan?<br />- Yritin kyllä.</p>
+      <p begin="00:41:55:18" id="p485" end="00:41:58:08">Tästä aiheesta puhuminen ei suju.</p>
+      <p begin="00:41:58:14" id="p486" end="00:42:02:03">Hän pitää kiinni puolueemme<br />vanhoista periaatteista.</p>
+      <p begin="00:42:04:11" id="p487" end="00:42:07:24">Mitä vaihtoehtoja minulla on?</p>
+      <p begin="00:42:10:03" id="p488" end="00:42:15:06">Niitä on kolme.<br />1. Pidä pääsi. Se ei onnistu.</p>
+      <p begin="00:42:15:11" id="p489" end="00:42:19:03">2. Vedä joukot pois.<br />Sitä et halua tehdä.</p>
+      <p begin="00:42:19:08" id="p490" end="00:42:23:04">3. Lisää panostustamme<br />uusin miehin ja asein.</p>
+      <p begin="00:42:23:09" id="p491" end="00:42:27:08">En halua kiihdyttää sotaa.<br />- Sitten valinnanvaraa ei ole.</p>
+      <p begin="00:42:28:00" id="p492" end="00:42:32:01">Olet puun ja kuoren välissä.<br />Sinun on vedettävä joukot pois.</p>
+      <p begin="00:42:32:06" id="p493" end="00:42:37:22">Sitähän tähän asti olet halunnut.<br />- Ja sitä kaikki odottavat.</p>
+      <p begin="00:42:38:02" id="p494" end="00:42:42:19">Poliittisesti korrekti tyttö<br />tekee aina niin kuin pitää tehdä.</p>
+      <p begin="00:42:45:02" id="p495" end="00:42:48:18">Voimmeko puhua?<br />- Juu.</p>
+      <p begin="00:42:48:23" id="p496" end="00:42:53:05">Minulla ei ole juttua<br />kuolleesta sotilaasta.</p>
+      <p begin="00:42:54:14" id="p497" end="00:43:00:08">Paljonko maksan sinulle?<br />60 000 DKK/kk plus edut päälle.</p>
+      <p begin="00:43:00:13" id="p498" end="00:43:05:21">Mitä saat vastineeksi?<br />Halusit tehdä vaativan jutun.</p>
+      <p begin="00:43:06:01" id="p499" end="00:43:11:09">Lähetin sinut Afganistaniin,<br />mutta jätit jutun tekemättä.</p>
+      <p begin="00:43:11:14" id="p500" end="00:43:14:15">Älä keskeytä!<br />Halusit tehdä nyyhkytarinan.</p>
+      <p begin="00:43:14:20" id="p501" end="00:43:20:10">Myös juttu kaatuneista sotilaista<br />ja jäähyväiskirjeistä jäi kesken.</p>
+      <p begin="00:43:20:14" id="p502" end="00:43:25:02">Ja nyt seisot siinä ja sanot,<br />etten saa mitään huomiseksi.</p>
+      <p begin="00:43:25:07" id="p503" end="00:43:29:00">Oli järjetöntä syyttää Nyborgia<br />sotilaiden kaatumisesta.</p>
+      <p begin="00:43:29:04" id="p504" end="00:43:31:20">Kukaan ei rohjennut sanoa.<br />- Paitsi sinä.</p>
+      <p begin="00:43:31:24" id="p505" end="00:43:35:06">Ja saanen potkut.<br />- Sitäkö haluat?</p>
+      <p begin="00:43:35:10" id="p506" end="00:43:36:22">En.</p>
+      <p begin="00:43:38:04" id="p507" end="00:43:42:15">Koetahan sitten ryhdistäytyä<br />ja kirjoita pyytämäni juttu.</p>
+      <p begin="00:43:42:20" id="p508" end="00:43:47:08">Kaatuneiden sotilaiden omais-<br />järjestö vierailee Borgenissa.</p>
+      <p begin="00:43:47:12" id="p509" end="00:43:50:05">Sen pitäisi olla helppo nakki.</p>
+      <p begin="00:43:50:09" id="p510" end="00:43:55:04">Siinä kaikki. Pidä hauskaa.<br />- Kiitos.</p>
+      <p begin="00:44:14:11" id="p511" end="00:44:17:19">Hei, Phillip. Tule sisään.</p>
+      <p begin="00:44:18:22" id="p512" end="00:44:24:04">Tuoksuupa täällä hyvältä.<br />- Laura halusi kotiruokaa.</p>
+      <p begin="00:44:24:09" id="p513" end="00:44:29:15">Sitten hän söikin Rebeccan luona.<br />- Sellaista se on.</p>
+      <p begin="00:44:31:06" id="p514" end="00:44:35:20">Haluatko syödä? Ruokaa riittää.<br />- Tulin vain hakemaan papereita.</p>
+      <p begin="00:44:40:17" id="p515" end="00:44:44:22">Voi pahus... Olen pahoillani.<br />- Ei voi olla totta, Birgitte.</p>
+      <p begin="00:44:45:02" id="p516" end="00:44:47:17">Unohdin täysin.</p>
+      <p begin="00:44:49:00" id="p517" end="00:44:52:04">Aivan... Kuulehan nyt.</p>
+      <p begin="00:44:52:09" id="p518" end="00:44:57:18">Asun pienessä vuokrakämpässä,<br />kunnes ostat osuuteni talosta.</p>
+      <p begin="00:44:57:22" id="p519" end="00:45:01:11">Tiedän. Se on kurjaa.</p>
+      <p begin="00:45:01:15" id="p520" end="00:45:05:01">Voinko hakea paperit<br />toimistostasi?</p>
+      <p begin="00:45:06:05" id="p521" end="00:45:09:05">Olethan allekirjoittanut ne?<br />- Tottahan toki.</p>
+      <p begin="00:45:09:10" id="p522" end="00:45:14:11">Soita sinne, että olen tulossa.<br />- En voi.</p>
+      <p begin="00:45:15:09" id="p523" end="00:45:19:10">Miten niin?<br />- En minä niitä allekirjoittanut.</p>
+      <p begin="00:45:20:09" id="p524" end="00:45:24:06">Mikset?<br />- Koska...</p>
+      <p begin="00:45:26:15" id="p525" end="00:45:30:19">En halua erota sinusta.</p>
+      <p begin="00:45:30:24" id="p526" end="00:45:33:06">En osaa käsitellä asiaa.</p>
+      <p begin="00:45:33:11" id="p527" end="00:45:37:09">Sotaa käydään töissä ja kotona.</p>
+      <p begin="00:45:37:14" id="p528" end="00:45:43:09">Haluaisin pitää sinut.<br />En haluaisi erota.</p>
+      <p begin="00:45:52:18" id="p529" end="00:45:58:17">Joskus on tehtävä asioita,<br />joita ei haluaisi tehdä. Vai mitä?</p>
+      <p begin="00:46:03:00" id="p530" end="00:46:05:14">Haluan kuvia vanhemmista.</p>
+      <p begin="00:46:05:20" id="p531" end="00:46:09:09">Onko järjestö vain niille,<br />joilta on kaatunut omainen?</p>
+      <p begin="00:46:09:14" id="p532" end="00:46:14:14">Ei, se on kaikkien ulkomaan-<br />komennuksella olevien omaisille.</p>
+      <p begin="00:46:15:20" id="p533" end="00:46:19:06">Miten sen juttusi kanssa kävi?</p>
+      <p begin="00:46:19:11" id="p534" end="00:46:23:04">Ei siitä tullutkaan mitään.</p>
+      <p begin="00:46:23:09" id="p535" end="00:46:26:04">Ryhdytään hommiin.</p>
+      <p begin="00:46:41:12" id="p536" end="00:46:45:19">Olen perunut tapaamisesi<br />kaatuneiden omaisten kanssa.</p>
+      <p begin="00:46:46:20" id="p537" end="00:46:49:13">Kasperin pyynnöstä.<br />- Miksi?</p>
+      <p begin="00:46:49:18" id="p538" end="00:46:54:17">Yritän suojella sinua. Omaiset<br />tuntevat olonsa voimattomiksi -</p>
+      <p begin="00:46:54:22" id="p539" end="00:46:59:00">ja he tietysti syyttävät sinua.<br />Lehdistö on myös paikalla.</p>
+      <p begin="00:46:59:05" id="p540" end="00:47:02:21">Mutta minua odotetaan paikalle.<br />Kiitos, Jytte.</p>
+      <p begin="00:47:03:01" id="p541" end="00:47:06:21">Pääministerillä on aina<br />hyvä syy perua.</p>
+      <p begin="00:47:08:07" id="p542" end="00:47:12:12">Vai mitä?<br />- Kuinka kauan he viipyvät täällä?</p>
+      <p begin="00:47:13:17" id="p543" end="00:47:15:22">Tunnin.</p>
+      <p begin="00:47:18:11" id="p544" end="00:47:22:01">Minne sinä menet? Birgitte!</p>
+      <p begin="00:47:25:01" id="p545" end="00:47:29:22">Hallitus on toimintakyvytön.<br />Turha odottaa häntä paikalle.</p>
+      <p begin="00:47:30:02" id="p546" end="00:47:34:23">Et halua tehdä tätä. - Joskus on<br />tehtävä asioita, vaikkei haluaisi.</p>
+      <p begin="00:47:35:02" id="p547" end="00:47:38:07">Emme halua riskeerata<br />enää yhtäkään henkeä.</p>
+      <p begin="00:47:38:11" id="p548" end="00:47:42:19">On vain löydettävä<br />oikea hetki vetäytymiselle.</p>
+      <p begin="00:47:48:14" id="p549" end="00:47:52:01">Anteeksi,<br />että jouduitte odottamaan.</p>
+      <p begin="00:47:53:05" id="p550" end="00:47:57:18">Haluaisin kertoa teille<br />hieman hallituksen mietteistä...</p>
+      <p begin="00:47:58:20" id="p551" end="00:48:04:09">Olit poikani kanssa kuvassa<br />samana päivänä, kun hän kuoli.</p>
+      <p begin="00:48:11:19" id="p552" end="00:48:15:15">Andreas oli aina villi.</p>
+      <p begin="00:48:17:06" id="p553" end="00:48:21:00">Tai ehkei niinkään villi,<br />pikemminkin levoton.</p>
+      <p begin="00:48:21:05" id="p554" end="00:48:27:19">Nuorethan usein luulevat<br />olevansa kuolemattomia.</p>
+      <p begin="00:48:29:24" id="p555" end="00:48:34:06">Kaikki se sotilastouhu...</p>
+      <p begin="00:48:36:10" id="p556" end="00:48:39:16">En ymmärrä ollenkaan,<br />miksi hän päätti -</p>
+      <p begin="00:48:39:21" id="p557" end="00:48:43:18">mennä taistelemaan<br />muiden taistelua.</p>
+      <p begin="00:48:43:23" id="p558" end="00:48:49:03">En ymmärtänyt sitä silloin,<br />enkä ymmärrä vieläkään.</p>
+      <p begin="00:48:51:01" id="p559" end="00:48:56:21">Andreas oli kiinnostunut enemmän<br />autoista, tytöistä ja peleistä -</p>
+      <p begin="00:48:57:00" id="p560" end="00:49:00:23">jos ymmärrät, mitä tarkoitan.</p>
+      <p begin="00:49:02:00" id="p561" end="00:49:05:22">Ja hän meni taistelemaan<br />täysin tarkoituksettomaan sotaan.</p>
+      <p begin="00:49:16:16" id="p562" end="00:49:20:14">Tässä on hänen<br />jäähyväiskirjeensä.</p>
+      <p begin="00:49:21:05" id="p563" end="00:49:23:07">Mitä siinä lukee?</p>
+      <p begin="00:49:34:19" id="p564" end="00:49:37:11">"Rakas isä."</p>
+      <p begin="00:49:40:05" id="p565" end="00:49:44:12">"Jos luet tätä kirjettä -</p>
+      <p begin="00:49:44:17" id="p566" end="00:49:47:22">olen siinä tapauksessa kuollut."</p>
+      <p begin="00:49:48:02" id="p567" end="00:49:50:17">"Olen pahoillani."</p>
+      <p begin="00:49:56:22" id="p568" end="00:50:00:07">"Suurin syy lienee<br />seikkailunhaluni."</p>
+      <p begin="00:50:00:12" id="p569" end="00:50:05:09">"Minussa on yhä sitä kloppia,<br />joka tänne lähti."</p>
+      <p begin="00:50:05:14" id="p570" end="00:50:08:05">"Tiedäthän sinä sen."</p>
+      <p begin="00:50:08:23" id="p571" end="00:50:14:16">"Afganistanilaislapsia selviää<br />vuodessa 89 000 enemmän nyt -</p>
+      <p begin="00:50:14:20" id="p572" end="00:50:18:07">kun talibanit eivät ole vallassa."</p>
+      <p begin="00:50:18:12" id="p573" end="00:50:21:08">"On rakennettu kouluja<br />ja sairaaloita."</p>
+      <p begin="00:50:21:13" id="p574" end="00:50:25:17">"Osa on tuhottu,<br />mutta osa on yhä jäljellä."</p>
+      <p begin="00:50:25:22" id="p575" end="00:50:28:12">"89 000 lasta."</p>
+      <p begin="00:50:30:11" id="p576" end="00:50:33:24">"Sen arvoinen panostuksemme on."</p>
+      <p begin="00:50:34:04" id="p577" end="00:50:39:09">"Onhan sota yhä tarkoitukseton,<br />mutta 89 000 lasta...</p>
+      <p begin="00:50:43:02" id="p578" end="00:50:46:10">...luovat minulle tarkoituksen."</p>
+      <p begin="00:50:46:15" id="p579" end="00:50:50:12">Olen pahoillani...<br />- Älä suotta.</p>
+      <p begin="00:51:19:24" id="p580" end="00:51:23:20">En nähnyt ikinä juttua,<br />jossa syytät pääministeriä.</p>
+      <p begin="00:51:24:00" id="p581" end="00:51:28:20">En ikinä halunnut kirjoittaa sitä.<br />- Mitä sinä halusit kirjoittaa?</p>
+      <p begin="00:51:31:17" id="p582" end="00:51:34:03">Ei sillä ole väliä.</p>
+      <p begin="00:51:37:07" id="p583" end="00:51:40:03">Anteeksi, minun pitää...</p>
+      <p begin="00:51:47:00" id="p584" end="00:51:51:15">Olen pahoillani siitä,<br />että yritin painostaa sinua.</p>
+      <p begin="00:52:03:02" id="p585" end="00:52:06:09">Kirjoita vain se juttusi.</p>
+      <p begin="00:52:08:03" id="p586" end="00:52:11:16">Ehkä siinä onkin järkeä.</p>
+      <p begin="00:52:20:10" id="p587" end="00:52:23:10">Miten uskomaton tarina!</p>
+      <p begin="00:52:32:04" id="p588" end="00:52:35:22">Kas, kaksi pulloa viiniä.</p>
+      <p begin="00:52:36:02" id="p589" end="00:52:39:14">Tänään se on sallittua.</p>
+      <p begin="00:52:45:00" id="p590" end="00:52:47:23">Kippis, Kasper.<br />- Kippis, Katrine.</p>
+      <p begin="00:52:49:10" id="p591" end="00:52:51:21">Katrine?</p>
+      <p begin="00:52:53:19" id="p592" end="00:52:58:00">Kutsuit minua Katrineksi.<br />- En kai nyt sentään.</p>
+      <p begin="00:52:58:21" id="p593" end="00:53:02:02">Kyllä kutsuit, muru.<br />- Enkä.</p>
+      <p begin="00:53:04:19" id="p594" end="00:53:07:06">Ei se mitään.</p>
+      <p begin="00:53:08:11" id="p595" end="00:53:12:15">Olen pahoillani...<br />- Sinähän näit hänet juuri.</p>
+      <p begin="00:53:12:20" id="p596" end="00:53:17:11">Ja olit huolissasi hänestä,<br />kun olitte keskellä hyökkäystä.</p>
+      <p begin="00:53:17:16" id="p597" end="00:53:20:02">Ei, ei, ei...</p>
+      <p begin="00:53:23:05" id="p598" end="00:53:26:04">Koska muutamme yhteen?<br />- Älä viitsi.</p>
+      <p begin="00:53:26:08" id="p599" end="00:53:29:09">Ihan tosi,<br />koska muutamme yhteen?</p>
+      <p begin="00:53:29:13" id="p600" end="00:53:32:21">Huomenna, Kristian.</p>
+      <p begin="00:53:33:03" id="p601" end="00:53:36:24">Voi anteeksi,<br />satuin miettimään eksääni.</p>
+      <p begin="00:53:38:03" id="p602" end="00:53:41:13">PUOLUSTUSVOIMAIN KOMENTAJA</p>
+      <p begin="00:53:43:12" id="p603" end="00:53:45:05">PÄÄMINISTERI</p>
+      <p begin="00:53:54:14" id="p604" end="00:53:58:16">Kiitos, että pääsitte tulemaan<br />näin lyhyellä varoitusajalla.</p>
+      <p begin="00:53:58:21" id="p605" end="00:54:02:00">Milloin laskeuduitte?<br />- Puoli tuntia sitten.</p>
+      <p begin="00:54:02:05" id="p606" end="00:54:07:04">Halusitte puhua kahden kesken.<br />- Olkaa hyvä ja istukaa.</p>
+      <p begin="00:54:08:15" id="p607" end="00:54:11:23">Kuulkaahan...</p>
+      <p begin="00:54:12:02" id="p608" end="00:54:16:20">Hallitus aikoo näillä näkymin<br />puoltaa sotilaiden vetäytymistä.</p>
+      <p begin="00:54:17:00" id="p609" end="00:54:20:09">Tilanne ei voi pysyä<br />muuttumattomana.</p>
+      <p begin="00:54:20:14" id="p610" end="00:54:24:22">Mitä mieltä te olette?<br />- Teemme niin kuin käskette.</p>
+      <p begin="00:54:25:02" id="p611" end="00:54:28:22">Henkilökohtaisella<br />mielipiteelläni ei ole väliä.</p>
+      <p begin="00:54:30:16" id="p612" end="00:54:35:03">Inhoatte sitä, että kaltaiseni<br />ihmiset päättävät tällaisista.</p>
+      <p begin="00:54:35:08" id="p613" end="00:54:39:04">Haihattelevat humanistit,<br />jotka eivät tajua tehtäväänne.</p>
+      <p begin="00:54:39:09" id="p614" end="00:54:41:07">Nyt en pysy ihan perässä.</p>
+      <p begin="00:54:41:12" id="p615" end="00:54:45:21">Inhoatte sitä, että minä määrään,<br />mutta ette rohkene neuvoakaan.</p>
+      <p begin="00:54:46:00" id="p616" end="00:54:50:06">Työni ei ole tehdä pääministerin<br />päätöksiä. - Minä teen päätökset.</p>
+      <p begin="00:54:50:10" id="p617" end="00:54:53:09">En minä sellaista pyydä.</p>
+      <p begin="00:54:54:24" id="p618" end="00:54:59:05">Menetin kahdeksan miestä.<br />Siinä on kahdeksan liikaa.</p>
+      <p begin="00:54:59:09" id="p619" end="00:55:02:09">Mitä minun pitäisi tehdä?<br />- Kuten sanoin...</p>
+      <p begin="00:55:02:13" id="p620" end="00:55:05:03">Nyt kysyn teiltä.</p>
+      <p begin="00:55:09:10" id="p621" end="00:55:14:15">On vain yksi ratkaisu: kansain-<br />välisesti koordinoitu panostus.</p>
+      <p begin="00:55:14:20" id="p622" end="00:55:18:05">Emme voi vetäytyä<br />kesken hyökkäysten.</p>
+      <p begin="00:55:18:09" id="p623" end="00:55:20:17">Selittäisitkö tarkemmin.</p>
+      <p begin="00:55:20:22" id="p624" end="00:55:25:16">Meidän on liittolaistemme kanssa<br />saatava hyökkäykset kuriin.</p>
+      <p begin="00:55:25:21" id="p625" end="00:55:27:15">Afganistanissa on pysyttävä -</p>
+      <p begin="00:55:27:19" id="p626" end="00:55:31:06">kunnes heidän armeijansa<br />ja poliisinsa on koulutettu.</p>
+      <p begin="00:55:31:10" id="p627" end="00:55:34:19">Miten kauan siinä menee?<br />- Viidestä kuuteen vuotta.</p>
+      <p begin="00:55:34:24" id="p628" end="00:55:39:00">Ja se vaatii lisää sotilaita,<br />lisää aseita ja rahaa.</p>
+      <p begin="00:55:41:22" id="p629" end="00:55:46:10">Saisinko panostuksemme tarpeen<br />kirjallisena huomiseen mennessä?</p>
+      <p begin="00:55:48:21" id="p630" end="00:55:53:15">Saako uusi kantanne kannatusta?<br />- Jättäkää se minun huolekseni.</p>
+      <p begin="00:55:53:20" id="p631" end="00:55:56:18">Milloin selostus on valmis?<br />- Ennen puoltayötä.</p>
+      <p begin="00:56:31:10" id="p632" end="00:56:37:14">No, oletko saanut jotain aikaan?<br />- Olen.</p>
+      <p begin="00:56:40:03" id="p633" end="00:56:43:12">89 000 LASTA</p>
+      <p begin="00:56:49:10" id="p634" end="00:56:54:14">Hallitus on päättänyt kasvattaa<br />Tanskan panosta Afganistanissa.</p>
+      <p begin="00:56:54:18" id="p635" end="00:56:59:12">Päätös on seurausta talibanien<br />hyökkäyksestä viisi päivää sitten.</p>
+      <p begin="00:56:59:17" id="p636" end="00:57:06:12">Afganistaniin lähetetään neljä<br />hävittäjää ja 6 panssarivaunua...</p>
+      <p begin="00:57:06:21" id="p637" end="00:57:09:12"><span tts:fontStyle="italic">Olemme vastustaneet sotaa</span><br /><span tts:fontStyle="italic">alusta lähtien -</span></p>
+      <p begin="00:57:09:16" id="p638" end="00:57:13:21"><span tts:fontStyle="italic">mutta tuemme ehdotusta</span><br /><span tts:fontStyle="italic">hallitusyhteistyön nimissä.</span></p>
+      <p begin="00:57:14:00" id="p639" end="00:57:20:01"><span tts:fontStyle="italic">Joskus on tehtävä asioita,</span><br /><span tts:fontStyle="italic">joita ei haluaisi tehdä.</span></p>
+      <p begin="00:57:50:05" id="p640" end="00:57:53:12">Suomennos: Erja Sillankorva-Vikki<br />BTI Studios</p>
+    </div>
+  </body>
+</tt>

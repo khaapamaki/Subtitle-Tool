@@ -1,0 +1,641 @@
+﻿0001	00:00:05:00	Pääministerimme on määrätietoinen ja realistinen.
+0002	00:00:08:13	Täällä ei ole onnellisia liittoja.
+0003	00:00:11:02	Osaamme tehdä kompromisseja töissä, mutta emme kotona.
+0004	00:00:16:11	Mitä teille on tapahtumassa?
+0005	00:00:18:11	Kanssasi jakamani aika on ollut hienointa elämässäni.
+0006	00:00:24:11	Tämä ei saa olla se, minkä muistamme. Haluan erota.
+0007	00:00:29:07	Annoit pääministerin spintohtorin editoida aineistoa!
+0008	00:00:33:01	Sinä vähät välität lehdistön- vapaudesta. Minä otan lopputilin.
+0009	00:00:38:06	Työväenpuolue alkaa pian painostaa sinua.
+0010	00:00:41:12	Mitä tekisin? - Anna heille myönnytyksiä.
+0011	00:00:44:16	He haluavat saada valtiovarain- ministeriön. - Ei ole pakko antaa.
+0012	00:00:49:01	Minun on pyydettävä sinua eroamaan.
+0013	00:00:57:19	Siksi jätin sinut. Mietit vain omia prioriteettejasi ja salaisuuksiasi.
+0014	00:01:03:23	Ei minulla ole salaisuuksia.
+0015	00:01:06:05	Tein vain sen, mikä oli tarpeen. - Niin pääministeri tekee.
+0016	00:01:18:15	"Sota on perusteltua silloin, kun se on välttämätöntä."
+0017	00:01:24:15	11 KUUKAUTTA MYÖHEMMIN
+0018	00:01:34:09	Tämä on syvimmällä sijaitseva asemamme.
+0019	00:01:37:02	Sittenkö talibanit määräävät tahdin?
+0020	00:01:39:18	Haluamme olla niskan päällä, mutta lähistöllä on talibaneja.
+0021	00:01:43:24	Viimeisin yhteenottoko oli huhtikuussa? - Aivan.
+0022	00:01:47:23	Onneksi on ollut hiljaista.
+0023	00:01:54:20	Pääministeri pitää puheen kymmenen minuutin päästä.
+0024	00:02:03:04	Puheen jälkeen toimittajat voivat esittää kysymyksiä.
+0025	00:02:13:04	Mitä hittoa sinä täällä teet? - Kutsuttiin lehdistökiertueelle.
+0026	00:02:20:09	Saako Ekspres nyt erityiskohtelua? - Pyysin oikein nätisti.
+0027	00:02:25:02	Olet kuulemma Laugesenin uusi tähtitoimittaja.
+0028	00:02:28:22	Mitä pääministeri aikoo sanoa? - "Kiitos panostuksestanne."
+0029	00:02:32:21	"Nyt pääsette kotiin." Sitten hän saa kolikon.
+0030	00:02:37:04	Palaatko kotiin muiden kanssa? - Tässä on valokuvaajani Kalle.
+0031	00:02:41:23	Seuraamme sotilaita viikon ajan. - Oletko nykyään sotatoimittaja?
+0032	00:02:47:17	Täällä pitäisi olla rauhallista. Konfliktista on viisi kuukautta.
+0033	00:02:52:09	Pitkä aika. - Niinpä.
+0034	00:02:55:00	Seurustelet viestintäkonsultti Lotte ]grdin kanssa.
+0035	00:02:58:23	Luen hänen blogiaan. Se on hyvä. - Kiitos.
+0036	00:03:02:16	Tervetuloa Afganistaniin. - Kiitos.
+0037	00:03:05:14	Tervehditäänkö ykköspartiota? - Hei.
+0038	00:03:10:19	Niklas. - Hei, Niklas.
+0039	00:03:16:02	Hei. Hedegrd. Pääsisinkö kuvaan pääministerin kanssa? - Totta kai.
+0040	00:03:20:20	Menemme partioimaan, joten emme kuule puhettanne.
+0041	00:03:26:08	Täällä käy harvoin hyvännäköisiä naisia -
+0042	00:03:29:05	joten on tartuttava tilaisuuteen.
+0043	00:03:32:24	Ja vielä toinen.
+0044	00:03:35:17	Nyt riittää, Hedegrd. - Hyvää päivänjatkoa.
+0045	00:03:40:16	Turvallista matkaa. - Samoin.
+0046	00:03:44:05	Hittolainen, miten hyvä kuva.
+0047	00:03:49:11	Olen kiitollinen siitä, että laitatte henkenne alttiiksi -
+0048	00:03:53:09	jotta Afganistaniin saataisiin rauha ja demokratia.
+0049	00:03:58:15	Saatte olla ylpeitä tuloksista.
+0050	00:04:01:07	Parlamentti tekee pian päätöksen palveluksestanne Afganistanissa.
+0051	00:04:06:17	Uskon vahvasti, että tanskalaiset joukot vedetään pian pois maasta.
+0052	00:04:12:22	Toisin sanoen palveluksenne täällä päättyy lähiaikoina.
+0053	00:04:17:16	Kiitän teitä koko Tanskan puolesta suuresta panostuksestanne.
+0054	00:04:22:10	Sitä ei unohdeta täällä eikä Tanskassa. Kiitoksia.
+0055	00:04:32:06	Ette kuulleet sitä, mitä halusitte.
+0056	00:04:34:22	Me teemme niin, kuin poliitikot päättävät.
+0057	00:04:38:20	Onhan teillä omiakin näkemyksiä. - Emme puhu niistä.
+0058	00:04:42:08	Olen menettänyt neljä nuorta sotilasta. Siinä on neljä liikaa.
+0059	00:04:46:08	Kello 16 lähtenyt partio on joutunut ankaraan tulitukseen.
+0060	00:04:50:09	Kahta haavoittunutta tuodaan, ja alueella on vihollisten väkeä.
+0061	00:04:55:10	Pääministeri ja puolustusministeri lennätetään pois saman tien.
+0062	00:05:00:19	Kalle? - Mitä nyt?
+0063	00:05:04:24	Haavoittuneita tuodaan! On saatava kuvia!
+0064	00:05:08:04	Saako kuvata? - Pakko saada.
+0065	00:05:10:22	Katrine!
+0066	00:05:15:02	Lähdemme nyt ja koneessa on tilaa. Tuletteko mukaan?
+0067	00:05:19:03	Jäämme tänne. - Se on vaarallista!
+0068	00:05:22:03	Mitä luulet Laugesenin sanovan, jos heti jänistän?
+0069	00:05:25:21	Vie kovalevy mukanasi kaiken varalta.
+0070	00:05:29:12	Nähdään Kööpenhaminassa.
+0071	00:05:44:02	Kaksi traumapotilasta! - Ammuttu alavatsaan.
+0072	00:05:50:03	Ampumahaava myös kaulassa. Hengitys kiivasta ja vaikeaa.
+0073	00:05:55:22	Heidän tilansa on saatava vakaaksi!
+0074	00:05:58:16	Miksi täällä on toimittajia? - Meillä on lupa.
+0075	00:06:01:15	Pysykää pois tieltä. - Lääkäri tänne!
+0076	00:06:07:17	Vuoto on saatava tyrehtymään. - Kaksi uutta potilasta tulossa!
+0077	00:06:12:13	Ilmoittakaa kenttäsairaalaan! Tarvitsemme verta.
+0078	00:06:16:06	Hän on kuolemaisillaan, helvetti!
+0079	00:07:26:09	VALLAN LINNAKE 89 000 lasta
+0080	00:07:35:22	Selvä...
+0081	00:07:39:17	Myös brittien, amerikkalaisten ja saksalaisten leireihin iskettiin.
+0082	00:07:45:15	Kuolonuhreja on useita ja teot ovat suunniteltuja.
+0083	00:07:49:02	Miksi nyt? - Taliban kyttää maita, joilla on joukkoja Afganistanissa.
+0084	00:07:54:21	He tietävät, että olemme vetäytymässä.
+0085	00:07:58:05	Hyökkäykset saavat lähdön näyttämään pakenemiselta -
+0086	00:08:01:24	mikä olisi suuri henkinen voitto talibaneille.
+0087	00:08:05:15	Siksi vastustinkin sitä, että nyt puhutaan vetäytymisestä.
+0088	00:08:13:11	Suokaa anteeksi.
+0089	00:08:21:00	Hei, Lotte. Minä tässä. Leiriin hyökättiin -
+0090	00:08:24:05	mutta olemme nyt kotimatkalla. Nukun yön kotonani.
+0091	00:08:27:17	Soitan aamulla. Pusuja. Hei sitten.
+0092	00:08:30:17	Taliban-hyökkäysten laajuutta ei vielä tiedetä -
+0093	00:08:34:00	mutta kahden tanskalaispartion kimppuun hyökättiin yhtä aikaa -
+0094	00:08:38:04	suhteellisen rauhallisena pidetyllä alueella.
+0095	00:08:42:20	Katrine Fnsmark, Ekspers, Afganistan.
+0096	00:08:53:15	Se oli USA:n puolustusministeri.
+0097	00:08:56:12	He pyytävät meitä lykkäämään vetäytymistä. - Mitä vastasit?
+0098	00:09:00:13	Sanoin hallituksen kokoustavan asiasta heti aamulla.
+0099	00:09:04:10	Tavoite on vetää joukot pois ja siirtää vastuu afganistanilaisille.
+0100	00:09:09:23	Tämä osoittaa, etteivät he ole valmiita ottamaan vastuuta itse.
+0101	00:09:16:19	Haloo. - Lehdistötilaisuus pidetään heti.
+0102	00:09:24:24	Yksi sotilaistamme kuoli.
+0103	00:09:29:16	Ei... Miten se tapahtui?
+0104	00:09:35:00	Onko omaisille ilmoitettu?
+0105	00:09:39:08	Hyvä. Selvä. Kiitos.
+0106	00:09:44:16	Neljä muuta sotilasta on saanut surmansa Gereshkin laaksossa.
+0107	00:09:51:15	Viisi sotilasta? - Yhtenä päivänä. Tämä on ennenkuulumatonta.
+0108	00:09:57:10	Pitää miettiä, mitä sanomme lehdistölle.
+0109	00:10:01:09	Pyydän pääesikunnan väkeä lentokentälle vastaan.
+0110	00:10:06:03	Sotilaat on saatava heti kotiin!
+0111	00:10:12:19	Katso.
+0112	00:10:19:10	Tehän olette Expresin väkeä? - Kyllä. Katrine Fnsmark.
+0113	00:10:23:04	Thomas Hald. Miten ajattelitte asiaa lähestyä?
+0114	00:10:28:03	Emme tiedä vielä.
+0115	00:10:30:17	Näin montaa kuolonuhria ei ole koskaan tullut päivässä -
+0116	00:10:34:13	mutta he ovat tietoisia riskeistä. En halua puuttua näkökulmaanne -
+0117	00:10:40:05	mutta jos esitätte heidät hyvä- uskoisina uhreina, moni pahastuu.
+0118	00:10:44:16	Kuolleet sotilaatkin ovat joidenkin poikia, veljiä ja isiä.
+0119	00:10:49:16	Ihmisten, jotka ovat heistä ylpeitä.
+0120	00:10:53:05	Ovatko nuo omaisille? - Kyllä.
+0121	00:10:55:21	He kirjoittavat jäähyväiskirjeen omaisilleen kaatumisen varalta.
+0122	00:11:01:03	Mieti heitä, kun kirjoitat juttuasi. - Totta kai.
+0123	00:11:05:19	En aikonut... - Lupaa miettiä heitä.
+0124	00:11:34:11	TERVETULOA KOTIIN, ÄITI
+0125	00:12:28:12	Hän taitaa vielä nukkua.
+0126	00:12:33:14	Hän ei ole täällä. - Haetaan jumppavaatteesi.
+0127	00:12:40:06	Huomenta, kulta! - Nukuitko sängyssäni?
+0128	00:12:44:09	Poikkesimme vain hakemaan hänen jumppavaatteensa.
+0129	00:12:50:23	Näin uutiset. Taisi olla rankka matka. - Kyllä.
+0130	00:12:54:04	Mikä tämä on?
+0131	00:12:57:16	Sain sen lahjaksi Afganistanissa.
+0132	00:13:01:02	Se on kolikko Aleksanteri Suuren ajalta.
+0133	00:13:05:08	Hän oli kuuluisa kuningas, joka eli kauan ennen Jeesusta.
+0134	00:13:08:24	Kolikko on löytynyt alueelta, jossa eilen olin.
+0135	00:13:12:11	Siisti! - Hieno on.
+0136	00:13:15:02	Magnus, hae nyt ne kamppeesi. - Se oli kamala reissu.
+0137	00:13:24:18	Joko allekirjoitit ne paperit? - Mitkä paperit?
+0138	00:13:28:18	Eropaperit. Nimi alle vain. Minä olen jo allekirjoittanut.
+0139	00:13:32:17	Olen pahoillani, Phillip.
+0140	00:13:36:18	En muista, mihin ne laitoin. Ehkä ne ovat työpaikalla.
+0141	00:13:42:03	Otatko kahvia? - En. Haluan vain ne paperit.
+0142	00:13:45:11	Muutin pois jo 10 kk:ta sitten. Ostaisit osuuteni talosta.
+0143	00:13:50:00	Lähetä uudet lomakkeet. Lupaan allekirjoittaa ne heti.
+0144	00:13:54:04	Tarvitsen ne jo loppuviikosta. - Saat ne loppuviikosta.
+0145	00:13:58:13	Magnus, tule jo!
+0146	00:14:03:08	Hauskaa päivää, kulta. - Nähdään pian, äiti.
+0147	00:14:08:04	Hei sitten. - Lähetän ne paperit. Hei.
+0148	00:14:13:04	Birgitte Nyborg palasi aamulla Afganistanin matkaltaan.
+0149	00:14:17:17	Taliban-hyökkäys pakotti pääministerin lähtemään -
+0150	00:14:22:02	tanskalaisten tukikohdasta ja lentämään kotiin.
+0151	00:14:25:17	Tällä hetkellä viisi tanskalaista sotilasta on saanut surmansa -
+0152	00:14:30:08	toistaiseksi rajuimmassa iskussa.
+0153	00:14:32:20	Politiikan toimittaja Torben Friis, mitä Nyborgilla on nyt edessään?
+0154	00:14:38:15	Hän lienee tähänastisen uransa vaikeimmassa tilanteessa.
+0155	00:14:43:16	Hänhän kumosi Afganistania koskevan sopimuksen -
+0156	00:14:47:21	ja oppositio on raivoissaan.
+0157	00:14:50:19	Tanskan osallistuminen sotaan on siis epäselvää.
+0158	00:14:54:04	Nyborg joutuu siis päättämään, vedetäänkö joukot pois maasta?
+0159	00:14:59:19	Aivan. Uhriluku oli suurin, jonka Tanska on päivässä kokenut.
+0160	00:15:05:05	Pääministerin on osoitettava tukensa maamme panostukselle -
+0161	00:15:09:08	vaikka hän on vastustanut osallistumistamme alusta alkaen.
+0162	00:15:13:17	Huomenta. - Huomenta!
+0163	00:15:16:22	Käymmekö läpi pääministerin aikataulut?
+0164	00:15:19:20	Voit sinutella, Jytte. Vedä yli kaikki -
+0165	00:15:23:09	mikä ei koske Afganistania. - Selvä.
+0166	00:15:26:15	Kello 09:15 pääministeri tapaa...
+0167	00:15:30:18	...tapaat hallituspuolueet ja puolustusministerin.
+0168	00:15:34:06	EU-ministeri Krusekin on paikalla. Hän on puhunut EU-kollegoilleen.
+0169	00:15:40:16	Sitten on lyhyt lehdistötilaisuus. - Entä USA:n ulkoministeri?
+0170	00:15:44:22	Hän soittaa ylihuomenna 10.30. Afgaanien NGO otti yhteyttä.
+0171	00:15:50:09	He haluavat tavata sinut pian. - NGO?
+0172	00:15:53:24	Se on kansalaisjärjestö. - Tiedän, mikä NGO on.
+0173	00:15:58:03	Ehkä puhuttuani amerikkalaisille? - Yritän järjestää asian.
+0174	00:16:04:05	Eikö ole tärkeämpääkin tekemistä kuin tavata afgaanijärjestö?
+0175	00:16:08:19	Viisi sotilastamme kuoli. - Ei tarvitse muistuttaa, Kasper.
+0176	00:16:13:07	Nähdään ihan pian. - Selvä.
+0177	00:16:16:15	Puhuit kollegoittesi kanssa. - Kyllä.
+0178	00:16:19:08	Espanja ja Italia haluavat yhä vetäytyä nopeasti.
+0179	00:16:22:20	Hyökkäys ei muuttanut kantoja.
+0180	00:16:25:24	Espanja ja Italia ovat koalition heikoimmat maat.
+0181	00:16:30:06	Heidän panostuksensa on pieni.
+0182	00:16:33:00	Tanska maksoi kovan hinnan. Vetäytymisemme ymmärrettäisiin.
+0183	00:16:37:07	Olen samaa mieltä.
+0184	00:16:39:16	Uusin Taliban-hyökkäys viestii päinvastaista -
+0185	00:16:43:13	ja USA pyytää meitä jäämään.
+0186	00:16:46:18	Jäämään? - Vihreät eivät sitä päätöstä tee.
+0187	00:16:50:10	Kansankäräjien enemmistö on vetäytymisen kannalla.
+0188	00:16:53:22	Työväenpuolue haluaa vetäytyä strategisen tilanteen mentyä ohi.
+0189	00:16:58:09	Mitä puolustusvoimat sanovat? - He tekevät niin, kuin käskemme.
+0190	00:17:02:19	Onhan heillä oltava jokin kanta strategiseen tilanteeseen.
+0191	00:17:07:04	He eivät halua vetäytyä, koska uskovat voivansa voittaa.
+0192	00:17:11:24	Tämä ei ole Clint Eastwood-leffa. Olemme olleet siellä 10 vuotta.
+0193	00:17:17:22	Venäläiset vielä kauemmin. Ehkei Afganistanissa voi voittaa.
+0194	00:17:21:23	Asia ei etene mihinkään.
+0195	00:17:23:23	Kerron medialle, että odotamme yhä vetäytymistä lähiaikoina -
+0196	00:17:28:04	ja teemme kaikkemme välttyäksemme lisäuhreilta.
+0197	00:17:31:09	Ei pidä sanoa "teemme kaikkemme".
+0198	00:17:34:14	Media voi syyttää sinua, jos uhreja tulee. - Aivan.
+0199	00:17:37:18	Olemme yhtä mieltä vetäytymisestä -
+0200	00:17:40:09	ja yritämme saada joukot kotiin. - Emme ole yhtä mieltä asiasta.
+0201	00:17:44:22	Kannatamme yhä vetäytymistä, mutta tarkkailemme tilannetta.
+0202	00:17:49:10	Kiitos, hyvät herrat.
+0203	00:17:54:18	Vaihda paitasi. Olemme sodassa. Pue jotain mustaa ja napit kiinni.
+0204	00:18:00:16	Hallitus on hyvin tietoinen Afganistanin tilanteesta -
+0205	00:18:04:07	ja sotilaidemme kohtaamasta todellisuudesta siellä.
+0206	00:18:08:07	Entä jos USA pyytää Tanskalta suurempaa panostusta sotaan?
+0207	00:18:12:09	En vastaa hypoteettisiin kysymyksiin.
+0208	00:18:15:07	Etusijalla on nyt sotilaidemme turvallisuus -
+0209	00:18:18:14	ja se, että afganistanilaiset saisivat itse maansa hallintaan.
+0210	00:18:24:19	Kiitos. - Birgitte...
+0211	00:18:27:22	Kiitoksia.
+0212	00:18:35:05	Kaunokainen! - Hei!
+0213	00:18:40:03	Onpa ihana nähdä sinua.
+0214	00:18:47:13	Olen ajatellut sinua niin paljon!
+0215	00:18:52:20	Menetimme viisi miestä päivässä.
+0216	00:18:57:20	Se on ihan hullua.
+0217	00:19:00:02	Moni niistä, joita tapasimme, saattaa olla nyt kuollut.
+0218	00:19:05:06	Millainen päivä sinulla oli? - Aika kesy sinun päiväsi rinnalla.
+0219	00:19:10:09	Neuvoin vakuutusyhtiötä neuvottelemaan hinnoista -
+0220	00:19:14:00	menettämättä asiakkaitaan. - Kuulostaa minun päivältäni.
+0221	00:19:17:21	Minä neuvoin pääministeriä -
+0222	00:19:20:15	kertomaan korkeista uhriluvuista menettämättä äänestäjiään.
+0223	00:19:25:19	Ja sitten minä olen...
+0224	00:19:31:17	...ostanut ostereita ja samppanjaa paluusi kunniaksi.
+0225	00:19:40:02	Ostitko myös osteriveitsen? - En. Se on ylälaatikossa.
+0226	00:19:46:04	Minulta puuttuu kaikki, mitä kotitaloudessa tarvitaan.
+0227	00:19:50:13	Kun muutat tänne, sinulta ei puutu enää mitään.
+0228	00:19:54:07	Auttaako pääministeri muutossa? - Ei. Minulla on vähän tavaraa.
+0229	00:20:00:18	Tilaammeko muuttoauton? - Asunto oli valmiiksi kalustettu.
+0230	00:20:07:17	Minulla on kaksi matkalaukkua ja yksi laatikko. Siinä kaikki.
+0231	00:20:13:09	Selvä. Aika vähän tavaraa.
+0232	00:20:18:24	Suurin osa tavaroistani on varastossa Etelä-Ranskassa.
+0233	00:20:23:15	Minun pitäisi hakea ne, mutta kun isäni kuoli...
+0234	00:20:29:01	Pitäisi kyllä hakea ne... - Hei, ei se mitään.
+0235	00:20:34:13	Ei ollut tarkoitus udella.
+0236	00:20:39:11	Kiirehdimmeköhän tätä liikaa? - Emme.
+0237	00:20:43:24	Olet maailman upein nainen.
+0238	00:20:53:08	Muista soittaa tälle miehelle. Hei sitten, Magnus.
+0239	00:20:57:03	Pesin uudet, isot pyyhkeet ja laitoin ne kylpyhuoneeseen.
+0240	00:21:01:20	Hienoa, Anne. Nähdään huomenna.
+0241	00:21:04:08	Lars Hesselboe, eikö ole korkea aika vetää joukot Afganistanista?
+0242	00:21:10:04	Pääministeri puolueineen on ollut jo kauan kotiuttamisen kannalla -
+0243	00:21:16:07	mutta afganistanilaiset eivät ole valmiita ottamaan itse vastuuta.
+0244	00:21:21:04	Milloin he ovat valmiita?
+0245	00:21:23:04	Afganistan saanee Helmandin hallintaan kahdessa vuodessa.
+0246	00:21:29:18	Ollessani pääministeri -
+0247	00:21:31:13	sotilaillemme piti lähettää Leopard-panssarivaunuja -
+0248	00:21:35:04	mutta Nyborg ei toteuttanut sitä, ja nyt viisi sotilasta on kuollut.
+0249	00:21:40:11	Älä hemmetissä minua syytä!
+0250	00:21:44:15	Hei! - Hei, kulta. Missä olet ollut?
+0251	00:21:48:04	Luistelemassa. - Unohdit luistimesi.
+0252	00:21:51:24	Lainasin Rebeccalta. Milloin syödään?
+0253	00:21:57:22	Ajattelin tilata thai-ruokaa. - Minä en halua sitä.
+0254	00:22:02:13	Mitä sinä sitten haluat? - Kotiruokaa.
+0255	00:22:06:01	Minulla ei ole ollut aikaa. - Ei niin.
+0256	00:22:10:04	Teen huomenna kotiruokaa.
+0257	00:22:14:14	Magnus, minkä sinä haluat? Vitosenko?
+0258	00:22:18:15	Ei, vaan seiskan. - Selvä.
+0259	00:22:32:01	Entä se Kasperille antamani kovalevy?
+0260	00:22:34:19	Tekstasin hänelle. Saan sen illalla.
+0261	00:22:47:12	Hei, muru.
+0262	00:22:49:10	Hei, Hanne. - Taisi olla rankka reissu.
+0263	00:22:53:11	Meidät lähetettiin kotiin, koska turvallisuuttamme ei voitu taata.
+0264	00:22:58:06	Siinähän te olette. Vihreä sopii sinulle, Katrine.
+0265	00:23:02:23	Haluatko nähdä kuvia? - Totta hemmetissä.
+0266	00:23:07:19	Tuo on hyvä. Kerrohan nyt kaikki, Katrine.
+0267	00:23:12:05	Olimme paikalla, kun ensimmäiset uhrit tuotiin.
+0268	00:23:15:14	Haluaisin keskittyä ensimmäiseen kuolonuhriin -
+0269	00:23:19:14	ja ottaa yhteyttä hänen perheeseensä.
+0270	00:23:22:05	Onko kuvat käyty läpi? - Se hoituu.
+0271	00:23:25:09	Hyvä idea, mutta ehdotan jotakin yksinkertaisempaa.
+0272	00:23:29:24	"Birgitte Nyborg epäröi ja sotilaita kuolee."
+0273	00:23:35:07	Tekisin mieluummin reportaasin. - Tee molemmat.
+0274	00:23:38:19	Haluat siis syyttää pääministeriä? - Nyborg on aivan kädetön.
+0275	00:23:42:22	Hän nojautuu Vihreiden ja Maltillisten rauhanpolitiikkaan.
+0276	00:23:47:06	Hänellä ei ole munaa sotia. - Kirjoita siitä pääkirjoitukseesi.
+0277	00:23:51:16	Selvä, mutta teet myös uutisen tukemaan kirjoitustani.
+0278	00:23:56:00	Pitää vastata. Tervetuloa kotiin hengissä.
+0279	00:23:59:02	"Nyborg epäröi ja sotilaita kuolee."
+0280	00:24:10:13	BIRGITTE NYBORG EPÄRÖI - SOTILAITA KUOLEE
+0281	00:24:22:10	Lupaan, etten ole tutkinut tätä. - Kiitos.
+0282	00:24:26:13	Meidät lähetettiin kotiin 12 tuntia teidän peräänne.
+0283	00:24:30:04	Olin huolissani sinusta.
+0284	00:24:34:19	Saitko kuitenkin jutun kasaan?
+0285	00:24:37:04	En ihan haluamaani, mutta Laugesenilla oli hyviä ehdotuksia.
+0286	00:24:41:20	Hän varmasti syyttää Birgitteä kaikesta maailman pahuudesta.
+0287	00:24:49:23	Ei voi olla totta.
+0288	00:24:52:00	Aiotko syyttää pääministeriä Afganistanin kuolemista?
+0289	00:24:56:00	Tiedät, ettemme voi puhua tästä. - Mauton ja yksipuolinen näkemys!
+0290	00:25:01:02	Irtisanouduit TV1:stä, koska et halunnut olla Friisin sätkynukke.
+0291	00:25:05:15	Nyt Laugesen sanelee tekstisi. - Sinä tässä sitä yrität sanella.
+0292	00:25:11:20	Tein sinulle palveluksen.
+0293	00:25:13:13	Kiitos, kun toit kovalevyn ja tarjosit paikkaa lentokoneesta.
+0294	00:25:18:10	Lähde, tai käräytän sinut vapaan lehdistön manipuloinnista.
+0295	00:25:22:08	Et ole osa vapaata lehdistöä, jos työskentelet Laugesenille.
+0296	00:25:29:03	Ja tiedät sen itsekin.
+0297	00:25:43:14	BIRGITTE NYBORG EPÄRÖI - SOTILAITA KUOLEE
+0298	00:26:04:03	Se on hyvä.
+0299	00:26:06:01	USA:n ulkoministeri soittaa.
+0300	00:26:09:09	Puolustusministeriön muistio on vaaleanvihreässä kansiossa.
+0301	00:26:17:17	Hänellä on homma hallussa.
+0302	00:26:20:17	Niin, ja huumorintaju puuttuu.
+0303	00:26:24:05	Eipä tarvitse tuhlata aikaa hölynpölyn jauhamiseen.
+0304	00:26:30:20	Herra ulkoministeri. - Kiitos, että ehditte vastata.
+0305	00:26:35:07	Keskustelin eilen puolustusministerinne kanssa.
+0306	00:26:39:22	Yritätte kuulemma välttyä sotilaidenne kotiuttamiselta.
+0307	00:26:45:18	Haluan puhua heti puolustusministerille.
+0308	00:26:48:14	Thorsen on luvannut USA:lle täyden tukemme.
+0309	00:26:52:01	Afganistanissa on kuollut aamulla taas kolme sotilastamme.
+0310	00:26:58:17	Kahdeksan sotilasta kahdessa päivässä. Mikä painajainen!
+0311	00:27:03:05	Saitko hänet kiinni? - En.
+0312	00:27:07:01	Mitä hemmettiä on tekeillä?
+0313	00:27:09:04	Thorsen testaa sinua. Hän on armeijan miehiä.
+0314	00:27:12:17	Ei Työväenpuolue... - Marrot on Thorsenin kannalla.
+0315	00:27:16:15	Thorsen on Marrotia vahvempi.
+0316	00:27:18:19	Miksi se mies ei saa pidettyä joukkojaan kurissa?
+0317	00:27:23:17	Meidän on informoitava asioista. Mitään salattavaa ei saa olla.
+0318	00:27:28:14	Päätös on pakko tehdä pian, muuten näytämme kädettömiltä.
+0319	00:27:32:13	Sinulla on tapaaminen afganistanilaisten NGO:n kanssa.
+0320	00:27:37:24	Perutaanko se? - Ei.
+0321	00:27:51:23	Kerro, mitä olet saanut aikaan. - En mitään.
+0322	00:27:56:00	Voi kristus.
+0323	00:27:58:03	En voi kirjoittaa sellaista, mihin en usko.
+0324	00:28:01:14	Minun pitää keksiä jotain. - Pitikin palkata taiteilija.
+0325	00:28:05:04	Mitä voit kirjoittaa? - Jutun kaatuneesta Hedegrdista.
+0326	00:28:09:05	Hän oli 23-vuotias.
+0327	00:28:11:18	Hän oli kotoisin Jyllannista ja kuoli kaukana Afganistanissa.
+0328	00:28:16:22	Rauhoitu, Michael. - Hyvä on. Kerro se nyyhkytarina.
+0329	00:28:21:20	Andreas kirjoitti jäähyväiskirjeen isälleen.
+0330	00:28:25:03	Yritän saada luvan sen lukemiseen.
+0331	00:28:28:02	Kirje lähetetään omaisille, jos sotilas kaatuu.
+0332	00:28:32:19	Ajattelin kysyä hänen isältään, saako kirjeen julkaista.
+0333	00:28:38:10	Jos saat kirjeen, jutusta voi tulla fantastinen.
+0334	00:28:45:10	Saatko jonkun muun kirjoittamaan Nyborgin lamautumisesta? - Yes.
+0335	00:28:56:02	Älkää suotta nousko. Ikävä kyllä minulla on hyvin vähän aikaa.
+0336	00:29:01:19	Tulimme vain kiittämään teitä panostuksestanne maassamme.
+0337	00:29:06:21	Kerron kiitokset eteenpäin.
+0338	00:29:09:11	Ymmärrämme toki sen, miksi haluatte vetäytyä -
+0339	00:29:13:15	kärsittyänne moisia menetyksiä -
+0340	00:29:16:01	mutta ette taida ymmärtää läsnä- olonne merkitystä maassamme.
+0341	00:29:21:18	Saanko yrittää selittää? - Olkaa hyvä vain.
+0342	00:29:28:04	Saisinko nähdä lompakkonne, rouva pääministeri? - Lompakkoni?
+0343	00:29:33:01	Toki. - Kiitos.
+0344	00:29:36:02	Saanko avata sen?
+0345	00:29:43:02	Kaikki nämä kortit edustavat vapautta ja demokratiaa.
+0346	00:29:49:15	Talibanien hallitessa Afganistania en saanut ajaa ajokorttia -
+0347	00:29:55:04	koska olen nainen. Nyt ajan töihin joka aamu.
+0348	00:30:01:20	Koska asutte Kabulissa? - Muutosta ei tapahdu hetkessä.
+0349	00:30:06:17	Asiat ovat silti muuttumassa.
+0350	00:30:09:00	Ennen sotaa en saanut käydä töissä, koska olen nainen.
+0351	00:30:12:20	Nyt minulla on oma pankkitili.
+0352	00:30:16:07	Tytöt ovat taas voineet alkaa käydä koulua.
+0353	00:30:20:06	Koulutetut naiset ovat saaneet työnsä takaisin. - Vain osa heistä.
+0354	00:30:25:07	Ja kouluja pommitetaan yhä. - Kyllä, mutta toivo elää.
+0355	00:30:30:03	Toivo paremmasta. Ja se on seurausta panostuksestanne.
+0356	00:30:35:03	Jos lähdette ennen kuin maa on valmis huolehtimaan itsestään -
+0357	00:30:40:00	toivomme on mennyttä, ja meillä on vain talibanit.
+0358	00:30:48:03	Olen pahoillani. Minulla alkaa toinen kokous.
+0359	00:30:52:00	Onko kuvassa miehenne? - On.
+0360	00:30:56:10	Minullakin on lompakossa mieheni kuva. Hän on tosin kuollut.
+0361	00:31:01:10	Hän oli toimittaja.
+0362	00:31:03:12	Talibanit surmasivat hänet tullessaan Kabuliin vuonna -96.
+0363	00:31:08:12	Olen pahoillani.
+0364	00:31:18:00	Hei. Etsin Jrgen Hedegrdia.
+0365	00:31:22:15	Löysitte hänet. - Toimittaja Katrine Fnsmark.
+0366	00:31:26:17	Olen soittanut lukuisia kertoja. Tapasin poikanne Afganistanissa.
+0367	00:31:31:10	Otan osaa.
+0368	00:31:34:11	Puhuin jo Andreaksen ystäville. Olisiko teillä hetki aikaa?
+0369	00:31:39:12	Kyllä. Mennään tänne.
+0370	00:31:53:16	Haluaisin haastatella teitä ja kirjoittaa Andreaksesta.
+0371	00:31:58:01	Siitä, millainen hän oli ja miksi hän lähti Afganistaniin.
+0372	00:32:02:05	En tiedä siitä. - Siitäkö, miksi hän lähti?
+0373	00:32:05:04	Niin. En tiedä syytä siihen.
+0374	00:32:09:04	Kielsin häntä lähtemästä.
+0375	00:32:12:01	Ette siis halunnut hänen lähtevän? - En, mutta hän ei kuunnellut.
+0376	00:32:17:18	Pyysin häntä kotiin, muttei hän suostunut siihenkään.
+0377	00:32:23:13	Minulla ei ole aikaa tähän...
+0378	00:32:26:01	Saitteko jäähyväiskirjeen? - Kyllä.
+0379	00:32:30:24	Voitteko kertoa, mitä siinä luki? - Anteeksi kuinka?
+0380	00:32:35:20	Saisinko lukea kirjeen? - Et.
+0381	00:32:39:23	Oletteko varma? - En halua lukea sitä edes itse.
+0382	00:32:44:23	Tämä oli tässä. - En yritä painostaa teitä.
+0383	00:32:47:24	Haluaisin vain kertoa lukijoille teidän tilanteestanne...
+0384	00:32:52:04	Olkaa hyvä ja poistukaa. - Ymmärrän...
+0385	00:32:55:14	Poistukaa heti paikalla.
+0386	00:33:02:02	Kiitoksia ajastanne.
+0387	00:33:14:04	Kirjoita että olen hajoamaisillani. Kiroan koko turhan sodan!
+0388	00:33:19:02	Mitkään sanat tai mikään kirje ei voi sille asialle yhtään mitään.
+0389	00:33:42:23	Miksi kuulin Kruselta, että muutit kantasi Afganistanin suhteen?
+0390	00:33:47:16	Satuin juuri puhumaan hänelle asiasta.
+0391	00:33:50:23	En näe, miten voisimme vetäytyä juuri nyt.
+0392	00:33:54:14	Maltilliset vastustavat aseellisiin konflikteihin osallistumista.
+0393	00:33:59:10	Se on kaunis periaate, mutta ajat ovat erilaiset.
+0394	00:34:03:06	Nytkö on parempi aika sotia? - Joskus sota on väistämätön.
+0395	00:34:10:12	Tapasin tänään naispuolisen afganistanilaisen lastenlääkärin.
+0396	00:34:16:17	Hän kertoi esimerkkejä kansain- välisen panostuksen tarpeesta.
+0397	00:34:21:02	Se on toki vain yksi elementti. - Se voi olla hämäystä.
+0398	00:34:25:21	Hyvin harjoiteltuja tarinoita hyväuskoisille länsipoliitikoille.
+0399	00:34:30:24	Perin tämän sodan Hesselboelta. En ole ikinä pitänyt siitä -
+0400	00:34:35:24	mutta se on pitänyt talibanit loitolla vallasta, ja se on hyvä.
+0401	00:34:40:24	Olisin halunnut saada sen aikaan mieluiten demokraattisin keinoin.
+0402	00:34:45:20	Mutta miten?
+0403	00:34:48:24	Miten diktatuuri syrjäytetään demokraattisin keinoin?
+0404	00:34:53:20	Ei ainakaan ryhtymällä uudeksi miehittäjäksi.
+0405	00:34:57:00	Haluan väkemme pois sieltä mahdollisimman pian -
+0406	00:35:00:21	mutta vetäytymistä on lykättävä, kunnes tilanne on vakaa.
+0407	00:35:04:21	Onko Afganistanissa ollut 2 000 vuoden aikana koskaan vakaata?
+0408	00:35:14:07	Talibanit kivittivät naisia julkisesti 10 vuotta sitten.
+0409	00:35:18:00	Saudi-Arabiassa mestataan, mutta siellä on suurlähetystömme.
+0410	00:35:22:00	Mitä sanot kaatuneiden sotilaiden omaisjärjestölle?
+0411	00:35:26:13	He ovat kauhuissaan menetyksistä.
+0412	00:35:29:01	He uskovat pääministerin tekevän sen, minkä on luvannut -
+0413	00:35:33:22	ja vetävän sotilaamme kotiin. - En tiedä vielä, mitä teen.
+0414	00:35:38:04	Entä Amir ja Vihreät? - Selviän heistä.
+0415	00:35:47:08	Milloin lakkasit kuuntelemasta? - En koskaan.
+0416	00:35:50:10	Mutta minä olen yhä se, jonka on tehtävä päätökset.
+0417	00:36:05:19	Niin?
+0418	00:36:08:11	Miehesi lähetti papereita alle- kirjoitettavaksi. - Jätä ne tähän.
+0419	00:36:12:19	Hän suorastaan vaati nimeänne. - Kiitos.
+0420	00:36:20:03	Vähät minä siitä välitän.
+0421	00:36:22:02	Hommaa minulle valokuvaaja viiden minuutin sisällä!
+0422	00:36:27:02	Miten juttusi etenee? - Se alkaa muodostua.
+0423	00:36:30:21	No, saanko kuulla sen? - Se ei ole vielä valmis.
+0424	00:36:38:20	"Tarkoitukseton sota."
+0425	00:36:41:01	"Autokauppias Jrgen Hedegrd istuu toimistossaan -
+0426	00:36:44:14	ja katsoo poikansa jäähyväiskirjettä Afganistanista -
+0427	00:36:48:06	mutta ei rohkene lukea sitä."
+0428	00:36:52:08	Hienoa, Katrine. Ja sinulla on tietysti se kirje.
+0429	00:36:57:16	Ei ole.
+0430	00:37:00:04	Hän ei ole itsekään lukenut sitä.
+0431	00:37:02:24	Et voi kirjoittaa kirjeestä, jos sitä ei julkaista.
+0432	00:37:06:21	Viis siitä, torjuuko hän asian. - En ole mikään hiton psykologi.
+0433	00:37:10:23	Hyvä toimittaja on mitä vain. Kirje on juttusi ydin.
+0434	00:37:16:00	Hän ei anna minun lukea sitä. - Painosta vähän.
+0435	00:37:19:16	Laugesen antoi luvan juttuun juuri kirjeen takia.
+0436	00:37:22:24	Lähden pääministerin lehdistötilaisuuteen.
+0437	00:37:26:03	Hän on muuttanut kantansa Afganistanin suhteen.
+0438	00:37:29:14	Hanki se kirje. Puhutaan myöhemmin.
+0439	00:37:34:01	Viimeaikaisten tapahtumien myötä vetäytymiskysymystä lykätään -
+0440	00:37:40:13	ja joukkomme keskittyvät tilanteen vakauttamiseen.
+0441	00:37:44:20	Hyvä. Ovatko Hesselboe ja Liberaalit ehdotuksen takana?
+0442	00:37:49:04	Hesselboe haluaa lopettaa kaikki puheet vetäytymisestä.
+0443	00:37:54:06	Miksi muutit kantaasi?
+0444	00:37:58:10	Olisi suuri riski vetäytyä kesken hyökkäysten.
+0445	00:38:01:16	Sotilaat olisivat suuremmassa vaarassa.
+0446	00:38:04:13	Sano vain, että vetäytyminen kesken hyökkäysten olisi riski.
+0447	00:38:09:18	"Pidä sanoma lyhyenä ja ytimekkäänä."
+0448	00:38:38:20	Mitä sinä haluat? - Sinun kannattaisi lukea kirje.
+0449	00:38:45:04	Ehkä ymmärtäisit poikaasi paremmin.
+0450	00:38:49:04	Sen, miksi hän teki niin kuin teki.
+0451	00:38:52:22	Poikani kuoli täysin tarkoituksettomassa sodassa.
+0452	00:38:59:08	Muuta minun ei tarvitse ymmärtää.
+0453	00:39:03:17	Ehkä kirjeen lukeminen avaisi sinulle tiettyjä asioita -
+0454	00:39:08:07	ja saisit käsiteltyä asian loppuun.
+0455	00:39:14:00	Vai loppuun?
+0456	00:39:17:19	Pitäisikö minun käsitellä asia loppuun?
+0457	00:39:21:22	Ilmaisin itseni ihan väärin.
+0458	00:39:35:07	Olen silti sitä mieltä, että sinun pitäisi lukea kirje.
+0459	00:39:39:23	Siinä on poikasi viimeiset sanat sinulle.
+0460	00:39:56:16	Liberaalien media-avustaja soitti. Hesselboe haluaa puhua kanssasi.
+0461	00:40:02:13	Hän haluaa tavata kahden kesken.
+0462	00:40:05:24	Mitä asiaa hänellä on? - Sitä ei kerrottu.
+0463	00:40:09:24	Miehesi kyselee paperien perään. - Ei nyt, Jytte! Kiitos.
+0464	00:40:18:16	Näin lehdistötilaisuutesi. Taisit ymmärtää minut väärin.
+0465	00:40:24:14	Miten niin?
+0466	00:40:26:14	Emme voi jättää joukkoja maahan niin kuin mitään ei olisi sattunut.
+0467	00:40:31:23	Mitä tarkoitat?
+0468	00:40:33:19	Enemmistö ei kannata sitä, mitä lehdistölle kerroit.
+0469	00:40:37:16	Yhtenäisyyspuolue vastustaa komennuksen pidentämistä.
+0470	00:40:41:08	Sanoit puhelimessa...
+0471	00:40:43:05	Me vastustamme vetäytymistä, mutta emme kannata ehdotustasi.
+0472	00:40:48:10	Eivätkö sotilaamme ansaitse yhtenäisen tukemme?
+0473	00:40:52:05	Toki, mutta he tarvitsevat järeämpiä aseita, mihin et suostu.
+0474	00:40:57:11	Emme halua pahentaa konfliktia.
+0475	00:41:00:04	Vasemmisto ja oma puolueesi pelkäävät maineensa puolesta -
+0476	00:41:04:08	ja antavat sotilaidemme kuolla -
+0477	00:41:06:14	ennen kuin kerrankin uskaltaisivat ottaa vastuun.
+0478	00:41:12:11	Keksit tämän kaiken saadakseni minut näyttämään neuvottomalta.
+0479	00:41:19:18	Vedä sotilaat pois. Olet taitava poliitikko -
+0480	00:41:23:18	mutta ei sinusta ole johdattamaan väkeä sotaan.
+0481	00:41:27:05	Lehdistön edessä on helpompi perääntyä kuin taistelukentällä.
+0482	00:41:32:00	Fiksu veto Hesselboelta. Epäreilu, mutta fiksu.
+0483	00:41:38:15	Hän sai sinut muuttamaan kantaa, mutta ei aiokaan tukea sinua.
+0484	00:41:45:18	Mitä vaihtoehtoja minulla on? Sitä Bent kysyisi.
+0485	00:41:49:22	Mikset puhu hänen kanssaan? - Yritin kyllä.
+0486	00:41:55:18	Tästä aiheesta puhuminen ei suju.
+0487	00:41:58:14	Hän pitää kiinni puolueemme vanhoista periaatteista.
+0488	00:42:04:11	Mitä vaihtoehtoja minulla on?
+0489	00:42:10:03	Niitä on kolme. 1. Pidä pääsi. Se ei onnistu.
+0490	00:42:15:11	2. Vedä joukot pois. Sitä et halua tehdä.
+0491	00:42:19:08	3. Lisää panostustamme uusin miehin ja asein.
+0492	00:42:23:09	En halua kiihdyttää sotaa. - Sitten valinnanvaraa ei ole.
+0493	00:42:28:00	Olet puun ja kuoren välissä. Sinun on vedettävä joukot pois.
+0494	00:42:32:06	Sitähän tähän asti olet halunnut. - Ja sitä kaikki odottavat.
+0495	00:42:38:02	Poliittisesti korrekti tyttö tekee aina niin kuin pitää tehdä.
+0496	00:42:45:02	Voimmeko puhua? - Juu.
+0497	00:42:48:23	Minulla ei ole juttua kuolleesta sotilaasta.
+0498	00:42:54:14	Paljonko maksan sinulle? 60 000 DKK/kk plus edut päälle.
+0499	00:43:00:13	Mitä saat vastineeksi? Halusit tehdä vaativan jutun.
+0500	00:43:06:01	Lähetin sinut Afganistaniin, mutta jätit jutun tekemättä.
+0501	00:43:11:14	Älä keskeytä! Halusit tehdä nyyhkytarinan.
+0502	00:43:14:20	Myös juttu kaatuneista sotilaista ja jäähyväiskirjeistä jäi kesken.
+0503	00:43:20:14	Ja nyt seisot siinä ja sanot, etten saa mitään huomiseksi.
+0504	00:43:25:07	Oli järjetöntä syyttää Nyborgia sotilaiden kaatumisesta.
+0505	00:43:29:04	Kukaan ei rohjennut sanoa. - Paitsi sinä.
+0506	00:43:31:24	Ja saanen potkut. - Sitäkö haluat?
+0507	00:43:35:10	En.
+0508	00:43:38:04	Koetahan sitten ryhdistäytyä ja kirjoita pyytämäni juttu.
+0509	00:43:42:20	Kaatuneiden sotilaiden omais- järjestö vierailee Borgenissa.
+0510	00:43:47:12	Sen pitäisi olla helppo nakki.
+0511	00:43:50:09	Siinä kaikki. Pidä hauskaa. - Kiitos.
+0512	00:44:14:11	Hei, Phillip. Tule sisään.
+0513	00:44:18:22	Tuoksuupa täällä hyvältä. - Laura halusi kotiruokaa.
+0514	00:44:24:09	Sitten hän söikin Rebeccan luona. - Sellaista se on.
+0515	00:44:31:06	Haluatko syödä? Ruokaa riittää. - Tulin vain hakemaan papereita.
+0516	00:44:40:17	Voi pahus... Olen pahoillani. - Ei voi olla totta, Birgitte.
+0517	00:44:45:02	Unohdin täysin.
+0518	00:44:49:00	Aivan... Kuulehan nyt.
+0519	00:44:52:09	Asun pienessä vuokrakämpässä, kunnes ostat osuuteni talosta.
+0520	00:44:57:22	Tiedän. Se on kurjaa.
+0521	00:45:01:15	Voinko hakea paperit toimistostasi?
+0522	00:45:06:05	Olethan allekirjoittanut ne? - Tottahan toki.
+0523	00:45:09:10	Soita sinne, että olen tulossa. - En voi.
+0524	00:45:15:09	Miten niin? - En minä niitä allekirjoittanut.
+0525	00:45:20:09	Mikset? - Koska...
+0526	00:45:26:15	En halua erota sinusta.
+0527	00:45:30:24	En osaa käsitellä asiaa.
+0528	00:45:33:11	Sotaa käydään töissä ja kotona.
+0529	00:45:37:14	Haluaisin pitää sinut. En haluaisi erota.
+0530	00:45:52:18	Joskus on tehtävä asioita, joita ei haluaisi tehdä. Vai mitä?
+0531	00:46:03:00	Haluan kuvia vanhemmista.
+0532	00:46:05:20	Onko järjestö vain niille, joilta on kaatunut omainen?
+0533	00:46:09:14	Ei, se on kaikkien ulkomaan- komennuksella olevien omaisille.
+0534	00:46:15:20	Miten sen juttusi kanssa kävi?
+0535	00:46:19:11	Ei siitä tullutkaan mitään.
+0536	00:46:23:09	Ryhdytään hommiin.
+0537	00:46:41:12	Olen perunut tapaamisesi kaatuneiden omaisten kanssa.
+0538	00:46:46:20	Kasperin pyynnöstä. - Miksi?
+0539	00:46:49:18	Yritän suojella sinua. Omaiset tuntevat olonsa voimattomiksi -
+0540	00:46:54:22	ja he tietysti syyttävät sinua. Lehdistö on myös paikalla.
+0541	00:46:59:05	Mutta minua odotetaan paikalle. Kiitos, Jytte.
+0542	00:47:03:01	Pääministerillä on aina hyvä syy perua.
+0543	00:47:08:07	Vai mitä? - Kuinka kauan he viipyvät täällä?
+0544	00:47:13:17	Tunnin.
+0545	00:47:18:11	Minne sinä menet? Birgitte!
+0546	00:47:25:01	Hallitus on toimintakyvytön. Turha odottaa häntä paikalle.
+0547	00:47:30:02	Et halua tehdä tätä. - Joskus on tehtävä asioita, vaikkei haluaisi.
+0548	00:47:35:02	Emme halua riskeerata enää yhtäkään henkeä.
+0549	00:47:38:11	On vain löydettävä oikea hetki vetäytymiselle.
+0550	00:47:48:14	Anteeksi, että jouduitte odottamaan.
+0551	00:47:53:05	Haluaisin kertoa teille hieman hallituksen mietteistä...
+0552	00:47:58:20	Olit poikani kanssa kuvassa samana päivänä, kun hän kuoli.
+0553	00:48:11:19	Andreas oli aina villi.
+0554	00:48:17:06	Tai ehkei niinkään villi, pikemminkin levoton.
+0555	00:48:21:05	Nuorethan usein luulevat olevansa kuolemattomia.
+0556	00:48:29:24	Kaikki se sotilastouhu...
+0557	00:48:36:10	En ymmärrä ollenkaan, miksi hän päätti -
+0558	00:48:39:21	mennä taistelemaan muiden taistelua.
+0559	00:48:43:23	En ymmärtänyt sitä silloin, enkä ymmärrä vieläkään.
+0560	00:48:51:01	Andreas oli kiinnostunut enemmän autoista, tytöistä ja peleistä -
+0561	00:48:57:00	jos ymmärrät, mitä tarkoitan.
+0562	00:49:02:00	Ja hän meni taistelemaan täysin tarkoituksettomaan sotaan.
+0563	00:49:16:16	Tässä on hänen jäähyväiskirjeensä.
+0564	00:49:21:05	Mitä siinä lukee?
+0565	00:49:34:19	"Rakas isä."
+0566	00:49:40:05	"Jos luet tätä kirjettä -
+0567	00:49:44:17	olen siinä tapauksessa kuollut."
+0568	00:49:48:02	"Olen pahoillani."
+0569	00:49:56:22	"Suurin syy lienee seikkailunhaluni."
+0570	00:50:00:12	"Minussa on yhä sitä kloppia, joka tänne lähti."
+0571	00:50:05:14	"Tiedäthän sinä sen."
+0572	00:50:08:23	"Afganistanilaislapsia selviää vuodessa 89 000 enemmän nyt -
+0573	00:50:14:20	kun talibanit eivät ole vallassa."
+0574	00:50:18:12	"On rakennettu kouluja ja sairaaloita."
+0575	00:50:21:13	"Osa on tuhottu, mutta osa on yhä jäljellä."
+0576	00:50:25:22	"89 000 lasta."
+0577	00:50:30:11	"Sen arvoinen panostuksemme on."
+0578	00:50:34:04	"Onhan sota yhä tarkoitukseton, mutta 89 000 lasta...
+0579	00:50:43:02	...luovat minulle tarkoituksen."
+0580	00:50:46:15	Olen pahoillani... - Älä suotta.
+0581	00:51:19:24	En nähnyt ikinä juttua, jossa syytät pääministeriä.
+0582	00:51:24:00	En ikinä halunnut kirjoittaa sitä. - Mitä sinä halusit kirjoittaa?
+0583	00:51:31:17	Ei sillä ole väliä.
+0584	00:51:37:07	Anteeksi, minun pitää...
+0585	00:51:47:00	Olen pahoillani siitä, että yritin painostaa sinua.
+0586	00:52:03:02	Kirjoita vain se juttusi.
+0587	00:52:08:03	Ehkä siinä onkin järkeä.
+0588	00:52:20:10	Miten uskomaton tarina!
+0589	00:52:32:04	Kas, kaksi pulloa viiniä.
+0590	00:52:36:02	Tänään se on sallittua.
+0591	00:52:45:00	Kippis, Kasper. - Kippis, Katrine.
+0592	00:52:49:10	Katrine?
+0593	00:52:53:19	Kutsuit minua Katrineksi. - En kai nyt sentään.
+0594	00:52:58:21	Kyllä kutsuit, muru. - Enkä.
+0595	00:53:04:19	Ei se mitään.
+0596	00:53:08:11	Olen pahoillani... - Sinähän näit hänet juuri.
+0597	00:53:12:20	Ja olit huolissasi hänestä, kun olitte keskellä hyökkäystä.
+0598	00:53:17:16	Ei, ei, ei...
+0599	00:53:23:05	Koska muutamme yhteen? - Älä viitsi.
+0600	00:53:26:08	Ihan tosi, koska muutamme yhteen?
+0601	00:53:29:13	Huomenna, Kristian.
+0602	00:53:33:03	Voi anteeksi, satuin miettimään eksääni.
+0603	00:53:38:03	PUOLUSTUSVOIMAIN KOMENTAJA
+0604	00:53:43:12	PÄÄMINISTERI
+0605	00:53:54:14	Kiitos, että pääsitte tulemaan näin lyhyellä varoitusajalla.
+0606	00:53:58:21	Milloin laskeuduitte? - Puoli tuntia sitten.
+0607	00:54:02:05	Halusitte puhua kahden kesken. - Olkaa hyvä ja istukaa.
+0608	00:54:08:15	Kuulkaahan...
+0609	00:54:12:02	Hallitus aikoo näillä näkymin puoltaa sotilaiden vetäytymistä.
+0610	00:54:17:00	Tilanne ei voi pysyä muuttumattomana.
+0611	00:54:20:14	Mitä mieltä te olette? - Teemme niin kuin käskette.
+0612	00:54:25:02	Henkilökohtaisella mielipiteelläni ei ole väliä.
+0613	00:54:30:16	Inhoatte sitä, että kaltaiseni ihmiset päättävät tällaisista.
+0614	00:54:35:08	Haihattelevat humanistit, jotka eivät tajua tehtäväänne.
+0615	00:54:39:09	Nyt en pysy ihan perässä.
+0616	00:54:41:12	Inhoatte sitä, että minä määrään, mutta ette rohkene neuvoakaan.
+0617	00:54:46:00	Työni ei ole tehdä pääministerin päätöksiä. - Minä teen päätökset.
+0618	00:54:50:10	En minä sellaista pyydä.
+0619	00:54:54:24	Menetin kahdeksan miestä. Siinä on kahdeksan liikaa.
+0620	00:54:59:09	Mitä minun pitäisi tehdä? - Kuten sanoin...
+0621	00:55:02:13	Nyt kysyn teiltä.
+0622	00:55:09:10	On vain yksi ratkaisu: kansain- välisesti koordinoitu panostus.
+0623	00:55:14:20	Emme voi vetäytyä kesken hyökkäysten.
+0624	00:55:18:09	Selittäisitkö tarkemmin.
+0625	00:55:20:22	Meidän on liittolaistemme kanssa saatava hyökkäykset kuriin.
+0626	00:55:25:21	Afganistanissa on pysyttävä -
+0627	00:55:27:19	kunnes heidän armeijansa ja poliisinsa on koulutettu.
+0628	00:55:31:10	Miten kauan siinä menee? - Viidestä kuuteen vuotta.
+0629	00:55:34:24	Ja se vaatii lisää sotilaita, lisää aseita ja rahaa.
+0630	00:55:41:22	Saisinko panostuksemme tarpeen kirjallisena huomiseen mennessä?
+0631	00:55:48:21	Saako uusi kantanne kannatusta? - Jättäkää se minun huolekseni.
+0632	00:55:53:20	Milloin selostus on valmis? - Ennen puoltayötä.
+0633	00:56:31:10	No, oletko saanut jotain aikaan? - Olen.
+0634	00:56:40:03	89 000 LASTA
+0635	00:56:49:10	Hallitus on päättänyt kasvattaa Tanskan panosta Afganistanissa.
+0636	00:56:54:18	Päätös on seurausta talibanien hyökkäyksestä viisi päivää sitten.
+0637	00:56:59:17	Afganistaniin lähetetään neljä hävittäjää ja 6 panssarivaunua...
+0638	00:57:06:21	Olemme vastustaneet sotaa alusta lähtien -
+0639	00:57:09:16	mutta tuemme ehdotusta hallitusyhteistyön nimissä.
+0640	00:57:14:00	Joskus on tehtävä asioita, joita ei haluaisi tehdä.
+0641	00:57:50:05	Suomennos: Erja Sillankorva-Vikki BTI Studios
