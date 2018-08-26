@@ -34,7 +34,7 @@
     return @"";
 }
 
-- (id)init {
+-(instancetype)init {
     if (self = [super init]) {
         _lines = [NSMutableArray new];
     }

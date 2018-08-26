@@ -49,7 +49,8 @@
     }
 
     if (path != nil) {
-        [newFile writeToFile:path atomically:YES encoding:NSUTF8StringEncoding error:&err];
+        NSString *BOMstring = [[NSString alloc] initWithFormat:@"\357\273\277%@", newFile];
+        [BOMstring writeToFile:path atomically:YES encoding:NSUTF8StringEncoding error:&err];
         newFile = nil;
         
         if (err != nil) {
@@ -66,7 +67,7 @@
 
 }
 
--(id) init {
+-(instancetype) init {
     if (self = [super init]) {
         _errorMessage = nil;
         _lastError = nil;

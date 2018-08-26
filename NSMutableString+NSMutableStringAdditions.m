@@ -10,7 +10,6 @@
 
 @implementation NSMutableString (NSMutableStringAdditions)
 
-
 - (long)replaceString:(NSString *)lookup withString:(NSString *)replacement {
     return  [self replaceOccurrencesOfString:lookup withString:replacement options:0 range:NSMakeRange(0, self.length)];
 }

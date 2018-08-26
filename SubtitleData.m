@@ -38,8 +38,7 @@
     return highest;
 }
 
-
--(id)init {
+-(instancetype)init {
     if (self = [super init]) {
         _subtitles = nil;
         _title = nil;

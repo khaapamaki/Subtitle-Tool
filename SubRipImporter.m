@@ -66,7 +66,7 @@
     return NO;
 }
 
-- (id)init {
+- (instancetype)init {
     if (self = [super init]) {
         _subtitles = nil;
         _errorMessage = nil;

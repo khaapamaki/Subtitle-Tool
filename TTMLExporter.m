@@ -48,6 +48,10 @@
             NSMutableString * fixedLine = [thisLine mutableCopy];
             [fixedLine replaceString:@"<i>" withString:@"_"];
             [fixedLine replaceString:@"</i>" withString:@"_"];
+            [fixedLine replaceString:@"&" withString:@"&amp;"];
+            [fixedLine replaceString:@"\"" withString:@"&quot;"];
+            [fixedLine replaceString:@"'" withString:@"#39;"];
+
             [subtitleString replaceString:@"#TCIN#"
                      withString:[thisSub.timecodeIn getTimecodeStringWithFrames]];
             [subtitleString replaceString:@"#TCOUT#"
@@ -82,7 +86,7 @@
     return NO;
 }
 
-- (id)init {
+- (instancetype)init {
     if (self = [super init]) {
         NSBundle *mainBundle = [NSBundle mainBundle];
         NSString *headerTemplate = [mainBundle pathForResource: @"ttml_header" ofType: @"xml"];

@@ -187,7 +187,7 @@
 
 #pragma mark - Initializers
 
-- (id)initWithValue:(NSNumber *)timeValue {
+- (instancetype)initWithValue:(NSNumber *)timeValue {
     if (self = [super init]) {
         _defaultTimecodeBase = @25.0;
         _timecodeBase = [_defaultTimecodeBase copy];
@@ -196,7 +196,7 @@
     return self;
 }
 
-- (id)initWithValue:(NSNumber *)timeValue timecodeBase:(NSNumber *) tcBase {
+- (instancetype)initWithValue:(NSNumber *)timeValue timecodeBase:(NSNumber *) tcBase {
     if (self = [super init]) {
         _defaultTimecodeBase = @25.0;
         _timecodeBase = tcBase;
@@ -205,7 +205,7 @@
     return self;
 }
 
-- (id)initWithFrames:(long)frames {
+- (instancetype)initWithFrames:(long)frames {
     if (self = [super init]) {
         _defaultTimecodeBase = @25.0;
         _timecodeBase = [_defaultTimecodeBase copy];
@@ -214,7 +214,7 @@
     return self;
 }
 
-- (id)initWithFrames:(long)frames timecodeBase:(NSNumber *) tcBase {
+- (instancetype)initWithFrames:(long)frames timecodeBase:(NSNumber *) tcBase {
     if (self = [super init]) {
         _defaultTimecodeBase = @25.0;
         _timecodeBase = tcBase;
@@ -223,7 +223,7 @@
     return self;
 }
 
-- (id)initWithTimecodeString:(NSString *)tcString {
+- (instancetype)initWithTimecodeString:(NSString *)tcString {
     if (self = [super init]) {
         _defaultTimecodeBase = @25.0;
         _timecodeBase = [_defaultTimecodeBase copy];
@@ -234,7 +234,7 @@
     return self;
 }
 
-- (id)initWithTimecodeString:(NSString *)tcString timecodeBase:(NSNumber *) tcBase {
+- (instancetype)initWithTimecodeString:(NSString *)tcString timecodeBase:(NSNumber *) tcBase {
     if (self = [super init]) {
         _defaultTimecodeBase = @25.0;
         _timecodeBase = tcBase;
@@ -245,7 +245,7 @@
     return self;
 }
 
-- (id)initWithHours:(int) h minutes:(int) m seconds:(int) s frames:(int) fr {
+- (instancetype)initWithHours:(int) h minutes:(int) m seconds:(int) s frames:(int) fr {
     if (self = [super init]) {
         _defaultTimecodeBase = @25.0;
         _timecodeBase = [_defaultTimecodeBase copy];
@@ -254,7 +254,7 @@
     return self;
 }
 
-- (id)initWithHours:(int) h minutes:(int) m seconds:(int) s frames:(int) fr timecodeBase:(NSNumber *) tcBase {
+- (instancetype)initWithHours:(int) h minutes:(int) m seconds:(int) s frames:(int) fr timecodeBase:(NSNumber *) tcBase {
     if (self = [super init]) {
         _defaultTimecodeBase = @25.0;
         _timecodeBase = tcBase;
@@ -263,7 +263,7 @@
     return self;
 }
 
-- (id)initWithHours:(int) h minutes:(int) m seconds:(int) s milliseconds:(int) ms {
+- (instancetype)initWithHours:(int) h minutes:(int) m seconds:(int) s milliseconds:(int) ms {
     if (self = [super init]) {
         _defaultTimecodeBase = @25.0;
         _timecodeBase = [_defaultTimecodeBase copy];
@@ -272,7 +272,7 @@
     return self;
 }
 
-- (id)initWithHours:(int) h minutes:(int) m seconds:(int) s milliseconds:(int) ms timecodeBase:(NSNumber *) tcBase {
+- (instancetype)initWithHours:(int) h minutes:(int) m seconds:(int) s milliseconds:(int) ms timecodeBase:(NSNumber *) tcBase {
     if (self = [super init]) {
         _defaultTimecodeBase = @25.0;
         _timecodeBase = tcBase;
@@ -281,7 +281,7 @@
     return self;
 }
 
-- (id) init {
+- (instancetype) init {
     if (self = [super init]) {
         _defaultTimecodeBase = @25.0;
         _timecodeBase = [_defaultTimecodeBase copy];

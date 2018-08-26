@@ -21,8 +21,7 @@
     _subtitleData = nil;
     [_statusLabel setStringValue:@"File not loaded"];
     [_exportTTMLButton setEnabled:NO];
-    [_exportTTMLMenuItem setEnabled:NO];
-    
+    [_exportTTMLMenuItem setEnabled:NO];    
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
@@ -165,7 +164,7 @@
 
 #pragma mark - File selection
 
--(NSString*)selectFilePathForReading:(NSString*)initialPath {
+- (NSString*)selectFilePathForReading:(NSString*)initialPath {
     NSOpenPanel *openDlg = [NSOpenPanel openPanel];
     NSString *pathToOpen = nil;
 
